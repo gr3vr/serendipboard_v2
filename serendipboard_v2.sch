@@ -9082,9 +9082,9 @@ Source: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF</description>
 <instance part="GND6" gate="1" x="127" y="137.16" smashed="yes">
 <attribute name="VALUE" x="124.46" y="134.62" size="1.778" layer="96"/>
 </instance>
-<instance part="CN1" gate="G$1" x="279.4" y="121.92" smashed="yes">
-<attribute name="NAME" x="269.24" y="130.556" size="1.27" layer="95"/>
-<attribute name="VALUE" x="269.24" y="111.76" size="1.27" layer="96"/>
+<instance part="CN1" gate="G$1" x="208.28" y="190.5" smashed="yes">
+<attribute name="NAME" x="198.12" y="199.136" size="1.27" layer="95"/>
+<attribute name="VALUE" x="198.12" y="180.34" size="1.27" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="15.24" y="147.32" smashed="yes">
 <attribute name="NAME" x="16.764" y="147.701" size="1.778" layer="95"/>
