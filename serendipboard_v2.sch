@@ -92,6 +92,8 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -8956,6 +8958,128 @@ Source: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-IC-Power" urn="urn:adsk.eagle:library:526">
+<description>&lt;h3&gt;SparkFun Power Driver and Management ICs&lt;/h3&gt;
+In this library you'll find anything that has to do with power delivery, or making power supplies.
+&lt;p&gt;Contents:
+&lt;ul&gt;&lt;li&gt;LDOs&lt;/li&gt;
+&lt;li&gt;Boost/Buck controllers&lt;/li&gt;
+&lt;li&gt;Charge pump controllers&lt;/li&gt;
+&lt;li&gt;Power sequencers&lt;/li&gt;
+&lt;li&gt;Power switches&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="TDFN-8" urn="urn:adsk.eagle:footprint:38999/1" library_version="1">
+<description>TDFN - 8pin, 2mmx3mm</description>
+<wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1" x2="1.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1" x2="1.5" y2="1" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1" x2="-1.5" y2="1" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1.05" x2="-1.45" y2="1.05" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="1.05" x2="1.5" y2="1.05" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="-1.05" x2="1.5" y2="-1.05" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="1.05" x2="-1.45" y2="1.05" width="0.2032" layer="21" curve="-345.749967"/>
+<smd name="EP" x="0" y="0" dx="1.73" dy="1.88" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-1.4" y="0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-1.4" y="0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-1.4" y="-0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="3" x="-1.4" y="-0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="8" x="1.4" y="0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="7" x="1.4" y="0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="5" x="1.4" y="-0.75" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="6" x="1.4" y="-0.25" dx="0.8" dy="0.3" layer="1" stop="no" cream="no"/>
+<text x="-2" y="1" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-2" y="-1.4" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.8" y1="0.6" x2="-1" y2="0.9" layer="29"/>
+<rectangle x1="-1.8" y1="0.6" x2="-1" y2="0.9" layer="29"/>
+<rectangle x1="-1.8" y1="-0.4" x2="-1" y2="-0.1" layer="29"/>
+<rectangle x1="-1.8" y1="0.1" x2="-1" y2="0.4" layer="29"/>
+<rectangle x1="-1.8" y1="-0.9" x2="-1" y2="-0.6" layer="29"/>
+<rectangle x1="1" y1="0.6" x2="1.8" y2="0.9" layer="29"/>
+<rectangle x1="1" y1="0.1" x2="1.8" y2="0.4" layer="29"/>
+<rectangle x1="1" y1="-0.4" x2="1.8" y2="-0.1" layer="29"/>
+<rectangle x1="1" y1="-0.9" x2="1.8" y2="-0.6" layer="29"/>
+<rectangle x1="-0.865" y1="-0.94" x2="0.865" y2="0.94" layer="29"/>
+<rectangle x1="-0.3302" y1="-0.3302" x2="0.3302" y2="0.3302" layer="31"/>
+<rectangle x1="-1.775459375" y1="0.61721875" x2="-1.02108125" y2="0.88138125" layer="31"/>
+<rectangle x1="-1.777996875" y1="0.1143" x2="-1.023621875" y2="0.3784625" layer="31"/>
+<rectangle x1="-1.777996875" y1="-0.381" x2="-1.023621875" y2="-0.1168375" layer="31"/>
+<rectangle x1="-1.777996875" y1="-0.88391875" x2="-1.023621875" y2="-0.61975625" layer="31"/>
+<rectangle x1="1.021084375" y1="0.61721875" x2="1.775459375" y2="0.88138125" layer="31"/>
+<rectangle x1="1.023625" y1="0.119378125" x2="1.778" y2="0.383540625" layer="31"/>
+<rectangle x1="1.023625" y1="-0.381003125" x2="1.778" y2="-0.116840625" layer="31"/>
+<rectangle x1="1.026165625" y1="-0.881384375" x2="1.780540625" y2="-0.617221875" layer="31"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="TDFN-8" urn="urn:adsk.eagle:package:39055/1" type="box" library_version="1">
+<description>TDFN - 8pin, 2mmx3mm</description>
+<packageinstances>
+<packageinstance name="TDFN-8"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MAX1704X" urn="urn:adsk.eagle:symbol:38998/1" library_version="1">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="7.874" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-9.652" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="CTG" x="-12.7" y="5.08" length="middle"/>
+<pin name="CELL" x="-12.7" y="2.54" length="middle"/>
+<pin name="VDD" x="-12.7" y="0" length="middle"/>
+<pin name="GND@4" x="-12.7" y="-2.54" length="middle"/>
+<pin name="ALT" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="QST" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="SCL" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="SDA" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="GND@EP" x="-12.7" y="-5.08" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MAX1704X" urn="urn:adsk.eagle:component:39087/1" prefix="U" library_version="1">
+<description>MAX17043/MAX17044: Battery Fuel Guage (43 is 1cell, 44 is 2cell)</description>
+<gates>
+<gate name="G$1" symbol="MAX1704X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TDFN-8">
+<connects>
+<connect gate="G$1" pin="ALT" pad="5"/>
+<connect gate="G$1" pin="CELL" pad="2"/>
+<connect gate="G$1" pin="CTG" pad="1"/>
+<connect gate="G$1" pin="GND@4" pad="4"/>
+<connect gate="G$1" pin="GND@EP" pad="EP"/>
+<connect gate="G$1" pin="QST" pad="6"/>
+<connect gate="G$1" pin="SCL" pad="7"/>
+<connect gate="G$1" pin="SDA" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39055/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD-ID" value="IC-10399"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9006,11 +9130,18 @@ Source: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF</description>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3V"/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="V_oled"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="V_load"/>
+<part name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="MAX1704X" device="" package3d_urn="urn:adsk.eagle:package:39055/1" value="MAX17043"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="180"/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3V"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="68.58" y="177.8" size="1.778" layer="94" rot="R180">Lipo Charger</text>
+<text x="71.12" y="177.8" size="1.778" layer="94" rot="R180">Lipo Charger</text>
 <wire x1="0" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="134.62" y1="132.08" x2="134.62" y2="180.34" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="134.62" y1="132.08" x2="195.58" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
@@ -9018,6 +9149,7 @@ Source: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF</description>
 <text x="175.26" y="177.8" size="1.778" layer="94" rot="R180">Power Management</text>
 <wire x1="195.58" y1="132.08" x2="264.16" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <text x="238.76" y="177.8" size="1.778" layer="94" rot="R180">3.3v Rail Control</text>
+<text x="73.66" y="127" size="1.778" layer="94" rot="R180">Battery Fuel Gauge</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="35.56" y="157.48" smashed="yes">
@@ -9166,6 +9298,31 @@ Source: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF</description>
 <instance part="P+11" gate="VCC" x="248.92" y="149.86" smashed="yes" rot="R270">
 <attribute name="VALUE" x="251.46" y="147.32" size="1.27" layer="96" rot="R90"/>
 </instance>
+<instance part="U1" gate="G$1" x="76.2" y="101.6" smashed="yes">
+<attribute name="NAME" x="68.58" y="109.474" size="1.778" layer="95"/>
+<attribute name="VALUE" x="68.58" y="91.948" size="1.778" layer="96"/>
+</instance>
+<instance part="C6" gate="G$1" x="48.26" y="99.06" smashed="yes">
+<attribute name="NAME" x="49.784" y="99.441" size="1.778" layer="95"/>
+<attribute name="VALUE" x="49.784" y="94.361" size="1.778" layer="96"/>
+</instance>
+<instance part="R7" gate="G$1" x="58.42" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="56.9214" y="110.49" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="61.722" y="110.49" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND10" gate="1" x="60.96" y="91.44" smashed="yes">
+<attribute name="VALUE" x="58.42" y="88.9" size="1.778" layer="96"/>
+</instance>
+<instance part="P+12" gate="VCC" x="58.42" y="121.92" smashed="yes">
+<attribute name="VALUE" x="60.96" y="124.46" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R8" gate="G$1" x="40.64" y="104.14" smashed="yes">
+<attribute name="NAME" x="36.83" y="105.6386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="36.83" y="100.838" size="1.778" layer="96"/>
+</instance>
+<instance part="GND11" gate="1" x="48.26" y="91.44" smashed="yes">
+<attribute name="VALUE" x="45.72" y="88.9" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9235,6 +9392,24 @@ Source: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF</description>
 <wire x1="180.34" y1="142.24" x2="180.34" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="139.7" x2="170.18" y2="139.7" width="0.1524" layer="91"/>
 <junction x="170.18" y="139.7"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="CTG"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="63.5" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="106.68" x2="60.96" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="GND@EP"/>
+<wire x1="60.96" y1="99.06" x2="60.96" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="96.52" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="96.52" x2="60.96" y2="96.52" width="0.1524" layer="91"/>
+<junction x="60.96" y="96.52"/>
+<pinref part="U1" gate="G$1" pin="GND@4"/>
+<wire x1="63.5" y1="99.06" x2="60.96" y2="99.06" width="0.1524" layer="91"/>
+<junction x="60.96" y="99.06"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -9326,6 +9501,10 @@ Source: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF</description>
 <wire x1="243.84" y1="149.86" x2="246.38" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
 </segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="P+12" gate="VCC" pin="VCC"/>
+</segment>
 </net>
 <net name="CHARGER_EN" class="0">
 <segment>
@@ -9398,6 +9577,25 @@ Source: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF</description>
 <wire x1="226.06" y1="137.16" x2="226.06" y2="134.62" width="0.1524" layer="91"/>
 <junction x="226.06" y="134.62"/>
 <label x="223.52" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="VDD"/>
+<wire x1="63.5" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="101.6" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="U1" gate="G$1" pin="CELL"/>
+<wire x1="45.72" y1="104.14" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="104.14" x2="63.5" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="101.6" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
+<junction x="48.26" y="104.14"/>
 </segment>
 </net>
 </nets>
