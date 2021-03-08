@@ -9344,7 +9344,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3V"/>
+<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3Vesp"/>
 <part name="U3" library="microbuilder" deviceset="VREG_SOT23-5" device="" value="AP2112-3.3"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
@@ -9359,10 +9359,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="71.12" y="177.8" size="1.778" layer="94" rot="R180">Lipo Charger</text>
-<wire x1="0" y1="132.08" x2="71.12" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="71.12" y1="132.08" x2="132.08" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="132.08" y1="132.08" x2="132.08" y2="180.34" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="132.08" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="134.62" y1="132.08" x2="134.62" y2="180.34" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="134.62" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <text x="170.18" y="177.8" size="1.778" layer="94" rot="R180">Power Management</text>
 <wire x1="185.42" y1="132.08" x2="264.16" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <text x="236.22" y="177.8" size="1.778" layer="94" rot="R180">Battery Fuel Gauge</text>
@@ -9371,7 +9370,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="38.1" y="124.46" size="1.778" layer="95" rot="R180">ESP32</text>
 <text x="38.1" y="96.52" size="1.778" layer="95" rot="R180">LOAD</text>
 <wire x1="0" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="71.12" y1="71.12" x2="71.12" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="35.56" y="157.48" smashed="yes">
@@ -9451,9 +9449,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="155.448" y="145.034" size="1.778" layer="96" rot="R180" align="top-left"/>
 <attribute name="NAME" x="155.448" y="149.098" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="Q2" gate="B" x="160.02" y="187.96" smashed="yes" rot="R270">
-<attribute name="VALUE" x="165.1" y="187.452" size="1.778" layer="96" align="top-left"/>
-<attribute name="NAME" x="165.1" y="188.468" size="1.778" layer="95"/>
+<instance part="Q2" gate="B" x="165.1" y="124.46" smashed="yes" rot="R270">
+<attribute name="VALUE" x="170.18" y="123.952" size="1.778" layer="96" align="top-left"/>
+<attribute name="NAME" x="170.18" y="124.968" size="1.778" layer="95"/>
 </instance>
 <instance part="R4" gate="G$1" x="162.56" y="170.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="166.37" y="168.6814" size="1.778" layer="95" rot="R180"/>
