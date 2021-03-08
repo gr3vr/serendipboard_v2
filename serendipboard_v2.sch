@@ -9281,6 +9281,124 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="DS3231">
+<packages>
+<package name="SO16W">
+<description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
+wide body 7.5 mm/JEDEC MS-013AA</description>
+<wire x1="-5.395" y1="5.9" x2="5.395" y2="5.9" width="0.1998" layer="39"/>
+<wire x1="5.395" y1="-5.9" x2="-5.395" y2="-5.9" width="0.1998" layer="39"/>
+<wire x1="-5.395" y1="-5.9" x2="-5.395" y2="5.9" width="0.1998" layer="39"/>
+<wire x1="5.19" y1="-3.7" x2="-5.19" y2="-3.7" width="0.2032" layer="51"/>
+<wire x1="-5.19" y1="-3.7" x2="-5.19" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="-5.19" y1="-3.2" x2="-5.19" y2="3.7" width="0.2032" layer="51"/>
+<wire x1="-5.19" y1="3.7" x2="5.19" y2="3.7" width="0.2032" layer="51"/>
+<wire x1="5.19" y1="-3.2" x2="-5.19" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="5.19" y1="3.7" x2="5.19" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="5.19" y1="-3.2" x2="5.19" y2="-3.7" width="0.2032" layer="51"/>
+<wire x1="5.395" y1="5.9" x2="5.395" y2="-5.9" width="0.1998" layer="39"/>
+<text x="-4.445" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.445" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.6901" y1="-5.32" x2="-4.1999" y2="-3.8001" layer="51"/>
+<rectangle x1="-3.4201" y1="-5.32" x2="-2.9299" y2="-3.8001" layer="51"/>
+<rectangle x1="-2.1501" y1="-5.32" x2="-1.6599" y2="-3.8001" layer="51"/>
+<rectangle x1="-0.8801" y1="-5.32" x2="-0.3899" y2="-3.8001" layer="51"/>
+<rectangle x1="0.3899" y1="-5.32" x2="0.8801" y2="-3.8001" layer="51"/>
+<rectangle x1="1.6599" y1="-5.32" x2="2.1501" y2="-3.8001" layer="51"/>
+<rectangle x1="2.9299" y1="-5.32" x2="3.4201" y2="-3.8001" layer="51"/>
+<rectangle x1="4.1999" y1="-5.32" x2="4.6901" y2="-3.8001" layer="51"/>
+<rectangle x1="4.1999" y1="3.8001" x2="4.6901" y2="5.32" layer="51"/>
+<rectangle x1="2.9299" y1="3.8001" x2="3.4201" y2="5.32" layer="51"/>
+<rectangle x1="1.6599" y1="3.8001" x2="2.1501" y2="5.32" layer="51"/>
+<rectangle x1="0.3899" y1="3.8001" x2="0.8801" y2="5.32" layer="51"/>
+<rectangle x1="-0.8801" y1="3.8001" x2="-0.3899" y2="5.32" layer="51"/>
+<rectangle x1="-2.1501" y1="3.8001" x2="-1.6599" y2="5.32" layer="51"/>
+<rectangle x1="-3.4201" y1="3.8001" x2="-2.9299" y2="5.32" layer="51"/>
+<rectangle x1="-4.6901" y1="3.8001" x2="-4.1999" y2="5.32" layer="51"/>
+<smd name="2" x="-3.175" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="-0.635" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-4.445" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-1.905" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="-0.635" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="14" x="-1.905" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="12" x="0.635" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="11" x="1.905" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="1.905" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="9" x="4.445" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="0.635" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="3.175" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10" x="3.175" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="4.445" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="15" x="-3.175" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="16" x="-4.445" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DS3231">
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="-12.7" size="1.778" layer="96">DS3231</text>
+<text x="10.16" y="15.24" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<pin name="SCL" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="SDA" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="/RST" x="-15.24" y="2.54" length="middle" direction="pas" function="dot"/>
+<pin name="VBAT" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="32KHZ" x="-15.24" y="10.16" length="middle" direction="out"/>
+<pin name="SQW/INT" x="-15.24" y="5.08" length="middle" direction="out"/>
+<pin name="VCC" x="-15.24" y="7.62" length="middle" direction="pwr"/>
+<pin name="GND" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="NC" x="-15.24" y="0" length="middle" direction="nc"/>
+<pin name="NC1" x="-15.24" y="-2.54" length="middle" direction="nc"/>
+<pin name="NC2" x="-15.24" y="-5.08" length="middle" direction="nc"/>
+<pin name="NC3" x="-15.24" y="-7.62" length="middle" direction="nc"/>
+<pin name="NC4" x="15.24" y="-7.62" length="middle" direction="nc" rot="R180"/>
+<pin name="NC5" x="15.24" y="-5.08" length="middle" direction="nc" rot="R180"/>
+<pin name="NC6" x="15.24" y="-2.54" length="middle" direction="nc" rot="R180"/>
+<pin name="NC7" x="15.24" y="0" length="middle" direction="nc" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DS3231" prefix="IC">
+<gates>
+<gate name="G$1" symbol="DS3231" x="0" y="0"/>
+</gates>
+<devices>
+<device name="/SO" package="SO16W">
+<connects>
+<connect gate="G$1" pin="/RST" pad="4"/>
+<connect gate="G$1" pin="32KHZ" pad="1"/>
+<connect gate="G$1" pin="GND" pad="13"/>
+<connect gate="G$1" pin="NC" pad="5"/>
+<connect gate="G$1" pin="NC1" pad="6"/>
+<connect gate="G$1" pin="NC2" pad="7"/>
+<connect gate="G$1" pin="NC3" pad="8"/>
+<connect gate="G$1" pin="NC4" pad="9"/>
+<connect gate="G$1" pin="NC5" pad="10"/>
+<connect gate="G$1" pin="NC6" pad="11"/>
+<connect gate="G$1" pin="NC7" pad="12"/>
+<connect gate="G$1" pin="SCL" pad="16"/>
+<connect gate="G$1" pin="SDA" pad="15"/>
+<connect gate="G$1" pin="SQW/INT" pad="3"/>
+<connect gate="G$1" pin="VBAT" pad="14"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" Real Time Clock (RTC) IC Clock/Calendar I²C, 2-Wire Serial 16-SOIC (0.295, 7.50mm Width) "/>
+<attribute name="MF" value="Maxim Integrated"/>
+<attribute name="MP" value="DS3231"/>
+<attribute name="PACKAGE" value="SOIC-16 Maxim Integrated"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9354,12 +9472,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VIN"/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VIN"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3V"/>
+<part name="IC3" library="DS3231" deviceset="DS3231" device="/SO"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="71.12" y="177.8" size="1.778" layer="94" rot="R180">Lipo Charger</text>
-<wire x1="0" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="68.58" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="134.62" y1="132.08" x2="134.62" y2="180.34" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="134.62" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <text x="170.18" y="177.8" size="1.778" layer="94" rot="R180">Power Management</text>
@@ -9369,7 +9489,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="45.72" y="129.54" size="1.778" layer="94" rot="R180">Power Supply 3.3v</text>
 <text x="38.1" y="124.46" size="1.778" layer="95" rot="R180">ESP32</text>
 <text x="38.1" y="96.52" size="1.778" layer="95" rot="R180">LOAD</text>
-<wire x1="0" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="66.04" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="68.58" y1="71.12" x2="68.58" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="35.56" y="157.48" smashed="yes">
@@ -9592,6 +9714,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="P+11" gate="VCC" x="60.96" y="91.44" smashed="yes">
 <attribute name="VALUE" x="63.5" y="93.98" size="1.27" layer="96" rot="R180"/>
+</instance>
+<instance part="IC3" gate="G$1" x="104.14" y="99.06" smashed="yes">
+<attribute name="NAME" x="114.3" y="114.3" size="1.778" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
