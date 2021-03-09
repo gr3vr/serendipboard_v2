@@ -12056,7 +12056,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="J1" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VBAT"/>
 <part name="Q5" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBT2222AL" value="600mA/40V"/>
-<part name="Q6" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBT2222AL" value="600mA/40V"/>
+<part name="Q6" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBT2222AL" value=""/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12072,6 +12072,13 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VBAT"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="20k"/>
+<part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VBUS"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="20k"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="20k"/>
+<part name="P+27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3V"/>
 </parts>
 <sheets>
 <sheet>
@@ -12086,7 +12093,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <text x="236.22" y="177.8" size="1.778" layer="94" rot="R180">Battery Fuel Gauge</text>
 <wire x1="185.42" y1="180.34" x2="185.42" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <text x="45.72" y="129.54" size="1.778" layer="94" rot="R180">Power Supply 3.3v</text>
-<text x="320.04" y="205.74" size="1.778" layer="95" rot="R180">ESP32</text>
+<text x="78.74" y="208.28" size="1.778" layer="95" rot="R180">ESP32</text>
 <text x="38.1" y="127" size="1.778" layer="95" rot="R180">LOAD</text>
 <text x="101.6" y="129.54" size="1.778" layer="94" rot="R180">RTC</text>
 <wire x1="0" y1="96.52" x2="0" y2="93.98" width="0.1524" layer="94" style="shortdash"/>
@@ -12101,14 +12108,21 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <wire x1="134.62" y1="96.52" x2="134.62" y2="48.26" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="134.62" y1="48.26" x2="134.62" y2="35.56" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="134.62" y1="35.56" x2="162.56" y2="35.56" width="0.1524" layer="94" style="shortdash"/>
-<text x="157.48" y="25.4" size="1.778" layer="94" rot="R180">Battery Connector</text>
+<text x="157.48" y="27.94" size="1.778" layer="94" rot="R180">Battery Connector</text>
 <wire x1="134.62" y1="35.56" x2="134.62" y2="0" width="0.1524" layer="94" style="shortdash"/>
-<text x="43.18" y="93.98" size="1.778" layer="94" rot="R180">Motor</text>
-<text x="111.76" y="93.98" size="1.778" layer="94" rot="R180">Voltage Monitoring</text>
-<text x="43.18" y="40.64" size="1.778" layer="94" rot="R180">Buzzer</text>
+<text x="35.56" y="91.44" size="1.778" layer="94" rot="R180">Motor</text>
+<text x="111.76" y="91.44" size="1.778" layer="94" rot="R180">Voltage Monitoring</text>
+<text x="30.48" y="43.18" size="1.778" layer="94" rot="R180">Buzzer</text>
 <wire x1="66.04" y1="96.52" x2="66.04" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="66.04" y1="96.52" x2="66.04" y2="0" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="0" y1="48.26" x2="134.62" y2="48.26" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="94" style="shortdash"/>
+<text x="81.28" y="43.18" size="1.778" layer="94" rot="R180">Charger Detection</text>
+<wire x1="50.8" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="66.04" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="88.9" y1="48.26" x2="134.62" y2="48.26" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="66.04" y1="96.52" x2="66.04" y2="48.26" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="88.9" y1="48.26" x2="88.9" y2="0" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="50.8" y1="48.26" x2="50.8" y2="0" width="0.1524" layer="94" style="shortdash"/>
+<text x="119.38" y="43.18" size="1.778" layer="94" rot="R180">I2C Pullups</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="35.56" y="157.48" smashed="yes">
@@ -12173,9 +12187,9 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <instance part="GND6" gate="1" x="127" y="137.16" smashed="yes">
 <attribute name="VALUE" x="124.46" y="134.62" size="1.778" layer="96"/>
 </instance>
-<instance part="CN1" gate="G$1" x="236.22" y="193.04" smashed="yes">
-<attribute name="NAME" x="226.06" y="201.676" size="1.27" layer="95"/>
-<attribute name="VALUE" x="226.06" y="182.88" size="1.27" layer="96"/>
+<instance part="CN1" gate="G$1" x="10.16" y="195.58" smashed="yes">
+<attribute name="NAME" x="0" y="204.216" size="1.27" layer="95"/>
+<attribute name="VALUE" x="0" y="185.42" size="1.27" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="15.24" y="147.32" smashed="yes">
 <attribute name="NAME" x="16.764" y="147.701" size="1.778" layer="95"/>
@@ -12274,33 +12288,33 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <instance part="GND13" gate="1" x="193.04" y="137.16" smashed="yes">
 <attribute name="VALUE" x="190.5" y="134.62" size="1.778" layer="96"/>
 </instance>
-<instance part="U2" gate="G$1" x="317.5" y="195.58" smashed="yes">
-<attribute name="NAME" x="309.88" y="201.676" size="1.27" layer="95"/>
-<attribute name="VALUE" x="309.88" y="187.96" size="1.27" layer="95"/>
+<instance part="U2" gate="G$1" x="76.2" y="198.12" smashed="yes">
+<attribute name="NAME" x="68.58" y="204.216" size="1.27" layer="95"/>
+<attribute name="VALUE" x="68.58" y="190.5" size="1.27" layer="95"/>
 </instance>
-<instance part="R5" gate="G$1" x="297.18" y="190.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="295.6814" y="186.69" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="300.482" y="186.69" size="1.778" layer="96" rot="R90"/>
+<instance part="R5" gate="G$1" x="55.88" y="193.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="54.3814" y="189.23" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="59.182" y="189.23" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND14" gate="1" x="307.34" y="185.42" smashed="yes">
-<attribute name="VALUE" x="304.8" y="182.88" size="1.778" layer="96"/>
+<instance part="GND14" gate="1" x="66.04" y="187.96" smashed="yes">
+<attribute name="VALUE" x="63.5" y="185.42" size="1.778" layer="96"/>
 </instance>
-<instance part="C8" gate="G$1" x="332.74" y="193.04" smashed="yes" rot="MR0">
-<attribute name="NAME" x="331.216" y="193.421" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="331.216" y="188.341" size="1.778" layer="96" rot="MR0"/>
+<instance part="C8" gate="G$1" x="91.44" y="195.58" smashed="yes" rot="MR0">
+<attribute name="NAME" x="89.916" y="195.961" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="89.916" y="190.881" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C9" gate="G$1" x="337.82" y="193.04" smashed="yes">
-<attribute name="NAME" x="339.344" y="193.421" size="1.778" layer="95"/>
-<attribute name="VALUE" x="339.344" y="188.341" size="1.778" layer="96"/>
+<instance part="C9" gate="G$1" x="96.52" y="195.58" smashed="yes">
+<attribute name="NAME" x="98.044" y="195.961" size="1.778" layer="95"/>
+<attribute name="VALUE" x="98.044" y="190.881" size="1.778" layer="96"/>
 </instance>
-<instance part="GND15" gate="1" x="332.74" y="185.42" smashed="yes">
-<attribute name="VALUE" x="330.2" y="182.88" size="1.778" layer="96"/>
+<instance part="GND15" gate="1" x="91.44" y="187.96" smashed="yes">
+<attribute name="VALUE" x="88.9" y="185.42" size="1.778" layer="96"/>
 </instance>
-<instance part="GND16" gate="1" x="337.82" y="185.42" smashed="yes">
-<attribute name="VALUE" x="335.28" y="182.88" size="1.778" layer="96"/>
+<instance part="GND16" gate="1" x="96.52" y="187.96" smashed="yes">
+<attribute name="VALUE" x="93.98" y="185.42" size="1.778" layer="96"/>
 </instance>
-<instance part="P+8" gate="VCC" x="342.9" y="200.66" smashed="yes">
-<attribute name="VALUE" x="345.44" y="203.2" size="1.27" layer="96" rot="R180"/>
+<instance part="P+8" gate="VCC" x="101.6" y="203.2" smashed="yes">
+<attribute name="VALUE" x="104.14" y="205.74" size="1.27" layer="96" rot="R180"/>
 </instance>
 <instance part="U3" gate="G$1" x="33.02" y="114.3" smashed="yes">
 <attribute name="NAME" x="25.4" y="120.396" size="1.27" layer="95"/>
@@ -12315,16 +12329,16 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <attribute name="VALUE" x="54.864" y="104.521" size="1.778" layer="96"/>
 </instance>
 <instance part="GND17" gate="1" x="20.32" y="101.6" smashed="yes">
-<attribute name="VALUE" x="17.78" y="99.06" size="1.778" layer="96"/>
+<attribute name="VALUE" x="17.78" y="99.06" size="1.27" layer="96"/>
 </instance>
 <instance part="GND18" gate="1" x="48.26" y="101.6" smashed="yes">
-<attribute name="VALUE" x="45.72" y="99.06" size="1.778" layer="96"/>
+<attribute name="VALUE" x="45.72" y="99.06" size="1.27" layer="96"/>
 </instance>
 <instance part="GND19" gate="1" x="53.34" y="101.6" smashed="yes">
-<attribute name="VALUE" x="50.8" y="99.06" size="1.778" layer="96"/>
+<attribute name="VALUE" x="50.8" y="99.06" size="1.27" layer="96"/>
 </instance>
-<instance part="P+9" gate="VCC" x="294.64" y="200.66" smashed="yes">
-<attribute name="VALUE" x="297.18" y="203.2" size="1.27" layer="96" rot="R180"/>
+<instance part="P+9" gate="VCC" x="53.34" y="203.2" smashed="yes">
+<attribute name="VALUE" x="55.88" y="205.74" size="1.27" layer="96" rot="R180"/>
 </instance>
 <instance part="P+10" gate="VCC" x="17.78" y="121.92" smashed="yes">
 <attribute name="VALUE" x="20.32" y="124.46" size="1.27" layer="96" rot="R180"/>
@@ -12399,9 +12413,9 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <instance part="P+18" gate="VCC" x="157.48" y="71.12" smashed="yes">
 <attribute name="VALUE" x="160.02" y="73.66" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="Q3" gate="NMOS" x="198.12" y="93.98" smashed="yes" rot="R270">
-<attribute name="NAME" x="198.12" y="88.9" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="182.88" y="83.82" size="1.778" layer="96" font="vector"/>
+<instance part="Q3" gate="NMOS" x="200.66" y="93.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="200.66" y="88.9" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="185.42" y="83.82" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="Q4" gate="NMOS" x="246.38" y="93.98" smashed="yes" rot="R270">
 <attribute name="NAME" x="246.38" y="88.9" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -12414,24 +12428,24 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <instance part="P+19" gate="VCC" x="220.98" y="116.84" smashed="yes">
 <attribute name="VALUE" x="223.52" y="119.38" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="R6" gate="G$1" x="205.74" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="204.2414" y="95.25" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="209.042" y="95.25" size="1.778" layer="96" rot="R90"/>
+<instance part="R6" gate="G$1" x="208.28" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="206.7814" y="95.25" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="211.582" y="95.25" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R10" gate="G$1" x="236.22" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="234.7214" y="95.25" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="239.522" y="95.25" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R11" gate="G$1" x="190.5" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="189.0014" y="95.25" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="193.802" y="95.25" size="1.778" layer="96" rot="R90"/>
+<instance part="R11" gate="G$1" x="193.04" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="191.5414" y="95.25" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="196.342" y="95.25" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R12" gate="G$1" x="254" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="252.5014" y="95.25" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="257.302" y="95.25" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+20" gate="VCC" x="190.5" y="114.3" smashed="yes">
-<attribute name="VALUE" x="193.04" y="116.84" size="1.27" layer="96" rot="R180"/>
+<instance part="P+20" gate="VCC" x="193.04" y="114.3" smashed="yes">
+<attribute name="VALUE" x="195.58" y="116.84" size="1.27" layer="96" rot="R180"/>
 </instance>
 <instance part="P+21" gate="VCC" x="236.22" y="114.3" smashed="yes">
 <attribute name="VALUE" x="238.76" y="116.84" size="1.27" layer="96" rot="R180"/>
@@ -12449,65 +12463,90 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <instance part="P+22" gate="VCC" x="152.4" y="17.78" smashed="yes">
 <attribute name="VALUE" x="154.94" y="20.32" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="Q5" gate="G$1" x="35.56" y="71.12" smashed="yes">
-<attribute name="NAME" x="38.1" y="71.12" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="38.1" y="68.834" size="1.778" layer="96" font="vector"/>
+<instance part="Q5" gate="G$1" x="38.1" y="68.58" smashed="yes">
+<attribute name="NAME" x="40.64" y="68.58" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="40.64" y="66.294" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="Q6" gate="G$1" x="35.56" y="17.78" smashed="yes">
-<attribute name="NAME" x="38.1" y="17.78" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="38.1" y="15.494" size="1.778" layer="96" font="vector"/>
+<instance part="Q6" gate="G$1" x="30.48" y="17.78" smashed="yes">
+<attribute name="NAME" x="33.02" y="17.78" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="33.02" y="15.494" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="R13" gate="G$1" x="25.4" y="71.12" smashed="yes">
-<attribute name="NAME" x="21.59" y="72.6186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="21.59" y="67.818" size="1.778" layer="96"/>
+<instance part="R13" gate="G$1" x="27.94" y="68.58" smashed="yes">
+<attribute name="NAME" x="24.13" y="70.0786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.13" y="65.278" size="1.778" layer="96"/>
 </instance>
-<instance part="R14" gate="G$1" x="25.4" y="17.78" smashed="yes">
-<attribute name="NAME" x="21.59" y="19.2786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="21.59" y="14.478" size="1.778" layer="96"/>
+<instance part="R14" gate="G$1" x="20.32" y="17.78" smashed="yes">
+<attribute name="NAME" x="16.51" y="19.2786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="16.51" y="14.478" size="1.778" layer="96"/>
 </instance>
-<instance part="GND29" gate="1" x="38.1" y="60.96" smashed="yes">
-<attribute name="VALUE" x="35.56" y="58.42" size="1.778" layer="96"/>
+<instance part="GND29" gate="1" x="40.64" y="58.42" smashed="yes">
+<attribute name="VALUE" x="38.1" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="GND30" gate="1" x="38.1" y="7.62" smashed="yes">
-<attribute name="VALUE" x="35.56" y="5.08" size="1.778" layer="96"/>
+<instance part="GND30" gate="1" x="33.02" y="7.62" smashed="yes">
+<attribute name="VALUE" x="30.48" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="P+23" gate="VCC" x="38.1" y="86.36" smashed="yes">
-<attribute name="VALUE" x="40.64" y="88.9" size="1.27" layer="96" rot="R180"/>
+<instance part="P+23" gate="VCC" x="40.64" y="83.82" smashed="yes">
+<attribute name="VALUE" x="43.18" y="86.36" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="P+24" gate="VCC" x="38.1" y="33.02" smashed="yes">
-<attribute name="VALUE" x="40.64" y="35.56" size="1.27" layer="96" rot="R180"/>
+<instance part="P+24" gate="VCC" x="33.02" y="33.02" smashed="yes">
+<attribute name="VALUE" x="35.56" y="35.56" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="J2" gate="G$1" x="48.26" y="78.74" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="50.8" y="73.914" size="1.778" layer="96" font="vector" rot="MR0"/>
-<attribute name="NAME" x="50.8" y="84.328" size="1.778" layer="95" font="vector" rot="MR0"/>
+<instance part="J2" gate="G$1" x="50.8" y="76.2" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="53.34" y="71.374" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="NAME" x="53.34" y="81.788" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="R15" gate="G$1" x="93.98" y="78.74" smashed="yes">
-<attribute name="NAME" x="90.17" y="80.2386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="90.17" y="75.438" size="1.778" layer="96"/>
+<instance part="R15" gate="G$1" x="93.98" y="76.2" smashed="yes">
+<attribute name="NAME" x="90.17" y="77.6986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="90.17" y="72.898" size="1.778" layer="96"/>
 </instance>
-<instance part="R16" gate="G$1" x="101.6" y="71.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="100.1014" y="67.31" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="104.902" y="67.31" size="1.778" layer="96" rot="R90"/>
+<instance part="R16" gate="G$1" x="101.6" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="100.1014" y="64.77" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="104.902" y="64.77" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND31" gate="1" x="101.6" y="63.5" smashed="yes">
-<attribute name="VALUE" x="99.06" y="60.96" size="1.778" layer="96"/>
+<instance part="GND31" gate="1" x="101.6" y="60.96" smashed="yes">
+<attribute name="VALUE" x="99.06" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="C16" gate="G$1" x="86.36" y="73.66" smashed="yes" rot="MR0">
-<attribute name="NAME" x="84.836" y="74.041" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="84.836" y="68.961" size="1.778" layer="96" rot="MR0"/>
+<instance part="C16" gate="G$1" x="86.36" y="71.12" smashed="yes" rot="MR0">
+<attribute name="NAME" x="84.836" y="71.501" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="84.836" y="66.421" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C17" gate="G$1" x="109.22" y="73.66" smashed="yes">
-<attribute name="NAME" x="110.744" y="74.041" size="1.778" layer="95"/>
-<attribute name="VALUE" x="110.744" y="68.961" size="1.778" layer="96"/>
+<instance part="C17" gate="G$1" x="109.22" y="71.12" smashed="yes">
+<attribute name="NAME" x="110.744" y="71.501" size="1.778" layer="95"/>
+<attribute name="VALUE" x="110.744" y="66.421" size="1.778" layer="96"/>
 </instance>
-<instance part="GND32" gate="1" x="109.22" y="63.5" smashed="yes">
-<attribute name="VALUE" x="106.68" y="60.96" size="1.778" layer="96"/>
+<instance part="GND32" gate="1" x="109.22" y="60.96" smashed="yes">
+<attribute name="VALUE" x="106.68" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="GND33" gate="1" x="86.36" y="63.5" smashed="yes">
-<attribute name="VALUE" x="83.82" y="60.96" size="1.778" layer="96"/>
+<instance part="GND33" gate="1" x="86.36" y="60.96" smashed="yes">
+<attribute name="VALUE" x="83.82" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="P+25" gate="VCC" x="83.82" y="81.28" smashed="yes">
-<attribute name="VALUE" x="86.36" y="83.82" size="1.27" layer="96" rot="R180"/>
+<instance part="P+25" gate="VCC" x="81.28" y="78.74" smashed="yes">
+<attribute name="VALUE" x="83.82" y="81.28" size="1.27" layer="96" rot="R180"/>
+</instance>
+<instance part="R17" gate="G$1" x="66.04" y="27.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="64.5414" y="24.13" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="69.342" y="24.13" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R18" gate="G$1" x="66.04" y="12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="64.5414" y="8.89" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="69.342" y="8.89" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND34" gate="1" x="66.04" y="5.08" smashed="yes">
+<attribute name="VALUE" x="63.5" y="2.54" size="1.778" layer="96"/>
+</instance>
+<instance part="P+26" gate="VCC" x="66.04" y="35.56" smashed="yes">
+<attribute name="VALUE" x="68.58" y="38.1" size="1.27" layer="96" rot="R180"/>
+</instance>
+<instance part="R19" gate="G$1" x="106.68" y="22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="105.1814" y="19.05" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="109.982" y="19.05" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R20" gate="G$1" x="116.84" y="22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="115.3414" y="19.05" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="120.142" y="19.05" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+27" gate="VCC" x="111.76" y="35.56" smashed="yes">
+<attribute name="VALUE" x="114.3" y="38.1" size="1.27" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -12609,7 +12648,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
-<wire x1="307.34" y1="187.96" x2="307.34" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="190.5" x2="66.04" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
@@ -12680,12 +12719,12 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <segment>
 <pinref part="GND29" gate="1" pin="GND"/>
 <pinref part="Q5" gate="G$1" pin="E"/>
-<wire x1="38.1" y1="63.5" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="60.96" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND30" gate="1" pin="GND"/>
 <pinref part="Q6" gate="G$1" pin="E"/>
-<wire x1="38.1" y1="10.16" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="10.16" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
@@ -12694,12 +12733,16 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <segment>
 <pinref part="GND32" gate="1" pin="GND"/>
 <pinref part="C17" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="66.04" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="63.5" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND33" gate="1" pin="GND"/>
 <pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="66.04" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="63.5" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="GND34" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -12779,24 +12822,24 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="OUT"/>
-<wire x1="327.66" y1="198.12" x2="332.74" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="200.66" x2="91.44" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="332.74" y1="198.12" x2="337.82" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="198.12" x2="342.9" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="195.58" x2="332.74" y2="198.12" width="0.1524" layer="91"/>
-<junction x="332.74" y="198.12"/>
+<wire x1="91.44" y1="200.66" x2="96.52" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="200.66" x2="101.6" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="198.12" x2="91.44" y2="200.66" width="0.1524" layer="91"/>
+<junction x="91.44" y="200.66"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="195.58" x2="337.82" y2="198.12" width="0.1524" layer="91"/>
-<junction x="337.82" y="198.12"/>
+<wire x1="96.52" y1="198.12" x2="96.52" y2="200.66" width="0.1524" layer="91"/>
+<junction x="96.52" y="200.66"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="IN"/>
-<wire x1="307.34" y1="198.12" x2="297.18" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="200.66" x2="55.88" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="297.18" y1="198.12" x2="294.64" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="195.58" x2="297.18" y2="198.12" width="0.1524" layer="91"/>
-<junction x="297.18" y="198.12"/>
+<wire x1="55.88" y1="200.66" x2="53.34" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="198.12" x2="55.88" y2="200.66" width="0.1524" layer="91"/>
+<junction x="55.88" y="200.66"/>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
@@ -12868,12 +12911,12 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="104.14" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="104.14" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="NMOS" pin="G"/>
-<wire x1="190.5" y1="106.68" x2="190.5" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="99.06" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="106.68" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
-<junction x="190.5" y="106.68"/>
+<wire x1="193.04" y1="106.68" x2="193.04" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="99.06" x2="198.12" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="106.68" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
+<junction x="193.04" y="106.68"/>
 <pinref part="P+20" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
@@ -12894,17 +12937,32 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
 <pinref part="P+23" gate="VCC" pin="VCC"/>
-<wire x1="40.64" y1="81.28" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="81.28" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="78.74" x2="40.64" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="78.74" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="76.2" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="76.2" x2="81.28" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="73.66" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="78.74" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
-<junction x="86.36" y="78.74"/>
+<wire x1="88.9" y1="76.2" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
+<junction x="86.36" y="76.2"/>
 <pinref part="P+25" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="27.94" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="30.48" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="30.48" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="30.48" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="P+27" gate="VCC" pin="VCC"/>
+<wire x1="111.76" y1="33.02" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
+<junction x="111.76" y="30.48"/>
+</segment>
+<segment>
+<pinref part="P+26" gate="VCC" pin="VCC"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="CHARGER_EN" class="0">
@@ -12994,11 +13052,20 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <segment>
 <pinref part="Q3" gate="NMOS" pin="D"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="91.44" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="91.44" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="91.44" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
-<junction x="205.74" y="91.44"/>
-<label x="208.28" y="91.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="208.28" y1="91.44" x2="208.28" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="91.44" x2="210.82" y2="91.44" width="0.1524" layer="91"/>
+<junction x="208.28" y="91.44"/>
+<label x="210.82" y="91.44" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="101.6" y1="15.24" x2="106.68" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="15.24" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="17.78" x2="106.68" y2="15.24" width="0.1524" layer="91"/>
+<junction x="106.68" y="15.24"/>
+<label x="101.6" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="121.92" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -13021,6 +13088,15 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <junction x="254" y="91.44"/>
 <label x="256.54" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="101.6" y1="12.7" x2="116.84" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="12.7" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="17.78" x2="116.84" y2="12.7" width="0.1524" layer="91"/>
+<junction x="116.84" y="12.7"/>
+<label x="101.6" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="121.92" y="12.7" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="QST" class="0">
 <segment>
@@ -13036,10 +13112,10 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <net name="N$8" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="297.18" y1="185.42" x2="302.26" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="185.42" x2="302.26" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="187.96" x2="60.96" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="187.96" x2="60.96" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="EN"/>
-<wire x1="302.26" y1="195.58" x2="307.34" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="198.12" x2="66.04" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LOAD_EN" class="0">
@@ -13090,11 +13166,11 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="Q3" gate="NMOS" pin="S"/>
-<wire x1="190.5" y1="93.98" x2="190.5" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="91.44" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
-<junction x="190.5" y="91.44"/>
-<label x="187.96" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="193.04" y1="93.98" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="91.44" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="91.44" x2="190.5" y2="91.44" width="0.1524" layer="91"/>
+<junction x="193.04" y="91.44"/>
+<label x="190.5" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="AD0" class="0">
@@ -13114,8 +13190,8 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="205.74" y1="104.14" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="109.22" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="104.14" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="109.22" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -13130,51 +13206,62 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="Q5" gate="G$1" pin="B"/>
-<wire x1="30.48" y1="71.12" x2="33.02" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="Q6" gate="G$1" pin="B"/>
-<wire x1="30.48" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BUZZER" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
-<label x="17.78" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="15.24" y1="17.78" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
+<label x="12.7" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="71.12" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
-<label x="17.78" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="22.86" y1="68.58" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
+<label x="20.32" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="Q5" gate="G$1" pin="C"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="76.2" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="73.66" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BATT_MONITOR" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="76.2" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="73.66" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="76.2" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="76.2" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
-<junction x="109.22" y="78.74"/>
+<wire x1="109.22" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="73.66" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
+<junction x="109.22" y="76.2"/>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
-<junction x="101.6" y="78.74"/>
-<label x="111.76" y="78.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="99.06" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
+<junction x="101.6" y="76.2"/>
+<label x="111.76" y="76.2" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CHARGER" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="20.32" x2="66.04" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
+<label x="71.12" y="20.32" size="1.27" layer="95" xref="yes"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="22.86" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
+<junction x="66.04" y="20.32"/>
 </segment>
 </net>
 </nets>
