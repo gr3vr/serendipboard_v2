@@ -9684,6 +9684,9 @@ wide body 7.5 mm/JEDEC MS-013AA</description>
 <text x="38.1" y="96.52" size="1.778" layer="95" rot="R180">LOAD</text>
 <wire x1="0" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="68.58" y1="71.12" x2="68.58" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="68.58" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="134.62" y1="71.12" x2="134.62" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
+<text x="104.14" y="129.54" size="1.778" layer="94" rot="R180">RTC</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="35.56" y="157.48" smashed="yes">
@@ -9907,21 +9910,21 @@ wide body 7.5 mm/JEDEC MS-013AA</description>
 <instance part="P+11" gate="VCC" x="60.96" y="91.44" smashed="yes">
 <attribute name="VALUE" x="63.5" y="93.98" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="IC3" gate="G$1" x="101.6" y="99.06" smashed="yes">
-<attribute name="NAME" x="111.76" y="114.3" size="1.778" layer="95" rot="R180"/>
+<instance part="IC3" gate="G$1" x="99.06" y="99.06" smashed="yes">
+<attribute name="NAME" x="109.22" y="114.3" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="P+15" gate="VCC" x="81.28" y="111.76" smashed="yes">
-<attribute name="VALUE" x="83.82" y="114.3" size="1.27" layer="96" rot="R180"/>
+<instance part="P+15" gate="VCC" x="78.74" y="111.76" smashed="yes">
+<attribute name="VALUE" x="81.28" y="114.3" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="B1" gate="G$1" x="124.46" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="121.285" y="96.52" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="129.54" y="96.52" size="1.27" layer="96" rot="R90"/>
+<instance part="B1" gate="G$1" x="121.92" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="118.745" y="96.52" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="127" y="96.52" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="GND20" gate="1" x="119.38" y="88.9" smashed="yes">
-<attribute name="VALUE" x="116.84" y="86.36" size="1.778" layer="96"/>
+<instance part="GND20" gate="1" x="116.84" y="88.9" smashed="yes">
+<attribute name="VALUE" x="114.3" y="86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="GND21" gate="1" x="124.46" y="88.9" smashed="yes">
-<attribute name="VALUE" x="121.92" y="86.36" size="1.778" layer="96"/>
+<instance part="GND21" gate="1" x="121.92" y="88.9" smashed="yes">
+<attribute name="VALUE" x="119.38" y="86.36" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -10049,13 +10052,13 @@ wide body 7.5 mm/JEDEC MS-013AA</description>
 <segment>
 <pinref part="IC3" gate="G$1" pin="GND"/>
 <pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="116.84" y1="101.6" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="101.6" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="101.6" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="-"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="124.46" y1="96.52" x2="124.46" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="96.52" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -10176,8 +10179,8 @@ wide body 7.5 mm/JEDEC MS-013AA</description>
 <segment>
 <pinref part="IC3" gate="G$1" pin="VCC"/>
 <pinref part="P+15" gate="VCC" pin="VCC"/>
-<wire x1="81.28" y1="109.22" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="109.22" x2="78.74" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="106.68" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CHARGER_EN" class="0">
@@ -10256,8 +10259,8 @@ wide body 7.5 mm/JEDEC MS-013AA</description>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="SDA"/>
-<wire x1="116.84" y1="106.68" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
-<label x="121.92" y="106.68" size="1.27" layer="95" xref="yes"/>
+<wire x1="114.3" y1="106.68" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
+<label x="119.38" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -10268,8 +10271,8 @@ wide body 7.5 mm/JEDEC MS-013AA</description>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="SCL"/>
-<wire x1="116.84" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
-<label x="121.92" y="109.22" size="1.27" layer="95" xref="yes"/>
+<wire x1="114.3" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
+<label x="119.38" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="QST" class="0">
@@ -10303,8 +10306,8 @@ wide body 7.5 mm/JEDEC MS-013AA</description>
 <segment>
 <pinref part="IC3" gate="G$1" pin="VBAT"/>
 <pinref part="B1" gate="G$1" pin="+"/>
-<wire x1="116.84" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="104.14" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="104.14" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="104.14" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
