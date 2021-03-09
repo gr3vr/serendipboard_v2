@@ -9048,12 +9048,55 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="1.023625" y1="-0.381003125" x2="1.778" y2="-0.116840625" layer="31"/>
 <rectangle x1="1.026165625" y1="-0.881384375" x2="1.780540625" y2="-0.617221875" layer="31"/>
 </package>
+<package name="SC70" urn="urn:adsk.eagle:footprint:39037/1" library_version="1">
+<description>&lt;h3&gt;SC-70&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 5&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.exar.com/content/document.ashx?id=654”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;V_REG_SP6214&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
+<smd name="1" x="-0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="2" x="0" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="3" x="0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="4" x="0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="5" x="-0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<text x="-1.27" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.85" y1="0.45" x2="-0.45" y2="1.2" layer="31"/>
+<rectangle x1="0.45" y1="0.45" x2="0.85" y2="1.2" layer="31"/>
+<rectangle x1="-0.8382" y1="-1.1684" x2="-0.508" y2="-0.4826" layer="31"/>
+<rectangle x1="-0.1651" y1="-1.1684" x2="0.1651" y2="-0.4826" layer="31"/>
+<rectangle x1="0.508" y1="-1.1684" x2="0.8382" y2="-0.4826" layer="31"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="TDFN-8" urn="urn:adsk.eagle:package:39055/1" type="box" library_version="1">
 <description>TDFN - 8pin, 2mmx3mm</description>
 <packageinstances>
 <packageinstance name="TDFN-8"/>
+</packageinstances>
+</package3d>
+<package3d name="SC70" urn="urn:adsk.eagle:package:39079/1" type="box" library_version="1">
+<description>SC-70
+Specifications:
+Pin count: 5
+
+Datasheet referenced for footprint
+Example device(s):
+V_REG_SP6214
+</description>
+<packageinstances>
+<packageinstance name="SC70"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -9074,6 +9117,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="SCL" x="12.7" y="2.54" length="middle" rot="R180"/>
 <pin name="SDA" x="12.7" y="5.08" length="middle" rot="R180"/>
 <pin name="GND@EP" x="-12.7" y="-5.08" length="middle"/>
+</symbol>
+<symbol name="V-REG-LDO_NO-BP" urn="urn:adsk.eagle:symbol:39036/1" library_version="1">
+<description>&lt;h3&gt; Voltage Regulator - No bypass&lt;/h3&gt;
+5  pin, with Enable function.</description>
+<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
+<text x="-7.62" y="7.874" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="IN" x="-10.16" y="5.08" visible="pin" length="short" direction="in"/>
+<pin name="GND" x="-10.16" y="-5.08" visible="pin" length="short" direction="in"/>
+<pin name="OUT" x="7.62" y="5.08" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="EN" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
+<pin name="NC" x="7.62" y="-5.08" visible="pin" length="short" direction="nc" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9101,6 +9159,38 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PROD-ID" value="IC-10399"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="V_REG_SP6214" urn="urn:adsk.eagle:component:39114/1" library_version="1">
+<description>&lt;h3&gt;Voltage Regulator - SP6214&lt;/h3&gt;
+&lt;p&gt;SP6214 Series SC-70-5 Micropower SC-70 100 mA CMOS LDO Regulator
+&lt;br&gt;&lt;a href=”https://www.exar.com/content/document.ashx?id=654”&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13720”&gt;MP3 Trigger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/14045”&gt;SparkFun Particle Sensor Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="V-REG-LDO_NO-BP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1.8V" package="SC70">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39079/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="VREG-08428" constant="no"/>
+<attribute name="VALUE" value="1.8V/100mA" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -10106,12 +10196,26 @@ MotionTracking device that is ideally suited for smartphones, tablets, wearable 
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U4" library="SparkFun-Sensors" deviceset="ICM-20948" device="" value="9DoF IMU"/>
+<part name="U$1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_SP6214" device="-1.8V" package3d_urn="urn:adsk.eagle:package:39079/1" value="1.8V/100mA"/>
+<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3V"/>
+<part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="1.8V"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="1.8V"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="71.12" y="177.8" size="1.778" layer="94" rot="R180">Lipo Charger</text>
-<wire x1="0" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="68.58" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="134.62" y1="132.08" x2="134.62" y2="180.34" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="134.62" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
@@ -10121,14 +10225,16 @@ MotionTracking device that is ideally suited for smartphones, tablets, wearable 
 <wire x1="185.42" y1="180.34" x2="185.42" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <text x="45.72" y="129.54" size="1.778" layer="94" rot="R180">Power Supply 3.3v</text>
 <text x="320.04" y="205.74" size="1.778" layer="95" rot="R180">ESP32</text>
-<text x="35.56" y="124.46" size="1.778" layer="95" rot="R180">LOAD</text>
-<text x="104.14" y="129.54" size="1.778" layer="94" rot="R180">RTC</text>
-<wire x1="0" y1="99.06" x2="0" y2="91.44" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="0" y1="91.44" x2="68.58" y2="91.44" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="68.58" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="134.62" y1="91.44" x2="134.62" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="66.04" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="68.58" y1="132.08" x2="68.58" y2="91.44" width="0.1524" layer="94" style="shortdash"/>
+<text x="38.1" y="127" size="1.778" layer="95" rot="R180">LOAD</text>
+<text x="101.6" y="129.54" size="1.778" layer="94" rot="R180">RTC</text>
+<wire x1="0" y1="96.52" x2="0" y2="93.98" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0" y1="99.06" x2="0" y2="96.52" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0" y1="96.52" x2="68.58" y2="96.52" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="68.58" y1="96.52" x2="134.62" y2="96.52" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="134.62" y1="96.52" x2="134.62" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="68.58" y1="132.08" x2="68.58" y2="96.52" width="0.1524" layer="94" style="shortdash"/>
+<text x="22.86" y="83.82" size="1.778" layer="95">IMU Regulator</text>
+<text x="68.58" y="93.98" size="1.778" layer="94" rot="R180">MPU (IC-20948)</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="35.56" y="157.48" smashed="yes">
@@ -10352,25 +10458,72 @@ MotionTracking device that is ideally suited for smartphones, tablets, wearable 
 <instance part="P+11" gate="VCC" x="58.42" y="119.38" smashed="yes">
 <attribute name="VALUE" x="60.96" y="121.92" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="IC3" gate="G$1" x="99.06" y="109.22" smashed="yes">
-<attribute name="NAME" x="109.22" y="124.46" size="1.778" layer="95" rot="R180"/>
+<instance part="IC3" gate="G$1" x="99.06" y="111.76" smashed="yes">
+<attribute name="NAME" x="109.22" y="127" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="P+15" gate="VCC" x="78.74" y="121.92" smashed="yes">
-<attribute name="VALUE" x="81.28" y="124.46" size="1.27" layer="96" rot="R180"/>
+<instance part="P+15" gate="VCC" x="78.74" y="124.46" smashed="yes">
+<attribute name="VALUE" x="81.28" y="127" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="B1" gate="G$1" x="121.92" y="109.22" smashed="yes" rot="R90">
-<attribute name="NAME" x="127" y="108.585" size="1.27" layer="95" rot="R180"/>
-<attribute name="VALUE" x="129.54" y="106.68" size="1.27" layer="96" rot="R180"/>
+<instance part="B1" gate="G$1" x="121.92" y="111.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="127" y="111.125" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="129.54" y="109.22" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="GND20" gate="1" x="116.84" y="99.06" smashed="yes">
-<attribute name="VALUE" x="114.3" y="96.52" size="1.778" layer="96"/>
+<instance part="GND20" gate="1" x="116.84" y="101.6" smashed="yes">
+<attribute name="VALUE" x="114.3" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="GND21" gate="1" x="121.92" y="99.06" smashed="yes">
-<attribute name="VALUE" x="119.38" y="96.52" size="1.778" layer="96"/>
+<instance part="GND21" gate="1" x="121.92" y="101.6" smashed="yes">
+<attribute name="VALUE" x="119.38" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="U4" gate="G$1" x="63.5" y="66.04" smashed="yes">
-<attribute name="NAME" x="50.8" y="76.454" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="50.8" y="58.166" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="U4" gate="G$1" x="68.58" y="33.02" smashed="yes">
+<attribute name="NAME" x="55.88" y="43.434" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="55.88" y="25.146" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="U$1" gate="G$1" x="30.48" y="71.12" smashed="yes">
+<attribute name="NAME" x="22.86" y="78.994" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="22.86" y="63.246" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="GND22" gate="1" x="17.78" y="60.96" smashed="yes">
+<attribute name="VALUE" x="15.24" y="58.42" size="1.778" layer="96"/>
+</instance>
+<instance part="GND23" gate="1" x="10.16" y="60.96" smashed="yes">
+<attribute name="VALUE" x="7.62" y="58.42" size="1.778" layer="96"/>
+</instance>
+<instance part="C12" gate="G$1" x="10.16" y="71.12" smashed="yes">
+<attribute name="NAME" x="11.684" y="71.501" size="1.778" layer="95"/>
+<attribute name="VALUE" x="11.684" y="66.421" size="1.778" layer="96"/>
+</instance>
+<instance part="P+16" gate="VCC" x="5.08" y="78.74" smashed="yes">
+<attribute name="VALUE" x="7.62" y="81.28" size="1.27" layer="96" rot="R180"/>
+</instance>
+<instance part="P+17" gate="VCC" x="43.18" y="78.74" smashed="yes">
+<attribute name="VALUE" x="45.72" y="81.28" size="1.27" layer="96" rot="R180"/>
+</instance>
+<instance part="C13" gate="G$1" x="45.72" y="25.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="44.196" y="25.781" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="44.196" y="20.701" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="C14" gate="G$1" x="38.1" y="25.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="36.576" y="25.781" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="36.576" y="20.701" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="C15" gate="G$1" x="30.48" y="25.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="28.956" y="25.781" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="28.956" y="20.701" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND24" gate="1" x="50.8" y="17.78" smashed="yes">
+<attribute name="VALUE" x="48.26" y="15.24" size="1.778" layer="96"/>
+</instance>
+<instance part="GND25" gate="1" x="45.72" y="17.78" smashed="yes">
+<attribute name="VALUE" x="43.18" y="15.24" size="1.778" layer="96"/>
+</instance>
+<instance part="GND26" gate="1" x="38.1" y="17.78" smashed="yes">
+<attribute name="VALUE" x="35.56" y="15.24" size="1.778" layer="96"/>
+</instance>
+<instance part="GND27" gate="1" x="30.48" y="17.78" smashed="yes">
+<attribute name="VALUE" x="27.94" y="15.24" size="1.778" layer="96"/>
+</instance>
+<instance part="P+18" gate="VCC" x="30.48" y="45.72" smashed="yes">
+<attribute name="VALUE" x="33.02" y="48.26" size="1.27" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -10498,13 +10651,42 @@ MotionTracking device that is ideally suited for smartphones, tablets, wearable 
 <segment>
 <pinref part="IC3" gate="G$1" pin="GND"/>
 <pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="114.3" y1="111.76" x2="116.84" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="111.76" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="114.3" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="114.3" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="-"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="121.92" y1="106.68" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="109.22" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND22" gate="1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="17.78" y1="63.5" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="66.04" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND23" gate="1" pin="GND"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="63.5" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND24" gate="1" pin="GND"/>
+<pinref part="U4" gate="G$1" pin="GND"/>
+<wire x1="50.8" y1="20.32" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="27.94" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="GND25" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -10625,8 +10807,45 @@ MotionTracking device that is ideally suited for smartphones, tablets, wearable 
 <segment>
 <pinref part="IC3" gate="G$1" pin="VCC"/>
 <pinref part="P+15" gate="VCC" pin="VCC"/>
-<wire x1="78.74" y1="119.38" x2="78.74" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="116.84" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="121.92" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="119.38" x2="83.82" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="IN"/>
+<wire x1="5.08" y1="76.2" x2="10.16" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="76.2" x2="17.78" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="76.2" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="73.66" x2="10.16" y2="76.2" width="0.1524" layer="91"/>
+<junction x="10.16" y="76.2"/>
+<pinref part="U$1" gate="G$1" pin="EN"/>
+<wire x1="20.32" y1="71.12" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="71.12" x2="17.78" y2="76.2" width="0.1524" layer="91"/>
+<junction x="17.78" y="76.2"/>
+<pinref part="P+16" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="OUT"/>
+<pinref part="P+17" gate="VCC" pin="VCC"/>
+<wire x1="43.18" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="VDD"/>
+<wire x1="53.34" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="VDDIO"/>
+<wire x1="53.34" y1="38.1" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="38.1" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="27.94" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<junction x="50.8" y="40.64"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="27.94" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="40.64" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
+<junction x="38.1" y="40.64"/>
+<wire x1="30.48" y1="40.64" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
+<junction x="30.48" y="40.64"/>
+<pinref part="P+18" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 <net name="CHARGER_EN" class="0">
@@ -10705,8 +10924,8 @@ MotionTracking device that is ideally suited for smartphones, tablets, wearable 
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="SDA"/>
-<wire x1="114.3" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
-<label x="119.38" y="116.84" size="1.27" layer="95" xref="yes"/>
+<wire x1="114.3" y1="119.38" x2="119.38" y2="119.38" width="0.1524" layer="91"/>
+<label x="119.38" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -10717,8 +10936,8 @@ MotionTracking device that is ideally suited for smartphones, tablets, wearable 
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="SCL"/>
-<wire x1="114.3" y1="119.38" x2="119.38" y2="119.38" width="0.1524" layer="91"/>
-<label x="119.38" y="119.38" size="1.27" layer="95" xref="yes"/>
+<wire x1="114.3" y1="121.92" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
+<label x="119.38" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="QST" class="0">
@@ -10752,8 +10971,37 @@ MotionTracking device that is ideally suited for smartphones, tablets, wearable 
 <segment>
 <pinref part="IC3" gate="G$1" pin="VBAT"/>
 <pinref part="B1" gate="G$1" pin="+"/>
-<wire x1="114.3" y1="114.3" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="114.3" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="116.84" x2="121.92" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="116.84" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="U4" gate="G$1" pin="REGOUT"/>
+<wire x1="45.72" y1="27.94" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="30.48" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCL_IMU" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="SCL/SCLK"/>
+<wire x1="83.82" y1="33.02" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
+<label x="86.36" y="33.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SDA_IMU" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="SDA/SDI"/>
+<wire x1="83.82" y1="30.48" x2="86.36" y2="30.48" width="0.1524" layer="91"/>
+<label x="86.36" y="30.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="AD0" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="AD0/SDO"/>
+<wire x1="83.82" y1="27.94" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
+<label x="86.36" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
