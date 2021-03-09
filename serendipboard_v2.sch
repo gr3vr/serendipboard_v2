@@ -11047,7 +11047,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <text x="124.46" y="91.44" size="1.778" layer="95" rot="R180">motor</text>
 <text x="124.46" y="86.36" size="1.778" layer="95" rot="R180">buzzer</text>
 <text x="124.46" y="81.28" size="1.778" layer="95" rot="R180">battery_conn</text>
-<text x="27.94" y="91.44" size="1.778" layer="94" rot="R180">Battery Connector</text>
+<text x="149.86" y="25.4" size="1.778" layer="94" rot="R180">Battery Connector</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="35.56" y="157.48" smashed="yes">
@@ -11382,11 +11382,11 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <instance part="GND28" gate="1" x="238.76" y="50.8" smashed="yes">
 <attribute name="VALUE" x="236.22" y="48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="15.24" y="78.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.398" y="76.2" size="1.778" layer="95" rot="R90"/>
+<instance part="J1" gate="G$1" x="137.16" y="12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="131.318" y="10.16" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="P+22" gate="VCC" x="22.86" y="83.82" smashed="yes">
-<attribute name="VALUE" x="25.4" y="86.36" size="1.27" layer="96" rot="R180"/>
+<instance part="P+22" gate="VCC" x="144.78" y="17.78" smashed="yes">
+<attribute name="VALUE" x="147.32" y="20.32" size="1.27" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -11743,7 +11743,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="+"/>
-<wire x1="20.32" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="15.24" x2="144.78" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="P+22" gate="VCC" pin="VCC"/>
 </segment>
 </net>
@@ -11789,8 +11789,8 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="-"/>
-<wire x1="20.32" y1="78.74" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
-<label x="22.86" y="78.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="142.24" y1="12.7" x2="144.78" y2="12.7" width="0.1524" layer="91"/>
+<label x="144.78" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
