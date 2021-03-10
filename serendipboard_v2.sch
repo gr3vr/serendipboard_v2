@@ -13304,6 +13304,152 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="CP2102N-A01-GQFN28">
+<packages>
+<package name="QFN50P500X500X80-29N">
+<wire x1="-2.55" y1="2.55" x2="2.55" y2="2.55" width="0.127" layer="51"/>
+<wire x1="2.55" y1="2.55" x2="2.55" y2="-2.55" width="0.127" layer="51"/>
+<wire x1="2.55" y1="-2.55" x2="-2.55" y2="-2.55" width="0.127" layer="51"/>
+<wire x1="-2.55" y1="-2.55" x2="-2.55" y2="2.55" width="0.127" layer="51"/>
+<wire x1="-3.12" y1="3.12" x2="3.12" y2="3.12" width="0.05" layer="39"/>
+<wire x1="3.12" y1="3.12" x2="3.12" y2="-3.12" width="0.05" layer="39"/>
+<wire x1="3.12" y1="-3.12" x2="-3.12" y2="-3.12" width="0.05" layer="39"/>
+<wire x1="-3.12" y1="-3.12" x2="-3.12" y2="3.12" width="0.05" layer="39"/>
+<circle x="-3.478" y="1.578" radius="0.07" width="0.2" layer="21"/>
+<text x="-3.5002" y="3.450109375" size="1.27245" layer="25">&gt;NAME</text>
+<text x="-3.35426875" y="-4.680709375" size="1.272540625" layer="27">&gt;VALUE</text>
+<wire x1="-2" y1="2.55" x2="-2.55" y2="2.55" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="2.55" x2="-2.55" y2="1.95" width="0.127" layer="21"/>
+<wire x1="2" y1="2.55" x2="2.55" y2="2.55" width="0.127" layer="21"/>
+<wire x1="2.55" y1="2.55" x2="2.55" y2="1.95" width="0.127" layer="21"/>
+<wire x1="2.55" y1="-2.1" x2="2.55" y2="-2.55" width="0.127" layer="21"/>
+<wire x1="2.55" y1="-2.55" x2="2" y2="-2.55" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-2" x2="-2.55" y2="-2.55" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-2.55" x2="-1.95" y2="-2.55" width="0.127" layer="21"/>
+<rectangle x1="0.1800875" y1="0.1800875" x2="1.33" y2="1.33" layer="31"/>
+<rectangle x1="-1.33181875" y1="0.180246875" x2="-0.18" y2="1.33" layer="31" rot="R90"/>
+<rectangle x1="-1.3314" y1="-1.3314" x2="-0.18" y2="-0.18" layer="31" rot="R180"/>
+<rectangle x1="0.18026875" y1="-1.33198125" x2="1.33" y2="-0.18" layer="31" rot="R270"/>
+<smd name="1" x="-2.36" y="1.5" dx="1.01" dy="0.27" layer="1" roundness="50"/>
+<smd name="2" x="-2.36" y="1" dx="1.01" dy="0.27" layer="1" roundness="50"/>
+<smd name="3" x="-2.36" y="0.5" dx="1.01" dy="0.27" layer="1" roundness="50"/>
+<smd name="4" x="-2.36" y="0" dx="1.01" dy="0.27" layer="1" roundness="50"/>
+<smd name="5" x="-2.36" y="-0.5" dx="1.01" dy="0.27" layer="1" roundness="50"/>
+<smd name="6" x="-2.36" y="-1" dx="1.01" dy="0.27" layer="1" roundness="50"/>
+<smd name="7" x="-2.36" y="-1.5" dx="1.01" dy="0.27" layer="1" roundness="50"/>
+<smd name="8" x="-1.5" y="-2.36" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R90"/>
+<smd name="9" x="-1" y="-2.36" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R90"/>
+<smd name="10" x="-0.5" y="-2.36" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R90"/>
+<smd name="11" x="0" y="-2.36" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R90"/>
+<smd name="12" x="0.5" y="-2.36" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R90"/>
+<smd name="13" x="1" y="-2.36" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R90"/>
+<smd name="14" x="1.5" y="-2.36" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R90"/>
+<smd name="15" x="2.36" y="-1.5" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R180"/>
+<smd name="16" x="2.36" y="-1" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R180"/>
+<smd name="17" x="2.36" y="-0.5" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R180"/>
+<smd name="18" x="2.36" y="0" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R180"/>
+<smd name="19" x="2.36" y="0.5" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R180"/>
+<smd name="20" x="2.36" y="1" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R180"/>
+<smd name="21" x="2.36" y="1.5" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R180"/>
+<smd name="22" x="1.5" y="2.36" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R270"/>
+<smd name="23" x="1" y="2.36" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R270"/>
+<smd name="24" x="0.5" y="2.36" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R270"/>
+<smd name="25" x="0" y="2.36" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R270"/>
+<smd name="26" x="-0.5" y="2.36" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R270"/>
+<smd name="27" x="-1" y="2.36" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R270"/>
+<smd name="28" x="-1.5" y="2.36" dx="1.01" dy="0.27" layer="1" roundness="50" rot="R270"/>
+<smd name="29" x="0" y="0" dx="3.25" dy="3.25" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CP2102N-A01-GQFN28">
+<wire x1="-17.78" y1="30.48" x2="17.78" y2="30.48" width="0.254" layer="94"/>
+<wire x1="17.78" y1="30.48" x2="17.78" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-30.48" x2="-17.78" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-30.48" x2="-17.78" y2="30.48" width="0.254" layer="94"/>
+<text x="-17.8368" y="31.0839" size="1.6829" layer="95">&gt;NAME</text>
+<text x="-17.8088" y="-33.073" size="1.679509375" layer="96">&gt;VALUE</text>
+<pin name="GPIO.1/RXT" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="GPIO.0/TXT" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="GND" x="22.86" y="-27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="D+" x="-22.86" y="-2.54" length="middle"/>
+<pin name="D-" x="-22.86" y="-5.08" length="middle"/>
+<pin name="VDD" x="22.86" y="27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="VREGIN" x="22.86" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="VBUS" x="22.86" y="25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="!RST" x="-22.86" y="-10.16" length="middle" direction="in"/>
+<pin name="!SUSPENDB" x="22.86" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="CHREN" x="22.86" y="-22.86" length="middle" direction="out" rot="R180"/>
+<pin name="SUSPEND" x="22.86" y="-12.7" length="middle" direction="out" rot="R180"/>
+<pin name="CTS" x="-22.86" y="10.16" length="middle" direction="in"/>
+<pin name="RTS" x="-22.86" y="12.7" length="middle" direction="out"/>
+<pin name="RXD" x="-22.86" y="17.78" length="middle" direction="in"/>
+<pin name="TXD" x="-22.86" y="15.24" length="middle" direction="out"/>
+<pin name="GPIO.2/RS485" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="GPIO.3/WAKEUP" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="DSR" x="-22.86" y="7.62" length="middle" direction="in"/>
+<pin name="DTR" x="-22.86" y="5.08" length="middle" direction="out"/>
+<pin name="DCD" x="-22.86" y="2.54" length="middle" direction="in"/>
+<pin name="RI/CLK" x="-22.86" y="-17.78" length="middle"/>
+<pin name="CHR1" x="22.86" y="-17.78" length="middle" direction="out" rot="R180"/>
+<pin name="CHR0" x="22.86" y="-20.32" length="middle" direction="out" rot="R180"/>
+<pin name="GPIO.6" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="GPIO.4" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="GPIO.5" x="22.86" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CP2102N-A01-GQFN28" prefix="U">
+<description>Ic Bridge Usb To Uart 28qfn &lt;a href="https://pricing.snapeda.com/parts/CP2102N-A01-GQFN28/Silicon%20Labs/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CP2102N-A01-GQFN28" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN50P500X500X80-29N">
+<connects>
+<connect gate="G$1" pin="!RST" pad="9"/>
+<connect gate="G$1" pin="!SUSPENDB" pad="11"/>
+<connect gate="G$1" pin="CHR0" pad="15"/>
+<connect gate="G$1" pin="CHR1" pad="14"/>
+<connect gate="G$1" pin="CHREN" pad="13"/>
+<connect gate="G$1" pin="CTS" pad="23"/>
+<connect gate="G$1" pin="D+" pad="4"/>
+<connect gate="G$1" pin="D-" pad="5"/>
+<connect gate="G$1" pin="DCD" pad="1"/>
+<connect gate="G$1" pin="DSR" pad="27"/>
+<connect gate="G$1" pin="DTR" pad="28"/>
+<connect gate="G$1" pin="GND" pad="3 29"/>
+<connect gate="G$1" pin="GPIO.0/TXT" pad="19"/>
+<connect gate="G$1" pin="GPIO.1/RXT" pad="18"/>
+<connect gate="G$1" pin="GPIO.2/RS485" pad="17"/>
+<connect gate="G$1" pin="GPIO.3/WAKEUP" pad="16"/>
+<connect gate="G$1" pin="GPIO.4" pad="22"/>
+<connect gate="G$1" pin="GPIO.5" pad="21"/>
+<connect gate="G$1" pin="GPIO.6" pad="20"/>
+<connect gate="G$1" pin="RI/CLK" pad="2"/>
+<connect gate="G$1" pin="RTS" pad="24"/>
+<connect gate="G$1" pin="RXD" pad="25"/>
+<connect gate="G$1" pin="SUSPEND" pad="12"/>
+<connect gate="G$1" pin="TXD" pad="26"/>
+<connect gate="G$1" pin="VBUS" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="6"/>
+<connect gate="G$1" pin="VREGIN" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Bad"/>
+<attribute name="DESCRIPTION" value=" USB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5) "/>
+<attribute name="MF" value="Silicon Labs"/>
+<attribute name="MP" value="CP2102N-A01-GQFN28"/>
+<attribute name="PACKAGE" value="QFN-28 Silicon Labs"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13447,6 +13593,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q7" library="SparkFun-DiscreteSemi" deviceset="TRANS_PNP_DUAL" device="SOT-363" package3d_urn="urn:adsk.eagle:package:29757/2"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="U7" library="CP2102N-A01-GQFN28" deviceset="CP2102N-A01-GQFN28" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14631,9 +14778,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="17.9841" y="82.3945" size="1.778" layer="95"/>
 <attribute name="VALUE" x="17.7333" y="15.1319" size="1.778" layer="96"/>
 </instance>
-<instance part="U6" gate="G$1" x="226.06" y="149.86" smashed="yes">
-<attribute name="NAME" x="208.28" y="172.974" size="1.778" layer="95"/>
-<attribute name="VALUE" x="208.28" y="124.46" size="1.778" layer="96"/>
+<instance part="U6" gate="G$1" x="220.98" y="149.86" smashed="yes">
+<attribute name="NAME" x="203.2" y="172.974" size="1.778" layer="95"/>
+<attribute name="VALUE" x="203.2" y="124.46" size="1.778" layer="96"/>
 </instance>
 <instance part="J4" gate="G$1" x="134.62" y="152.4" smashed="yes">
 <attribute name="VALUE" x="129.54" y="142.494" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
@@ -14668,6 +14815,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R23" gate="G$1" x="165.1" y="66.04" smashed="yes">
 <attribute name="NAME" x="161.29" y="67.5386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="161.29" y="62.738" size="1.778" layer="96"/>
+</instance>
+<instance part="U7" gate="G$1" x="96.52" y="114.3" smashed="yes" rot="MR0">
+<attribute name="NAME" x="114.3568" y="145.3839" size="1.6829" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="114.3288" y="81.227" size="1.679509375" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -14744,30 +14895,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J4" gate="G$1" pin="D+"/>
 <wire x1="139.7" y1="154.94" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
 <label x="142.24" y="154.94" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="D-"/>
-<wire x1="205.74" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="D+"/>
-<wire x1="205.74" y1="149.86" x2="203.2" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="VBUS"/>
-<wire x1="205.74" y1="152.4" x2="203.2" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="VREGIN"/>
-<wire x1="205.74" y1="154.94" x2="203.2" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
