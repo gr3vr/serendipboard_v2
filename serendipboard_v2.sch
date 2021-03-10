@@ -9977,7 +9977,40 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="-1.27" y="0" radius="1.02390625" width="0" layer="30"/>
 <circle x="1.27" y="0" radius="0.508" width="0" layer="29"/>
 </package>
+<package name="SOT363_PHILIPS" urn="urn:adsk.eagle:footprint:29648/1" locally_modified="yes">
+<description>&lt;b&gt;Small Outline Transistor; 6 leads&lt;/b&gt;&lt;p&gt;
+Philips Semiconductors, SOT363.pdf</description>
+<wire x1="-1" y1="0.55" x2="1" y2="0.55" width="0.2032" layer="51"/>
+<wire x1="1" y1="0.55" x2="1" y2="-0.55" width="0.2032" layer="21"/>
+<wire x1="1" y1="-0.55" x2="-1" y2="-0.55" width="0.2032" layer="51"/>
+<wire x1="-1" y1="-0.55" x2="-1" y2="0.55" width="0.2032" layer="21"/>
+<circle x="-0.7" y="-0.25" radius="0.15" width="0" layer="21"/>
+<smd name="1" x="-0.65" y="-0.8" dx="0.4" dy="0.8" layer="1"/>
+<smd name="2" x="0" y="-0.8" dx="0.4" dy="0.8" layer="1"/>
+<smd name="3" x="0.65" y="-0.8" dx="0.4" dy="0.8" layer="1"/>
+<smd name="4" x="0.65" y="0.8" dx="0.4" dy="0.8" layer="1"/>
+<smd name="5" x="0" y="0.8" dx="0.4" dy="0.8" layer="1"/>
+<smd name="6" x="-0.65" y="0.8" dx="0.4" dy="0.8" layer="1"/>
+<text x="-1.1" y="1.45" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-2.7" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="-1.1" x2="-0.5" y2="-0.6" layer="51"/>
+<rectangle x1="-0.15" y1="-1.1" x2="0.15" y2="-0.6" layer="51"/>
+<rectangle x1="0.5" y1="-1.1" x2="0.8" y2="-0.6" layer="51"/>
+<rectangle x1="0.5" y1="0.6" x2="0.8" y2="1.1" layer="51"/>
+<rectangle x1="-0.15" y1="0.6" x2="0.15" y2="1.1" layer="51"/>
+<rectangle x1="-0.8" y1="0.6" x2="-0.5" y2="1.1" layer="51"/>
+<circle x="-1.1064" y="-1.012" radius="0.15" width="0" layer="21"/>
+</package>
 </packages>
+<packages3d>
+<package3d name="SOT363_PHILIPS" urn="urn:adsk.eagle:package:29757/2" type="model">
+<description>Small Outline Transistor; 6 leads
+Philips Semiconductors, SOT363.pdf</description>
+<packageinstances>
+<packageinstance name="SOT363_PHILIPS"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="LABELED-NMOS">
 <description>&lt;h3&gt; N-channel MOSFET transistor&lt;/h3&gt;
@@ -10039,6 +10072,25 @@ Allows current flow when high potential at base.</description>
 <pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
 <pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
+<symbol name="PNP">
+<description>&lt;h3&gt; PNP Transistor&lt;/h3&gt;</description>
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.778" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="1.524" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="1.524" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.2192" y1="2.3114" x2="1.5748" y2="1.6256" width="0.2032" layer="94"/>
+<wire x1="1.143" y1="2.159" x2="1.397" y2="1.6256" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="2.032" x2="1.2192" y2="1.6256" width="0.2032" layer="94"/>
+<wire x1="0.9398" y1="1.8796" x2="1.0414" y2="1.651" width="0.2032" layer="94"/>
+<wire x1="0.8128" y1="1.778" x2="0.889" y2="1.6256" width="0.2032" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="-0.254" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10248,6 +10300,39 @@ Allows current flow when high potential at base.</description>
 <technology name="">
 <attribute name="PROD_ID" value="TRANS-08447"/>
 <attribute name="VALUE" value="200mA/40V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TRANS_PNP_DUAL" prefix="Q" uservalue="yes">
+<description>&lt;h3&gt; Dual PNP Transistors in Single Package&lt;/h3&gt;
+&lt;p&gt;The BCM857BS puts two PNP transistors in a single package.&lt;/p&gt;
+&lt;p&gt;Bipolar (BJT) Transistor Array 2 PNP (Dual) 45V 100mA 100MHz 200mW Surface Mount SOT-363&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.diodes.com/assets/Datasheets/BCM857BS.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com”&gt;SparkFun Pi Servo HAT V2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="10.16"/>
+<gate name="G$2" symbol="PNP" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="SOT-363" package="SOT363_PHILIPS">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="6"/>
+<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="G$2" pin="B" pad="5"/>
+<connect gate="G$2" pin="C" pad="3"/>
+<connect gate="G$2" pin="E" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29757/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRAN-14386" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -11913,6 +11998,37 @@ Part Number: HA-522</description>
 <wire x1="3" y1="2.95" x2="4.05" y2="2.95" width="0.2032" layer="21"/>
 <wire x1="4.05" y1="2" x2="4.05" y2="2.95" width="0.2032" layer="21"/>
 </package>
+<package name="USB-MINIB">
+<description>&lt;h3&gt;USB Type Mini-B Surface Mounted&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 5 main, 4 shield pins&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.sparkfun.com/datasheets/Prototyping/miniUSB-Dimensional.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;USB_Mini-B&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-1.3" y1="3.8" x2="0.8" y2="3.8" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="3.1" x2="3.3" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="-2.2" x2="3.3" y2="-3.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="-3.8" x2="-1.3" y2="-3.8" width="0.2032" layer="21"/>
+<wire x1="-5.9" y1="3.8" x2="-5.9" y2="-3.8" width="0.2032" layer="51"/>
+<wire x1="-5.9" y1="-3.8" x2="-4.5" y2="-3.8" width="0.2032" layer="51"/>
+<wire x1="-5.9" y1="3.8" x2="-4.5" y2="3.8" width="0.2032" layer="51"/>
+<smd name="D+" x="2.5" y="0" dx="2.5" dy="0.5" layer="1"/>
+<smd name="D-" x="2.5" y="0.8" dx="2.5" dy="0.5" layer="1"/>
+<smd name="GND" x="2.5" y="-1.6" dx="2.5" dy="0.5" layer="1"/>
+<smd name="ID" x="2.5" y="-0.8" dx="2.5" dy="0.5" layer="1"/>
+<smd name="S3" x="-3" y="-4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="S1" x="-3" y="4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="S4" x="2.5" y="-4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="S2" x="2.5" y="4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="VBUS" x="2.5" y="1.6" dx="2.5" dy="0.5" layer="1"/>
+<text x="-3.81" y="6.35" size="0.8128" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-3.81" y="-6.35" size="0.8128" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+<hole x="0" y="2.2" drill="0.9"/>
+<hole x="0" y="-2.2" drill="0.9"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JST_2MM_MALE">
@@ -11972,6 +12088,24 @@ Part Number: HA-522</description>
 <pin name="2" x="5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="USB-5PIN">
+<description>&lt;h3&gt;USB - 5 pin&lt;/h3&gt;
+&lt;p&gt;5 pin USB connector: VBUS, GND, D+, D-, ID &lt;/p&gt;
+&lt;p&gt;Includes 4 pins for shield connections &lt;/p&gt;</description>
+<wire x1="-2.54" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<text x="0" y="1.524" size="2.54" layer="94" rot="R270" align="center">USB</text>
+<pin name="D+" x="5.08" y="2.54" visible="pad" length="short" rot="R180"/>
+<pin name="D-" x="5.08" y="5.08" visible="pad" length="short" rot="R180"/>
+<pin name="VBUS" x="5.08" y="7.62" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="5.08" y="-2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="ID" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="SHIELD" x="5.08" y="-5.08" visible="pad" length="short" rot="R180"/>
+<text x="-2.54" y="-9.906" size="1.778" layer="96" font="vector" rot="MR180" align="top-left">&gt;VALUE</text>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<text x="-2.54" y="10.414" size="1.778" layer="95" font="vector">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -12643,6 +12777,36 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </device>
 </devices>
 </deviceset>
+<deviceset name="USB_MINI-B" prefix="J">
+<description>&lt;h3&gt;USB type Mini-B Connector&lt;/h3&gt;
+&lt;p&gt;Breaks out 5th pin, and includes shield pins if needed.&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9716”&gt;SparkFun FTDI Basic Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11812”&gt;SparkFun XBee Explorer USB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12757”&gt;SparkFun Redboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="USB-5PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMT" package="USB-MINIB">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="ID" pad="ID"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-08193"/>
+<attribute name="SF_ID" value="PRT-00587" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="ESP32-WROOM-32D" urn="urn:adsk.eagle:library:27379448">
@@ -12853,6 +13017,293 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-IC-Comms">
+<description>&lt;h3&gt;SparkFun Communication ICs&lt;/h3&gt;
+This is the communications library, which contains things that exist on wired busses.  This includes USB to serial conversion ICs, like the FTDI line, plus high speed line drivers, level shifters, bus drivers, CAN transceivers and ethernet PHYs.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="QFN24">
+<smd name="24" x="-1.25" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-1.37" y="2.44"/>
+<vertex x="-1.13" y="2.44"/>
+<vertex x="-1.13" y="1.66"/>
+<vertex x="-1.37" y="1.66"/>
+</polygon>
+<smd name="23" x="-0.75" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-0.87" y="2.44"/>
+<vertex x="-0.63" y="2.44"/>
+<vertex x="-0.63" y="1.66"/>
+<vertex x="-0.87" y="1.66"/>
+</polygon>
+<smd name="22" x="-0.25" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-0.37" y="2.44"/>
+<vertex x="-0.13" y="2.44"/>
+<vertex x="-0.13" y="1.66"/>
+<vertex x="-0.37" y="1.66"/>
+</polygon>
+<smd name="21" x="0.25" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.13" y="2.44"/>
+<vertex x="0.37" y="2.44"/>
+<vertex x="0.37" y="1.66"/>
+<vertex x="0.13" y="1.66"/>
+</polygon>
+<smd name="20" x="0.75" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.63" y="2.44"/>
+<vertex x="0.87" y="2.44"/>
+<vertex x="0.87" y="1.66"/>
+<vertex x="0.63" y="1.66"/>
+</polygon>
+<smd name="19" x="1.25" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="1.13" y="2.44"/>
+<vertex x="1.37" y="2.44"/>
+<vertex x="1.37" y="1.66"/>
+<vertex x="1.13" y="1.66"/>
+</polygon>
+<smd name="18" x="2.05" y="1.25" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="2.44" y="1.37"/>
+<vertex x="2.44" y="1.13"/>
+<vertex x="1.66" y="1.13"/>
+<vertex x="1.66" y="1.37"/>
+</polygon>
+<smd name="17" x="2.05" y="0.75" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="2.44" y="0.87"/>
+<vertex x="2.44" y="0.63"/>
+<vertex x="1.66" y="0.63"/>
+<vertex x="1.66" y="0.87"/>
+</polygon>
+<smd name="16" x="2.05" y="0.25" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="2.44" y="0.37"/>
+<vertex x="2.44" y="0.13"/>
+<vertex x="1.66" y="0.13"/>
+<vertex x="1.66" y="0.37"/>
+</polygon>
+<smd name="15" x="2.05" y="-0.25" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="2.44" y="-0.13"/>
+<vertex x="2.44" y="-0.37"/>
+<vertex x="1.66" y="-0.37"/>
+<vertex x="1.66" y="-0.13"/>
+</polygon>
+<smd name="14" x="2.05" y="-0.75" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="2.44" y="-0.63"/>
+<vertex x="2.44" y="-0.87"/>
+<vertex x="1.66" y="-0.87"/>
+<vertex x="1.66" y="-0.63"/>
+</polygon>
+<smd name="13" x="2.05" y="-1.25" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="2.44" y="-1.13"/>
+<vertex x="2.44" y="-1.37"/>
+<vertex x="1.66" y="-1.37"/>
+<vertex x="1.66" y="-1.13"/>
+</polygon>
+<smd name="6" x="-2.05" y="-1.25" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-2.44" y="-1.37"/>
+<vertex x="-2.44" y="-1.13"/>
+<vertex x="-1.66" y="-1.13"/>
+<vertex x="-1.66" y="-1.37"/>
+</polygon>
+<smd name="5" x="-2.05" y="-0.75" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-2.44" y="-0.87"/>
+<vertex x="-2.44" y="-0.63"/>
+<vertex x="-1.66" y="-0.63"/>
+<vertex x="-1.66" y="-0.87"/>
+</polygon>
+<smd name="4" x="-2.05" y="-0.25" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-2.44" y="-0.37"/>
+<vertex x="-2.44" y="-0.13"/>
+<vertex x="-1.66" y="-0.13"/>
+<vertex x="-1.66" y="-0.37"/>
+</polygon>
+<smd name="3" x="-2.05" y="0.25" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-2.44" y="0.13"/>
+<vertex x="-2.44" y="0.37"/>
+<vertex x="-1.66" y="0.37"/>
+<vertex x="-1.66" y="0.13"/>
+</polygon>
+<smd name="2" x="-2.05" y="0.75" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-2.44" y="0.63"/>
+<vertex x="-2.44" y="0.87"/>
+<vertex x="-1.66" y="0.87"/>
+<vertex x="-1.66" y="0.63"/>
+</polygon>
+<smd name="1" x="-2.05" y="1.25" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-2.44" y="1.13"/>
+<vertex x="-2.44" y="1.37"/>
+<vertex x="-1.66" y="1.37"/>
+<vertex x="-1.66" y="1.13"/>
+</polygon>
+<smd name="12" x="1.25" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="1.37" y="-2.44"/>
+<vertex x="1.13" y="-2.44"/>
+<vertex x="1.13" y="-1.66"/>
+<vertex x="1.37" y="-1.66"/>
+</polygon>
+<smd name="11" x="0.75" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.87" y="-2.44"/>
+<vertex x="0.63" y="-2.44"/>
+<vertex x="0.63" y="-1.66"/>
+<vertex x="0.87" y="-1.66"/>
+</polygon>
+<smd name="10" x="0.25" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="0.37" y="-2.44"/>
+<vertex x="0.13" y="-2.44"/>
+<vertex x="0.13" y="-1.66"/>
+<vertex x="0.37" y="-1.66"/>
+</polygon>
+<smd name="9" x="-0.25" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-0.13" y="-2.44"/>
+<vertex x="-0.37" y="-2.44"/>
+<vertex x="-0.37" y="-1.66"/>
+<vertex x="-0.13" y="-1.66"/>
+</polygon>
+<smd name="8" x="-0.75" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-0.63" y="-2.44"/>
+<vertex x="-0.87" y="-2.44"/>
+<vertex x="-0.87" y="-1.66"/>
+<vertex x="-0.63" y="-1.66"/>
+</polygon>
+<smd name="7" x="-1.25" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
+<polygon width="0.01" layer="31">
+<vertex x="-1.13" y="-2.44"/>
+<vertex x="-1.37" y="-2.44"/>
+<vertex x="-1.37" y="-1.66"/>
+<vertex x="-1.13" y="-1.66"/>
+</polygon>
+<circle x="-2.52" y="2.5" radius="0.1555625" width="0.127" layer="21"/>
+<polygon width="0.127" layer="31">
+<vertex x="-1" y="1"/>
+<vertex x="-0.25" y="1"/>
+<vertex x="-0.25" y="0.25"/>
+<vertex x="-1" y="0.25"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="1" y="1"/>
+<vertex x="0.25" y="1"/>
+<vertex x="0.25" y="0.25"/>
+<vertex x="1" y="0.25"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="1" y="-1"/>
+<vertex x="1" y="-0.25"/>
+<vertex x="0.25" y="-0.25"/>
+<vertex x="0.25" y="-1"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1" y="-1"/>
+<vertex x="-1" y="-0.25"/>
+<vertex x="-0.25" y="-0.25"/>
+<vertex x="-0.25" y="-1"/>
+</polygon>
+<text x="0" y="2.794" size="0.6096" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0.127" y="-2.667" size="0.6096" layer="27" ratio="20" align="top-center">&gt;VALUE</text>
+<smd name="PAD" x="0" y="0" dx="2.55" dy="2.55" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CP2102N">
+<wire x1="-17.78" y1="-22.86" x2="17.78" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-22.86" x2="17.78" y2="22.86" width="0.254" layer="94"/>
+<wire x1="17.78" y1="22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="22.86" x2="-17.78" y2="-22.86" width="0.254" layer="94"/>
+<pin name="!RI!/CLK" x="20.32" y="0" length="short" rot="R180"/>
+<pin name="GND" x="-20.32" y="-20.32" length="short"/>
+<pin name="D+" x="-20.32" y="0" length="short"/>
+<pin name="D-" x="-20.32" y="-2.54" length="short"/>
+<pin name="VIO" x="-20.32" y="17.78" length="short"/>
+<pin name="VDD" x="-20.32" y="20.32" length="short"/>
+<pin name="VREGIN" x="-20.32" y="5.08" length="short"/>
+<pin name="VBUS" x="-20.32" y="2.54" length="short"/>
+<pin name="!RSTB" x="-20.32" y="15.24" length="short"/>
+<pin name="GPIO3/WAKEUP" x="20.32" y="-17.78" length="short" rot="R180"/>
+<pin name="GPIO2/RS485" x="20.32" y="-20.32" length="short" rot="R180"/>
+<pin name="GPIO1/RXT" x="20.32" y="-12.7" length="short" rot="R180"/>
+<pin name="GPIO0/TXT" x="20.32" y="-10.16" length="short" rot="R180"/>
+<pin name="SUSPENDB" x="20.32" y="-7.62" length="short" rot="R180"/>
+<pin name="SUSPEND" x="20.32" y="-5.08" length="short" rot="R180"/>
+<pin name="CTS" x="20.32" y="2.54" length="short" rot="R180"/>
+<pin name="RTS" x="20.32" y="5.08" length="short" rot="R180"/>
+<pin name="RXD" x="20.32" y="17.78" length="short" rot="R180"/>
+<pin name="TXD" x="20.32" y="20.32" length="short" rot="R180"/>
+<pin name="DSR" x="20.32" y="7.62" length="short" rot="R180"/>
+<pin name="DTR" x="20.32" y="10.16" length="short" rot="R180"/>
+<pin name="DCD" x="20.32" y="12.7" length="short" rot="R180"/>
+<text x="-17.78" y="23.114" size="1.778" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CP2102N" prefix="U">
+<gates>
+<gate name="G$1" symbol="CP2102N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN24">
+<connects>
+<connect gate="G$1" pin="!RI!/CLK" pad="1"/>
+<connect gate="G$1" pin="!RSTB" pad="9"/>
+<connect gate="G$1" pin="CTS" pad="18"/>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="4"/>
+<connect gate="G$1" pin="DCD" pad="24"/>
+<connect gate="G$1" pin="DSR" pad="22"/>
+<connect gate="G$1" pin="DTR" pad="23"/>
+<connect gate="G$1" pin="GND" pad="2 PAD"/>
+<connect gate="G$1" pin="GPIO0/TXT" pad="14"/>
+<connect gate="G$1" pin="GPIO1/RXT" pad="13"/>
+<connect gate="G$1" pin="GPIO2/RS485" pad="12"/>
+<connect gate="G$1" pin="GPIO3/WAKEUP" pad="11"/>
+<connect gate="G$1" pin="RTS" pad="19"/>
+<connect gate="G$1" pin="RXD" pad="20"/>
+<connect gate="G$1" pin="SUSPEND" pad="17"/>
+<connect gate="G$1" pin="SUSPENDB" pad="15"/>
+<connect gate="G$1" pin="TXD" pad="21"/>
+<connect gate="G$1" pin="VBUS" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="6"/>
+<connect gate="G$1" pin="VIO" pad="5"/>
+<connect gate="G$1" pin="VREGIN" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-14020"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12987,6 +13438,15 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3Vesp"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VIN"/>
 <part name="U5" library="ESP32-WROOM-32D" library_urn="urn:adsk.eagle:library:27379448" deviceset="ESP32-WROOM-32D" device="" package3d_urn="urn:adsk.eagle:package:27379451/1"/>
+<part name="U6" library="SparkFun-IC-Comms" deviceset="CP2102N" device=""/>
+<part name="J4" library="SparkFun-Connectors" deviceset="USB_MINI-B" device="_SMT" value="USB_MINI"/>
+<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
+<part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VBUS"/>
+<part name="Q7" library="SparkFun-DiscreteSemi" deviceset="TRANS_PNP_DUAL" device="SOT-363" package3d_urn="urn:adsk.eagle:package:29757/2"/>
+<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -14167,9 +14627,47 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <instance part="P+9" gate="VCC" x="12.7" y="165.1" smashed="yes">
 <attribute name="VALUE" x="15.24" y="167.64" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="U5" gate="G$1" x="124.46" y="137.16" smashed="yes">
-<attribute name="NAME" x="109.4241" y="168.7545" size="1.778" layer="95"/>
-<attribute name="VALUE" x="109.1733" y="101.4919" size="1.778" layer="96"/>
+<instance part="U5" gate="G$1" x="33.02" y="50.8" smashed="yes">
+<attribute name="NAME" x="17.9841" y="82.3945" size="1.778" layer="95"/>
+<attribute name="VALUE" x="17.7333" y="15.1319" size="1.778" layer="96"/>
+</instance>
+<instance part="U6" gate="G$1" x="226.06" y="149.86" smashed="yes">
+<attribute name="NAME" x="208.28" y="172.974" size="1.778" layer="95"/>
+<attribute name="VALUE" x="208.28" y="124.46" size="1.778" layer="96"/>
+</instance>
+<instance part="J4" gate="G$1" x="134.62" y="152.4" smashed="yes">
+<attribute name="VALUE" x="129.54" y="142.494" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
+<attribute name="NAME" x="132.08" y="162.814" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="R21" gate="G$1" x="165.1" y="127" smashed="yes">
+<attribute name="NAME" x="161.29" y="128.4986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.29" y="123.698" size="1.778" layer="96"/>
+</instance>
+<instance part="C18" gate="G$1" x="177.8" y="114.3" smashed="yes" rot="MR0">
+<attribute name="NAME" x="176.276" y="114.681" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="176.276" y="109.601" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND36" gate="1" x="144.78" y="144.78" smashed="yes">
+<attribute name="VALUE" x="142.24" y="142.24" size="1.27" layer="96"/>
+</instance>
+<instance part="P+29" gate="VCC" x="144.78" y="162.56" smashed="yes">
+<attribute name="VALUE" x="147.32" y="165.1" size="1.27" layer="96" rot="R180"/>
+</instance>
+<instance part="Q7" gate="G$1" x="175.26" y="86.36" smashed="yes" rot="MR180">
+<attribute name="NAME" x="177.8" y="86.36" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="177.8" y="86.614" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
+</instance>
+<instance part="Q7" gate="G$2" x="175.26" y="66.04" smashed="yes">
+<attribute name="NAME" x="177.8" y="66.04" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="177.8" y="65.786" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="R22" gate="G$1" x="165.1" y="86.36" smashed="yes">
+<attribute name="NAME" x="161.29" y="87.8586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.29" y="83.058" size="1.778" layer="96"/>
+</instance>
+<instance part="R23" gate="G$1" x="165.1" y="66.04" smashed="yes">
+<attribute name="NAME" x="161.29" y="67.5386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.29" y="62.738" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -14188,6 +14686,12 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
 <pinref part="C9" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="GND"/>
+<wire x1="139.7" y1="149.86" x2="144.78" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="149.86" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="GND36" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -14213,6 +14717,11 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="VBUS"/>
+<wire x1="139.7" y1="160.02" x2="144.78" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="P+29" gate="VCC" pin="VCC"/>
+</segment>
 </net>
 <net name="N$8" class="0">
 <segment>
@@ -14221,6 +14730,44 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <wire x1="20.32" y1="160.02" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="EN"/>
 <pinref part="R5" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="D-" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="D-"/>
+<wire x1="139.7" y1="157.48" x2="142.24" y2="157.48" width="0.1524" layer="91"/>
+<label x="142.24" y="157.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="D+" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="D+"/>
+<wire x1="139.7" y1="154.94" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
+<label x="142.24" y="154.94" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="D-"/>
+<wire x1="205.74" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="D+"/>
+<wire x1="205.74" y1="149.86" x2="203.2" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="VBUS"/>
+<wire x1="205.74" y1="152.4" x2="203.2" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="VREGIN"/>
+<wire x1="205.74" y1="154.94" x2="203.2" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
