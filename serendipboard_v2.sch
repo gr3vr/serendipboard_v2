@@ -13017,293 +13017,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-IC-Comms">
-<description>&lt;h3&gt;SparkFun Communication ICs&lt;/h3&gt;
-This is the communications library, which contains things that exist on wired busses.  This includes USB to serial conversion ICs, like the FTDI line, plus high speed line drivers, level shifters, bus drivers, CAN transceivers and ethernet PHYs.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="QFN24">
-<smd name="24" x="-1.25" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-1.37" y="2.44"/>
-<vertex x="-1.13" y="2.44"/>
-<vertex x="-1.13" y="1.66"/>
-<vertex x="-1.37" y="1.66"/>
-</polygon>
-<smd name="23" x="-0.75" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-0.87" y="2.44"/>
-<vertex x="-0.63" y="2.44"/>
-<vertex x="-0.63" y="1.66"/>
-<vertex x="-0.87" y="1.66"/>
-</polygon>
-<smd name="22" x="-0.25" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-0.37" y="2.44"/>
-<vertex x="-0.13" y="2.44"/>
-<vertex x="-0.13" y="1.66"/>
-<vertex x="-0.37" y="1.66"/>
-</polygon>
-<smd name="21" x="0.25" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="0.13" y="2.44"/>
-<vertex x="0.37" y="2.44"/>
-<vertex x="0.37" y="1.66"/>
-<vertex x="0.13" y="1.66"/>
-</polygon>
-<smd name="20" x="0.75" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="0.63" y="2.44"/>
-<vertex x="0.87" y="2.44"/>
-<vertex x="0.87" y="1.66"/>
-<vertex x="0.63" y="1.66"/>
-</polygon>
-<smd name="19" x="1.25" y="2.05" dx="0.3" dy="0.85" layer="1" rot="R180" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="1.13" y="2.44"/>
-<vertex x="1.37" y="2.44"/>
-<vertex x="1.37" y="1.66"/>
-<vertex x="1.13" y="1.66"/>
-</polygon>
-<smd name="18" x="2.05" y="1.25" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="2.44" y="1.37"/>
-<vertex x="2.44" y="1.13"/>
-<vertex x="1.66" y="1.13"/>
-<vertex x="1.66" y="1.37"/>
-</polygon>
-<smd name="17" x="2.05" y="0.75" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="2.44" y="0.87"/>
-<vertex x="2.44" y="0.63"/>
-<vertex x="1.66" y="0.63"/>
-<vertex x="1.66" y="0.87"/>
-</polygon>
-<smd name="16" x="2.05" y="0.25" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="2.44" y="0.37"/>
-<vertex x="2.44" y="0.13"/>
-<vertex x="1.66" y="0.13"/>
-<vertex x="1.66" y="0.37"/>
-</polygon>
-<smd name="15" x="2.05" y="-0.25" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="2.44" y="-0.13"/>
-<vertex x="2.44" y="-0.37"/>
-<vertex x="1.66" y="-0.37"/>
-<vertex x="1.66" y="-0.13"/>
-</polygon>
-<smd name="14" x="2.05" y="-0.75" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="2.44" y="-0.63"/>
-<vertex x="2.44" y="-0.87"/>
-<vertex x="1.66" y="-0.87"/>
-<vertex x="1.66" y="-0.63"/>
-</polygon>
-<smd name="13" x="2.05" y="-1.25" dx="0.3" dy="0.85" layer="1" rot="R90" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="2.44" y="-1.13"/>
-<vertex x="2.44" y="-1.37"/>
-<vertex x="1.66" y="-1.37"/>
-<vertex x="1.66" y="-1.13"/>
-</polygon>
-<smd name="6" x="-2.05" y="-1.25" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-2.44" y="-1.37"/>
-<vertex x="-2.44" y="-1.13"/>
-<vertex x="-1.66" y="-1.13"/>
-<vertex x="-1.66" y="-1.37"/>
-</polygon>
-<smd name="5" x="-2.05" y="-0.75" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-2.44" y="-0.87"/>
-<vertex x="-2.44" y="-0.63"/>
-<vertex x="-1.66" y="-0.63"/>
-<vertex x="-1.66" y="-0.87"/>
-</polygon>
-<smd name="4" x="-2.05" y="-0.25" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-2.44" y="-0.37"/>
-<vertex x="-2.44" y="-0.13"/>
-<vertex x="-1.66" y="-0.13"/>
-<vertex x="-1.66" y="-0.37"/>
-</polygon>
-<smd name="3" x="-2.05" y="0.25" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-2.44" y="0.13"/>
-<vertex x="-2.44" y="0.37"/>
-<vertex x="-1.66" y="0.37"/>
-<vertex x="-1.66" y="0.13"/>
-</polygon>
-<smd name="2" x="-2.05" y="0.75" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-2.44" y="0.63"/>
-<vertex x="-2.44" y="0.87"/>
-<vertex x="-1.66" y="0.87"/>
-<vertex x="-1.66" y="0.63"/>
-</polygon>
-<smd name="1" x="-2.05" y="1.25" dx="0.3" dy="0.85" layer="1" rot="R270" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-2.44" y="1.13"/>
-<vertex x="-2.44" y="1.37"/>
-<vertex x="-1.66" y="1.37"/>
-<vertex x="-1.66" y="1.13"/>
-</polygon>
-<smd name="12" x="1.25" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="1.37" y="-2.44"/>
-<vertex x="1.13" y="-2.44"/>
-<vertex x="1.13" y="-1.66"/>
-<vertex x="1.37" y="-1.66"/>
-</polygon>
-<smd name="11" x="0.75" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="0.87" y="-2.44"/>
-<vertex x="0.63" y="-2.44"/>
-<vertex x="0.63" y="-1.66"/>
-<vertex x="0.87" y="-1.66"/>
-</polygon>
-<smd name="10" x="0.25" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="0.37" y="-2.44"/>
-<vertex x="0.13" y="-2.44"/>
-<vertex x="0.13" y="-1.66"/>
-<vertex x="0.37" y="-1.66"/>
-</polygon>
-<smd name="9" x="-0.25" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-0.13" y="-2.44"/>
-<vertex x="-0.37" y="-2.44"/>
-<vertex x="-0.37" y="-1.66"/>
-<vertex x="-0.13" y="-1.66"/>
-</polygon>
-<smd name="8" x="-0.75" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-0.63" y="-2.44"/>
-<vertex x="-0.87" y="-2.44"/>
-<vertex x="-0.87" y="-1.66"/>
-<vertex x="-0.63" y="-1.66"/>
-</polygon>
-<smd name="7" x="-1.25" y="-2.05" dx="0.3" dy="0.85" layer="1" cream="no"/>
-<polygon width="0.01" layer="31">
-<vertex x="-1.13" y="-2.44"/>
-<vertex x="-1.37" y="-2.44"/>
-<vertex x="-1.37" y="-1.66"/>
-<vertex x="-1.13" y="-1.66"/>
-</polygon>
-<circle x="-2.52" y="2.5" radius="0.1555625" width="0.127" layer="21"/>
-<polygon width="0.127" layer="31">
-<vertex x="-1" y="1"/>
-<vertex x="-0.25" y="1"/>
-<vertex x="-0.25" y="0.25"/>
-<vertex x="-1" y="0.25"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="1" y="1"/>
-<vertex x="0.25" y="1"/>
-<vertex x="0.25" y="0.25"/>
-<vertex x="1" y="0.25"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="1" y="-1"/>
-<vertex x="1" y="-0.25"/>
-<vertex x="0.25" y="-0.25"/>
-<vertex x="0.25" y="-1"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="-1" y="-1"/>
-<vertex x="-1" y="-0.25"/>
-<vertex x="-0.25" y="-0.25"/>
-<vertex x="-0.25" y="-1"/>
-</polygon>
-<text x="0" y="2.794" size="0.6096" layer="25" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0.127" y="-2.667" size="0.6096" layer="27" ratio="20" align="top-center">&gt;VALUE</text>
-<smd name="PAD" x="0" y="0" dx="2.55" dy="2.55" layer="1" cream="no"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CP2102N">
-<wire x1="-17.78" y1="-22.86" x2="17.78" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-22.86" x2="17.78" y2="22.86" width="0.254" layer="94"/>
-<wire x1="17.78" y1="22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="22.86" x2="-17.78" y2="-22.86" width="0.254" layer="94"/>
-<pin name="!RI!/CLK" x="20.32" y="0" length="short" rot="R180"/>
-<pin name="GND" x="-20.32" y="-20.32" length="short"/>
-<pin name="D+" x="-20.32" y="0" length="short"/>
-<pin name="D-" x="-20.32" y="-2.54" length="short"/>
-<pin name="VIO" x="-20.32" y="17.78" length="short"/>
-<pin name="VDD" x="-20.32" y="20.32" length="short"/>
-<pin name="VREGIN" x="-20.32" y="5.08" length="short"/>
-<pin name="VBUS" x="-20.32" y="2.54" length="short"/>
-<pin name="!RSTB" x="-20.32" y="15.24" length="short"/>
-<pin name="GPIO3/WAKEUP" x="20.32" y="-17.78" length="short" rot="R180"/>
-<pin name="GPIO2/RS485" x="20.32" y="-20.32" length="short" rot="R180"/>
-<pin name="GPIO1/RXT" x="20.32" y="-12.7" length="short" rot="R180"/>
-<pin name="GPIO0/TXT" x="20.32" y="-10.16" length="short" rot="R180"/>
-<pin name="SUSPENDB" x="20.32" y="-7.62" length="short" rot="R180"/>
-<pin name="SUSPEND" x="20.32" y="-5.08" length="short" rot="R180"/>
-<pin name="CTS" x="20.32" y="2.54" length="short" rot="R180"/>
-<pin name="RTS" x="20.32" y="5.08" length="short" rot="R180"/>
-<pin name="RXD" x="20.32" y="17.78" length="short" rot="R180"/>
-<pin name="TXD" x="20.32" y="20.32" length="short" rot="R180"/>
-<pin name="DSR" x="20.32" y="7.62" length="short" rot="R180"/>
-<pin name="DTR" x="20.32" y="10.16" length="short" rot="R180"/>
-<pin name="DCD" x="20.32" y="12.7" length="short" rot="R180"/>
-<text x="-17.78" y="23.114" size="1.778" layer="95">&gt;NAME</text>
-<text x="-17.78" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CP2102N" prefix="U">
-<gates>
-<gate name="G$1" symbol="CP2102N" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="QFN24">
-<connects>
-<connect gate="G$1" pin="!RI!/CLK" pad="1"/>
-<connect gate="G$1" pin="!RSTB" pad="9"/>
-<connect gate="G$1" pin="CTS" pad="18"/>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="4"/>
-<connect gate="G$1" pin="DCD" pad="24"/>
-<connect gate="G$1" pin="DSR" pad="22"/>
-<connect gate="G$1" pin="DTR" pad="23"/>
-<connect gate="G$1" pin="GND" pad="2 PAD"/>
-<connect gate="G$1" pin="GPIO0/TXT" pad="14"/>
-<connect gate="G$1" pin="GPIO1/RXT" pad="13"/>
-<connect gate="G$1" pin="GPIO2/RS485" pad="12"/>
-<connect gate="G$1" pin="GPIO3/WAKEUP" pad="11"/>
-<connect gate="G$1" pin="RTS" pad="19"/>
-<connect gate="G$1" pin="RXD" pad="20"/>
-<connect gate="G$1" pin="SUSPEND" pad="17"/>
-<connect gate="G$1" pin="SUSPENDB" pad="15"/>
-<connect gate="G$1" pin="TXD" pad="21"/>
-<connect gate="G$1" pin="VBUS" pad="8"/>
-<connect gate="G$1" pin="VDD" pad="6"/>
-<connect gate="G$1" pin="VIO" pad="5"/>
-<connect gate="G$1" pin="VREGIN" pad="7"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-14020"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="CP2102N-A01-GQFN28">
 <packages>
 <package name="QFN50P500X500X80-29N">
@@ -13584,7 +13297,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3Vesp"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VIN"/>
 <part name="U5" library="ESP32-WROOM-32D" library_urn="urn:adsk.eagle:library:27379448" deviceset="ESP32-WROOM-32D" device="" package3d_urn="urn:adsk.eagle:package:27379451/1"/>
-<part name="U6" library="SparkFun-IC-Comms" deviceset="CP2102N" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="USB_MINI-B" device="_SMT" value="USB_MINI"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
@@ -14774,13 +14486,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="P+9" gate="VCC" x="12.7" y="165.1" smashed="yes">
 <attribute name="VALUE" x="15.24" y="167.64" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="U5" gate="G$1" x="33.02" y="50.8" smashed="yes">
-<attribute name="NAME" x="17.9841" y="82.3945" size="1.778" layer="95"/>
-<attribute name="VALUE" x="17.7333" y="15.1319" size="1.778" layer="96"/>
-</instance>
-<instance part="U6" gate="G$1" x="220.98" y="149.86" smashed="yes">
-<attribute name="NAME" x="203.2" y="172.974" size="1.778" layer="95"/>
-<attribute name="VALUE" x="203.2" y="124.46" size="1.778" layer="96"/>
+<instance part="U5" gate="G$1" x="48.26" y="83.82" smashed="yes">
+<attribute name="NAME" x="33.2241" y="115.4145" size="1.778" layer="95"/>
+<attribute name="VALUE" x="32.9733" y="48.1519" size="1.778" layer="96"/>
 </instance>
 <instance part="J4" gate="G$1" x="134.62" y="152.4" smashed="yes">
 <attribute name="VALUE" x="129.54" y="142.494" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
@@ -14790,9 +14498,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="161.29" y="128.4986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="161.29" y="123.698" size="1.778" layer="96"/>
 </instance>
-<instance part="C18" gate="G$1" x="177.8" y="114.3" smashed="yes" rot="MR0">
-<attribute name="NAME" x="176.276" y="114.681" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="176.276" y="109.601" size="1.778" layer="96" rot="MR0"/>
+<instance part="C18" gate="G$1" x="182.88" y="129.54" smashed="yes" rot="MR0">
+<attribute name="NAME" x="181.356" y="129.921" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="181.356" y="124.841" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND36" gate="1" x="144.78" y="144.78" smashed="yes">
 <attribute name="VALUE" x="142.24" y="142.24" size="1.27" layer="96"/>
@@ -14816,9 +14524,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="161.29" y="67.5386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="161.29" y="62.738" size="1.778" layer="96"/>
 </instance>
-<instance part="U7" gate="G$1" x="96.52" y="114.3" smashed="yes" rot="MR0">
-<attribute name="NAME" x="114.3568" y="145.3839" size="1.6829" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="114.3288" y="81.227" size="1.679509375" layer="96" rot="MR0"/>
+<instance part="U7" gate="G$1" x="231.14" y="142.24" smashed="yes" rot="MR0">
+<attribute name="NAME" x="248.9768" y="173.3239" size="1.6829" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="248.9488" y="109.167" size="1.679509375" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
