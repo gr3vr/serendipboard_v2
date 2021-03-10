@@ -14478,16 +14478,14 @@ Allows current flow when high potential at base.</description>
 <sheet>
 <plain>
 <text x="38.1" y="170.18" size="1.778" layer="95" rot="R180">ESP32</text>
-<dimension x1="-2.54" y1="180.34" x2="-2.54" y2="88.9" x3="-5.08" y3="134.62" textsize="1.27" layer="91"/>
-<dimension x1="0" y1="182.88" x2="132.08" y2="182.88" x3="66.04" y3="182.88" textsize="1.27" layer="91"/>
 <wire x1="0" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="132.08" y1="88.9" x2="132.08" y2="180.34" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="132.08" y1="88.9" x2="132.08" y2="0" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="132.08" y1="88.9" x2="264.16" y2="88.9" width="0.1524" layer="94" style="shortdash"/>
-<text x="68.58" y="177.8" size="1.778" layer="94" rot="R180">Lipo Charger</text>
+<text x="73.66" y="177.8" size="1.778" layer="94" rot="R180">Power Supply 3.3v (ESP)</text>
 <text x="210.82" y="177.8" size="1.778" layer="94" rot="R180">USB-to-SERIAL Converter</text>
-<text x="205.74" y="86.36" size="1.778" layer="94" rot="R180">Lipo Charger</text>
-<text x="68.58" y="86.36" size="1.778" layer="94" rot="R180">Lipo Charger</text>
+<text x="205.74" y="86.36" size="1.778" layer="94" rot="R180">Buttons</text>
+<text x="73.66" y="86.36" size="1.778" layer="94" rot="R180">ESP32-WROOM-32D</text>
 <text x="170.18" y="127" size="1.778" layer="95" rot="R180">Auto-Reset</text>
 </plain>
 <instances>
@@ -14920,6 +14918,67 @@ Allows current flow when high potential at base.</description>
 <pinref part="R22" gate="G$1" pin="1"/>
 <pinref part="Q8" gate="Q1" pin="B"/>
 <wire x1="160.02" y1="119.38" x2="157.48" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCL" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="IO22"/>
+<wire x1="81.28" y1="33.02" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
+<label x="83.82" y="33.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SDA" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="IO21"/>
+<wire x1="81.28" y1="35.56" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
+<label x="83.82" y="35.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="IO25"/>
+<wire x1="81.28" y1="27.94" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
+<label x="83.82" y="27.94" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="IO27"/>
+<wire x1="81.28" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="IO15"/>
+<wire x1="81.28" y1="48.26" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CHARGER_EN" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="IO32"/>
+<wire x1="81.28" y1="20.32" x2="83.82" y2="20.32" width="0.1524" layer="91"/>
+<label x="83.82" y="20.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CHARGER" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="IO35"/>
+<wire x1="40.64" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
+<label x="38.1" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="LOAD_EN" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="IO16"/>
+<wire x1="81.28" y1="45.72" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
+<label x="83.82" y="45.72" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BATT_MONITOR" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="IO34"/>
+<wire x1="40.64" y1="50.8" x2="38.1" y2="50.8" width="0.1524" layer="91"/>
+<label x="38.1" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
