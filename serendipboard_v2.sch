@@ -13775,7 +13775,7 @@ Allows current flow when high potential at base.</description>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="1.8V"/>
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" value="ADR"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device="">
+<part name="BATT" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device="">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/SparkFun/PRT-08612?qs=%2Fha2pyFadugGfN%252BHCaZXGW86cNwiWwmm5YQ4I4yMVjEsUzHWc0S4iQ%3D%3D"/>
 </part>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VBAT"/>
@@ -13788,7 +13788,7 @@ Allows current flow when high potential at base.</description>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3V"/>
 <part name="P+24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3V"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="M1" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13802,7 +13802,7 @@ Allows current flow when high potential at base.</description>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VBUS"/>
 <part name="P+27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3V"/>
-<part name="J3" library="SparkFun-Connectors" deviceset="CONN_04" device="PTH"/>
+<part name="OLED" library="SparkFun-Connectors" deviceset="CONN_04" device="PTH"/>
 <part name="P+28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3V"/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U5" library="ESP32-WROOM-32D" library_urn="urn:adsk.eagle:library:27379448" deviceset="ESP32-WROOM-32D" device="" package3d_urn="urn:adsk.eagle:package:27379451/1">
@@ -14259,7 +14259,7 @@ Allows current flow when high potential at base.</description>
 <instance part="GND28" gate="1" x="238.76" y="50.8" smashed="yes">
 <attribute name="VALUE" x="236.22" y="48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="144.78" y="12.7" smashed="yes" rot="R90">
+<instance part="BATT" gate="G$1" x="144.78" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="138.938" y="10.16" size="1.778" layer="95" rot="R90"/>
 <attribute name="WEBLINK" x="144.78" y="12.7" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -14291,7 +14291,7 @@ Allows current flow when high potential at base.</description>
 <instance part="P+24" gate="VCC" x="33.02" y="35.56" smashed="yes">
 <attribute name="VALUE" x="35.56" y="38.1" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="J2" gate="G$1" x="43.18" y="73.66" smashed="yes" rot="MR0">
+<instance part="M1" gate="G$1" x="43.18" y="73.66" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="45.72" y="68.834" size="1.778" layer="96" font="vector" rot="MR0"/>
 <attribute name="NAME" x="45.72" y="79.248" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
@@ -14340,7 +14340,7 @@ Allows current flow when high potential at base.</description>
 <instance part="P+27" gate="VCC" x="111.76" y="35.56" smashed="yes">
 <attribute name="VALUE" x="114.3" y="38.1" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="J3" gate="J1" x="66.04" y="66.04" smashed="yes">
+<instance part="OLED" gate="J1" x="66.04" y="66.04" smashed="yes">
 <attribute name="VALUE" x="60.96" y="58.674" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="60.96" y="74.168" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -14593,7 +14593,7 @@ Allows current flow when high potential at base.</description>
 <pinref part="GND34" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="3"/>
+<pinref part="OLED" gate="J1" pin="3"/>
 <wire x1="71.12" y1="68.58" x2="73.66" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="68.58" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="1" pin="GND"/>
@@ -14742,12 +14742,12 @@ Allows current flow when high potential at base.</description>
 <pinref part="Q3" gate="NMOS" pin="G"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="+"/>
+<pinref part="BATT" gate="G$1" pin="+"/>
 <wire x1="149.86" y1="15.24" x2="152.4" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="P+22" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="M1" gate="G$1" pin="2"/>
 <pinref part="P+23" gate="VCC" pin="VCC"/>
 <wire x1="35.56" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="76.2" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
@@ -14778,7 +14778,7 @@ Allows current flow when high potential at base.</description>
 <pinref part="R17" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="4"/>
+<pinref part="OLED" gate="J1" pin="4"/>
 <wire x1="71.12" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="71.12" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="P+28" gate="VCC" pin="VCC"/>
@@ -14834,7 +14834,7 @@ Allows current flow when high potential at base.</description>
 <pinref part="Q1" gate="G$1" pin="S1"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="-"/>
+<pinref part="BATT" gate="G$1" pin="-"/>
 <wire x1="149.86" y1="12.7" x2="152.4" y2="12.7" width="0.1524" layer="91"/>
 <label x="152.4" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -14896,7 +14896,7 @@ Allows current flow when high potential at base.</description>
 <pinref part="R19" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="2"/>
+<pinref part="OLED" gate="J1" pin="2"/>
 <wire x1="71.12" y1="66.04" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
 <label x="76.2" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -14931,7 +14931,7 @@ Allows current flow when high potential at base.</description>
 <pinref part="R20" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J1" pin="1"/>
+<pinref part="OLED" gate="J1" pin="1"/>
 <wire x1="71.12" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
 <label x="76.2" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -15062,7 +15062,7 @@ Allows current flow when high potential at base.</description>
 <net name="N$17" class="0">
 <segment>
 <pinref part="Q5" gate="G$1" pin="C"/>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="M1" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="71.12" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="73.66" x2="35.56" y2="73.66" width="0.1524" layer="91"/>
 </segment>
