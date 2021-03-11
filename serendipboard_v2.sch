@@ -13137,151 +13137,6 @@ Allows current flow when high potential at base.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Switches">
-<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
-In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="TACTILE_SWITCH_SMD_5.2MM">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-1.54" y1="-2.54" x2="-2.54" y2="-1.54" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-1.24" x2="-2.54" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.54" x2="-1.54" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-1.54" y1="2.54" x2="1.54" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="1.54" y1="2.54" x2="2.54" y2="1.54" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="1.24" x2="2.54" y2="-1.24" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.54" x2="1.54" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="1.54" y1="-2.54" x2="-1.54" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="0.445" width="0.127" layer="51"/>
-<wire x1="1.905" y1="0.445" x2="2.16" y2="-0.01" width="0.127" layer="51"/>
-<wire x1="1.905" y1="-0.23" x2="1.905" y2="-1.115" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
-<smd name="1" x="-2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="2" x="2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="3" x="-2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="4" x="2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_4.6X2.8MM">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.ck-components.com/media/1479/kmr2.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<smd name="3" x="2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
-<smd name="2" x="2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
-<smd name="1" x="-2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
-<smd name="4" x="-2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
-<wire x1="-2.1" y1="1.4" x2="-2.1" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="2.1" y1="-1.4" x2="2.1" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-2.1" y1="1.4" x2="2.1" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-2.1" y1="-1.4" x2="2.1" y2="-1.4" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="0.805" width="0.127" layer="21"/>
-<wire x1="1.338" y1="-1.4" x2="-1.338" y2="-1.4" width="0.2032" layer="21"/>
-<wire x1="-1.338" y1="1.4" x2="1.338" y2="1.4" width="0.2032" layer="21"/>
-<wire x1="-2.1" y1="0.13" x2="-2.1" y2="-0.13" width="0.2032" layer="21"/>
-<wire x1="2.1" y1="-0.13" x2="2.1" y2="0.13" width="0.2032" layer="21"/>
-<rectangle x1="-2.3" y1="0.5" x2="-2.1" y2="1.1" layer="51"/>
-<rectangle x1="-2.3" y1="-1.1" x2="-2.1" y2="-0.5" layer="51"/>
-<rectangle x1="2.1" y1="-1.1" x2="2.3" y2="-0.5" layer="51" rot="R180"/>
-<rectangle x1="2.1" y1="0.5" x2="2.3" y2="1.1" layer="51" rot="R180"/>
-<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-</packages>
-<symbols>
-<symbol name="SWITCH-MOMENTARY">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - Two Circuits&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons). Schematic symbol includes two switch circuits.&lt;/p&gt;</description>
-<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="1.905" y1="4.445" x2="1.905" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="4.445" x2="-1.905" y2="3.175" width="0.254" layer="94"/>
-<wire x1="1.905" y1="4.445" x2="0" y2="4.445" width="0.254" layer="94"/>
-<wire x1="0" y1="4.445" x2="-1.905" y2="4.445" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0" y1="4.445" x2="0" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<text x="0" y="4.826" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.794" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="2"/>
-<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="2"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MOMENTARY-SWITCH-SPST-2" prefix="S" uservalue="yes">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - Two Circuits&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons). Schematic symbol includes two switch circuits.&lt;/p&gt;
-&lt;h4&gt;Variants&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;SMD-4.6MMX2.8MM&lt;/b&gt; -  4.60mm x 2.80mm Tactile Momentary Button Switch  - Used on &lt;a href="https://www.sparkfun.com/products/13664"&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;SMD-5.2MM&lt;/b&gt; - &lt;a href="https://www.sparkfun.com/products/8720"&gt;Mini Pushbutton Switch - SMD&lt;/a&gt; - Used on &lt;a href="https://www.sparkfun.com/products/11114"&gt;Arduino Pro Mini&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="SWITCH-MOMENTARY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-SMD-5.2MM" package="TACTILE_SWITCH_SMD_5.2MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-08247"/>
-<attribute name="SF_SKU" value="COM-08720"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-4.6X2.8MM" package="TACTILE_SWITCH_SMD_4.6X2.8MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-13065"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-5.2MM-TALL" package="TACTILE_SWITCH_SMD_5.2MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-14139"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="CST-931AP" urn="urn:adsk.eagle:library:27396256">
 <packages>
 <package name="CUI_CST-931AP" urn="urn:adsk.eagle:footprint:27396257/1" library_version="1">
@@ -13833,6 +13688,79 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="KMR731NGLFS" urn="urn:adsk.eagle:library:27409115">
+<packages>
+<package name="SW_KMR731NGLFS" urn="urn:adsk.eagle:footprint:27409116/1" library_version="1">
+<wire x1="1.4" y1="2.1" x2="1.4" y2="-2.1" width="0.127" layer="51"/>
+<wire x1="1.4" y1="-2.1" x2="-1.4" y2="-2.1" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="-2.1" x2="-1.4" y2="2.1" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="2.1" x2="1.4" y2="2.1" width="0.127" layer="51"/>
+<wire x1="1.4" y1="1.28" x2="1.4" y2="-1.28" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-1.28" x2="-1.4" y2="1.28" width="0.127" layer="21"/>
+<wire x1="1.65" y1="2.75" x2="1.65" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="1.65" y1="-2.75" x2="-1.65" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="-1.65" y1="-2.75" x2="-1.65" y2="2.75" width="0.05" layer="39"/>
+<wire x1="-1.65" y1="2.75" x2="1.65" y2="2.75" width="0.05" layer="39"/>
+<circle x="-0.8" y="3.1" radius="0.1" width="0.2" layer="51"/>
+<circle x="-0.8" y="3.1" radius="0.1" width="0.2" layer="21"/>
+<text x="-2" y="3.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-3.5" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="4" x="0.8" y="2.05" dx="0.9" dy="1" layer="1" rot="R270"/>
+<smd name="1" x="-0.8" y="2.05" dx="0.9" dy="1" layer="1" rot="R270"/>
+<smd name="2" x="-0.8" y="-2.05" dx="0.9" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="0.8" y="-2.05" dx="0.9" dy="1" layer="1" rot="R90"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SW_KMR731NGLFS" urn="urn:adsk.eagle:package:27409118/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SW_KMR731NGLFS"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="KMR731NGLFS" urn="urn:adsk.eagle:symbol:27409117/1" library_version="1">
+<text x="-2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<wire x1="-2.54" y1="0" x2="2.794" y2="2.1336" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.921" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<circle x="2.54" y="0" radius="0.3302" width="0.1524" layer="94"/>
+<pin name="COM" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="NO" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="KMR731NGLFS" urn="urn:adsk.eagle:component:27409119/1" prefix="S" library_version="1">
+<description>Tactile Switch SPST-NO Top Actuated Surface Mount  &lt;a href="https://pricing.snapeda.com/parts/KMR731NGLFS/C%26K/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="KMR731NGLFS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SW_KMR731NGLFS">
+<connects>
+<connect gate="G$1" pin="COM" pad="3 4"/>
+<connect gate="G$1" pin="NO" pad="1 2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27409118/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Good"/>
+<attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Top Actuated Surface Mount "/>
+<attribute name="MF" value="C&amp;K"/>
+<attribute name="MP" value="KMR731NGLFS"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/KMR731NGLFS/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13907,7 +13835,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Maxim-Integrated/DS3231SN?qs=1eQvB6Dk1vhUlr8%2FOrV0Fw%3D%3D"/>
 </part>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3V"/>
-<part name="B1" library="microbuilder" deviceset="BATTERY" device="CR1220_SMT" value="CR1220"/>
+<part name="B1" library="microbuilder" deviceset="BATTERY" device="CR1220_SMT" value="CR1220">
+<attribute name="WEBLINK" value="https://www.digikey.com/en/products/detail/keystone-electronics/3001/227442?s=N4IgTCBcDaIMwAYEEYDWBaAdgExAXQF8g"/>
+</part>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U4" library="SparkFun-Sensors" deviceset="ICM-20948" device="" value="9DoF IMU">
@@ -13938,7 +13868,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="1.8V"/>
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" value="ADR"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
+<part name="J1" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device="">
+<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/SparkFun/PRT-08612?qs=%2Fha2pyFadugGfN%252BHCaZXGW86cNwiWwmm5YQ4I4yMVjEsUzHWc0S4iQ%3D%3D"/>
+</part>
 <part name="P+22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VBAT"/>
 <part name="Q5" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBT2222AL" value="MMBT2222ALT1G">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/ON-Semiconductor/MMBT2222ALT1G?qs=HVbQlW5zcXWwnD7Jokybqg%3D%3D"/>
@@ -14003,17 +13935,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3V3OUT"/>
 <part name="P+35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3Vesp"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-5.2MM"/>
-<part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-5.2MM"/>
-<part name="S3" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-5.2MM"/>
-<part name="S4" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-5.2MM"/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
-<part name="S5" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-5.2MM"/>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
@@ -14068,6 +13995,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="U2" library="microbuilder" deviceset="VREG_SOT23-5" device="" value="AP2112-3.3">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Diodes-Incorporated/AP2112K-33TRG1?qs=%2Fha2pyFadugKN4ES11GMq2snst8wH3yje9KIABR%252BTfzTosnOVDqX4A%3D%3D"/>
+</part>
+<part name="S1" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
+<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
+</part>
+<part name="S2" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
+<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
+</part>
+<part name="S3" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
+<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
+</part>
+<part name="S4" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
+<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
+</part>
+<part name="S5" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
+<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
 </part>
 </parts>
 <sheets>
@@ -14300,6 +14242,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="B1" gate="G$1" x="121.92" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="127" y="108.585" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="129.54" y="106.68" size="1.27" layer="96" rot="R180"/>
+<attribute name="WEBLINK" x="121.92" y="109.22" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND20" gate="1" x="116.84" y="99.06" smashed="yes">
 <attribute name="VALUE" x="114.3" y="96.52" size="1.778" layer="96"/>
@@ -14394,6 +14337,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="J1" gate="G$1" x="144.78" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="138.938" y="10.16" size="1.778" layer="95" rot="R90"/>
+<attribute name="WEBLINK" x="144.78" y="12.7" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="P+22" gate="VCC" x="152.4" y="17.78" smashed="yes">
 <attribute name="VALUE" x="154.94" y="20.32" size="1.27" layer="96" rot="R180"/>
@@ -15364,22 +15308,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND40" gate="1" x="83.82" y="68.58" smashed="yes">
 <attribute name="VALUE" x="81.28" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="S1" gate="G$1" x="50.8" y="45.72" smashed="yes">
-<attribute name="NAME" x="50.8" y="50.546" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="50.8" y="42.926" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="S2" gate="G$1" x="91.44" y="45.72" smashed="yes">
-<attribute name="NAME" x="91.44" y="50.546" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="91.44" y="42.926" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="S3" gate="G$1" x="25.4" y="12.7" smashed="yes">
-<attribute name="NAME" x="25.4" y="17.526" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="25.4" y="9.906" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="S4" gate="G$1" x="60.96" y="12.7" smashed="yes">
-<attribute name="NAME" x="60.96" y="17.526" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="60.96" y="9.906" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
 <instance part="GND41" gate="1" x="43.18" y="35.56" smashed="yes">
 <attribute name="VALUE" x="40.64" y="33.02" size="1.778" layer="96"/>
 </instance>
@@ -15399,10 +15327,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="C26" gate="G$1" x="53.34" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="53.721" y="39.116" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="48.641" y="39.116" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="S5" gate="G$1" x="96.52" y="12.7" smashed="yes">
-<attribute name="NAME" x="96.52" y="17.526" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="96.52" y="9.906" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="GND47" gate="1" x="88.9" y="7.62" smashed="yes">
 <attribute name="VALUE" x="86.36" y="5.08" size="1.778" layer="96"/>
@@ -15455,6 +15379,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="55.88" y="168.656" size="1.27" layer="95"/>
 <attribute name="VALUE" x="55.88" y="154.94" size="1.27" layer="95"/>
 <attribute name="WEBLINK" x="63.5" y="162.56" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="S1" gate="G$1" x="50.8" y="45.72" smashed="yes">
+<attribute name="NAME" x="48.26" y="50.8" size="1.27" layer="95"/>
+<attribute name="VALUE" x="58.42" y="48.26" size="1.27" layer="96" rot="R180" align="top-left"/>
+<attribute name="WEBLINK" x="50.8" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S2" gate="G$1" x="91.44" y="45.72" smashed="yes">
+<attribute name="NAME" x="88.9" y="50.8" size="1.27" layer="95"/>
+<attribute name="VALUE" x="99.06" y="48.26" size="1.27" layer="96" rot="R180" align="top-left"/>
+<attribute name="WEBLINK" x="91.44" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S3" gate="G$1" x="25.4" y="12.7" smashed="yes">
+<attribute name="NAME" x="22.86" y="15.24" size="1.27" layer="95"/>
+<attribute name="VALUE" x="20.32" y="10.16" size="1.27" layer="96" align="top-left"/>
+<attribute name="WEBLINK" x="25.4" y="12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S4" gate="G$1" x="60.96" y="12.7" smashed="yes">
+<attribute name="NAME" x="58.42" y="15.24" size="1.27" layer="95"/>
+<attribute name="VALUE" x="55.88" y="10.16" size="1.27" layer="96" align="top-left"/>
+<attribute name="WEBLINK" x="60.96" y="12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S5" gate="G$1" x="96.52" y="12.7" smashed="yes">
+<attribute name="NAME" x="93.98" y="15.24" size="1.27" layer="95"/>
+<attribute name="VALUE" x="91.44" y="10.16" size="1.27" layer="96" align="top-left"/>
+<attribute name="WEBLINK" x="96.52" y="12.7" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -15510,57 +15459,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="40.64" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="43.18" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
-<junction x="43.18" y="43.18"/>
+<wire x1="43.18" y1="40.64" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="GND41" gate="1" pin="GND"/>
 <wire x1="43.18" y1="38.1" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
 <junction x="43.18" y="40.64"/>
+<pinref part="S1" gate="G$1" pin="COM"/>
 </segment>
 <segment>
 <pinref part="GND46" gate="1" pin="GND"/>
 <wire x1="81.28" y1="38.1" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="40.64" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="43.18" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="45.72" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="43.18" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
-<junction x="81.28" y="43.18"/>
+<wire x1="81.28" y1="40.64" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="C25" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="40.64" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
 <junction x="81.28" y="40.64"/>
 </segment>
 <segment>
-<pinref part="S3" gate="G$1" pin="2"/>
 <pinref part="GND44" gate="1" pin="GND"/>
-<wire x1="20.32" y1="10.16" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="12.7" x2="17.78" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="12.7" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
-<junction x="17.78" y="10.16"/>
+<pinref part="S3" gate="G$1" pin="COM"/>
 </segment>
 <segment>
 <pinref part="GND45" gate="1" pin="GND"/>
 <wire x1="53.34" y1="10.16" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="S4" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="12.7" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="S4" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
-<junction x="53.34" y="10.16"/>
+<pinref part="S4" gate="G$1" pin="COM"/>
 </segment>
 <segment>
 <pinref part="GND47" gate="1" pin="GND"/>
-<pinref part="S5" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="10.16" x2="91.44" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="S5" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="12.7" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="12.7" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
-<junction x="88.9" y="10.16"/>
+<pinref part="S5" gate="G$1" pin="COM"/>
 </segment>
 <segment>
 <pinref part="GND42" gate="1" pin="GND"/>
@@ -15676,18 +15602,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="38.1" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S2" gate="G$1" pin="3"/>
-<wire x1="96.52" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="4"/>
 <wire x1="99.06" y1="45.72" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="43.18" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
-<junction x="99.06" y="45.72"/>
 <pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="40.64" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="40.64" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
-<junction x="99.06" y="43.18"/>
+<wire x1="99.06" y1="40.64" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
 <label x="101.6" y="45.72" size="1.27" layer="95" xref="yes"/>
+<pinref part="S2" gate="G$1" pin="NO"/>
+<junction x="99.06" y="45.72"/>
 </segment>
 </net>
 <net name="IO0" class="0">
@@ -15705,16 +15626,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="40.64" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="40.64" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="3"/>
-<wire x1="58.42" y1="43.18" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="4"/>
-<wire x1="55.88" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
-<junction x="58.42" y="43.18"/>
+<wire x1="58.42" y1="40.64" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
-<junction x="58.42" y="45.72"/>
 <label x="60.96" y="45.72" size="1.27" layer="95" xref="yes"/>
+<pinref part="S1" gate="G$1" pin="NO"/>
 </segment>
 </net>
 <net name="DTR" class="0">
@@ -15893,16 +15808,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="GPIO27" class="0">
 <segment>
-<pinref part="S3" gate="G$1" pin="4"/>
-<pinref part="S3" gate="G$1" pin="3"/>
-<wire x1="30.48" y1="10.16" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="12.7" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
-<junction x="30.48" y="12.7"/>
 <pinref part="R28" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="12.7" x2="35.56" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="15.24" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
-<junction x="33.02" y="12.7"/>
 <label x="35.56" y="12.7" size="1.27" layer="95" xref="yes"/>
+<pinref part="S3" gate="G$1" pin="NO"/>
+<junction x="33.02" y="12.7"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="IO27"/>
@@ -15912,16 +15823,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="GPIO15" class="0">
 <segment>
-<pinref part="S4" gate="G$1" pin="4"/>
-<pinref part="S4" gate="G$1" pin="3"/>
-<wire x1="66.04" y1="10.16" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
-<junction x="66.04" y="12.7"/>
 <pinref part="R27" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="12.7" x2="71.12" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="15.24" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
-<junction x="68.58" y="12.7"/>
 <label x="71.12" y="12.7" size="1.27" layer="95" xref="yes"/>
+<pinref part="S4" gate="G$1" pin="NO"/>
+<junction x="68.58" y="12.7"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="IO15"/>
@@ -15931,16 +15838,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="PWR" class="0">
 <segment>
-<pinref part="S5" gate="G$1" pin="4"/>
-<pinref part="S5" gate="G$1" pin="3"/>
-<wire x1="101.6" y1="10.16" x2="101.6" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="12.7" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
-<junction x="101.6" y="12.7"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="12.7" x2="106.68" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="15.24" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
-<junction x="104.14" y="12.7"/>
 <label x="106.68" y="12.7" size="1.27" layer="95" xref="yes"/>
+<pinref part="S5" gate="G$1" pin="NO"/>
+<junction x="104.14" y="12.7"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="IO4"/>
