@@ -13523,9 +13523,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="IC1" library="TP4056" deviceset="TP4056" device=""/>
-<part name="Q1" library="FS8205A" deviceset="FS8205A" device=""/>
-<part name="IC2" library="DW01A" deviceset="DW01A" device=""/>
+<part name="IC1" library="TP4056" deviceset="TP4056" device="">
+<attribute name="WEBLINK" value="https://lcsc.com/product-detail/PMIC-Battery-Management_UMW-Youtai-Semiconductor-Co-Ltd-TP4056_C725790.html"/>
+</part>
+<part name="Q1" library="FS8205A" deviceset="FS8205A" device="">
+<attribute name="WEBLINK" value="https://lcsc.com/product-detail/MOSFET_FUXINSEMI-FS8205A_C908265.html"/>
+</part>
+<part name="IC2" library="DW01A" deviceset="DW01A" device="">
+<attribute name="WEBLINK" value="https://lcsc.com/product-detail/Battery-Protection-ICs_PUOLOP-DW01A_C351410.html"/>
+</part>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.2k"/>
@@ -13553,7 +13559,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VBAT"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VBAT"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VIN"/>
-<part name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="MAX1704X" device="" package3d_urn="urn:adsk.eagle:package:39055/1" value="MAX17043"/>
+<part name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="MAX1704X" device="" package3d_urn="urn:adsk.eagle:package:39055/1" value="MAX17043">
+<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX17043G%2bT?qs=fnYUjNMxfVCghHGFBrnbRA%3D%3D"/>
+</part>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="180"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13576,12 +13584,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VIN"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3V"/>
-<part name="IC3" library="DS3231" deviceset="DS3231" device="/SO"/>
+<part name="IC3" library="DS3231" deviceset="DS3231" device="/SO">
+<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Maxim-Integrated/DS3231SN?qs=1eQvB6Dk1vhUlr8%2FOrV0Fw%3D%3D"/>
+</part>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3V"/>
 <part name="B1" library="microbuilder" deviceset="BATTERY" device="CR1220_SMT" value="CR1220"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U4" library="SparkFun-Sensors" deviceset="ICM-20948" device="" value="9DoF IMU"/>
+<part name="U4" library="SparkFun-Sensors" deviceset="ICM-20948" device="" value="9DoF IMU">
+<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/TDK-InvenSense/ICM-20948?qs=%2Fha2pyFaduhVfJfZCXoikyvvC70YiWC%2FBNr%2FvcBEr1bv7usabPFmkg%3D%3D"/>
+</part>
 <part name="U$1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_SP6214" device="-1.8V" package3d_urn="urn:adsk.eagle:package:39079/1" value="LD39015M18R">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/STMicroelectronics/LD39015M18R?qs=%2Fha2pyFaduiNd%2F2UEBkaLCKjQ2zo%2FZOF5RG39Zh4PEGsBkDRy2IG8Q%3D%3D"/>
 </part>
@@ -13646,7 +13658,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3Vesp"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VIN"/>
-<part name="U5" library="ESP32-WROOM-32D" library_urn="urn:adsk.eagle:library:27379448" deviceset="ESP32-WROOM-32D" device="" package3d_urn="urn:adsk.eagle:package:27379451/1"/>
+<part name="U5" library="ESP32-WROOM-32D" library_urn="urn:adsk.eagle:library:27379448" deviceset="ESP32-WROOM-32D" device="" package3d_urn="urn:adsk.eagle:package:27379451/1">
+<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-WROOM-32DM113DH2800PH3Q0?qs=W%2FMpXkg%252BdQ75%2Fda1rSxxJw%3D%3D"/>
+</part>
 <part name="J4" library="SparkFun-Connectors" deviceset="USB_MINI-B" device="_SMT" value="USB_MINI"/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
@@ -13694,7 +13708,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3Vesp"/>
 <part name="P+37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3Vesp"/>
 <part name="P+38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3Vesp"/>
-<part name="LS1" library="CST-931AP" library_urn="urn:adsk.eagle:library:27396256" deviceset="CST-931AP" device="" package3d_urn="urn:adsk.eagle:package:27396259/1"/>
+<part name="LS1" library="CST-931AP" library_urn="urn:adsk.eagle:library:27396256" deviceset="CST-931AP" device="" package3d_urn="urn:adsk.eagle:package:27396259/1">
+<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CUI-Devices/CST-931AP?qs=%2Fha2pyFaduj6eTmTDzk5Y%252BDzNxLCOqaa7w%2F7LdfrL8e2VfyymTz68w%3D%3D"/>
+</part>
 <part name="Q7" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="RUC002N05HZGT116">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/ROHM-Semiconductor/RUC002N05HZGT116?qs=4v%252BiZTmLVHE0lwSK%2FDyNsA%3D%3D"/>
 </part>
@@ -13756,14 +13772,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="IC1" gate="G$1" x="35.56" y="157.48" smashed="yes">
 <attribute name="NAME" x="27.9406" y="170.1793" size="1.27006875" layer="95" rot="R180"/>
 <attribute name="VALUE" x="38.10408125" y="144.7596" size="1.272040625" layer="96"/>
+<attribute name="WEBLINK" x="35.56" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q1" gate="G$1" x="114.3" y="142.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="107.95" y="134.62" size="1.778" layer="96"/>
 <attribute name="NAME" x="107.95" y="137.16" size="1.778" layer="95"/>
+<attribute name="WEBLINK" x="114.3" y="142.24" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="IC2" gate="G$1" x="88.9" y="157.48" smashed="yes">
 <attribute name="NAME" x="83.82" y="168.91" size="1.778" layer="95"/>
 <attribute name="VALUE" x="83.82" y="144.78" size="1.778" layer="95"/>
+<attribute name="WEBLINK" x="88.9" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="162.56" y="0" smashed="yes">
@@ -13858,6 +13877,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U1" gate="G$1" x="233.68" y="152.4" smashed="yes">
 <attribute name="NAME" x="226.06" y="160.274" size="1.778" layer="95"/>
 <attribute name="VALUE" x="226.06" y="142.748" size="1.778" layer="96"/>
+<attribute name="WEBLINK" x="233.68" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C6" gate="G$1" x="210.82" y="147.32" smashed="yes">
 <attribute name="NAME" x="212.344" y="147.701" size="1.778" layer="95"/>
@@ -13930,6 +13950,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="IC3" gate="G$1" x="99.06" y="109.22" smashed="yes">
 <attribute name="NAME" x="109.22" y="124.46" size="1.778" layer="95" rot="R180"/>
+<attribute name="WEBLINK" x="99.06" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+15" gate="VCC" x="78.74" y="121.92" smashed="yes">
 <attribute name="VALUE" x="81.28" y="124.46" size="1.27" layer="96" rot="R180"/>
@@ -13947,6 +13968,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U4" gate="G$1" x="195.58" y="58.42" smashed="yes">
 <attribute name="NAME" x="182.88" y="68.834" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="182.88" y="50.546" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="WEBLINK" x="195.58" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$1" gate="G$1" x="162.56" y="101.6" smashed="yes">
 <attribute name="NAME" x="154.94" y="109.474" size="1.778" layer="95" font="vector"/>
@@ -14136,6 +14158,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="LS1" gate="G$1" x="33.02" y="27.94" smashed="yes">
 <attribute name="NAME" x="36.820890625" y="29.23125" size="1.782240625" layer="95"/>
 <attribute name="VALUE" x="36.81846875" y="26.6354" size="1.78338125" layer="96"/>
+<attribute name="WEBLINK" x="33.02" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q7" gate="NMOS" x="200.66" y="93.98" smashed="yes" rot="R270">
 <attribute name="NAME" x="195.58" y="88.9" size="1.778" layer="95" font="vector"/>
@@ -14915,6 +14938,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U5" gate="G$1" x="60.96" y="101.6" smashed="yes">
 <attribute name="NAME" x="45.9241" y="133.1945" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.6733" y="65.9319" size="1.778" layer="96"/>
+<attribute name="WEBLINK" x="60.96" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J4" gate="G$1" x="157.48" y="134.62" smashed="yes">
 <attribute name="VALUE" x="152.4" y="124.714" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
