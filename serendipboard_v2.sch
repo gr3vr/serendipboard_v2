@@ -185,6 +185,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<fusionteam huburn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5Mg" projecturn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5MiNEMjAyMTAyMjYzODcwODA0ODE" folderUrn="urn:adsk.wipprod:fs.folder:co.dUA13uBtTS2Ov44EvO0svw" urn="urn:adsk.wipprod:dm.lineage:0jSo1DHdRE-Cz6lm1w20rg"  versionUrn="urn:adsk.wipprod:fs.file:vf.0jSo1DHdRE-Cz6lm1w20rg?version=1" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="2c4056ca-72dc-37fe-73bd-b4b6124b46c4"/>
 <libraries>
 <library name="TP4056">
 <packages>
