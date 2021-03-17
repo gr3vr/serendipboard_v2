@@ -188,10 +188,14 @@
 <fusionsync huburn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5Mg" projecturn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5MiNEMjAyMTAyMjYzODcwODA0ODE" f3durn="urn:adsk.wipprod:dm.lineage:5p1CPkeoRTeQBctxtFipzA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="0848454d-5bbb-43fb-8d8e-27c1f2ded824" lastsyncedrevisionid="0848454d-5bbb-43fb-8d8e-27c1f2ded824" lastboardhashguid="b401df1f-909b-11eb-b8ce-9c009d1c97d0" lastpushedtime="2021-03-17T16:29:33Z" linktopcb3d="true"/>
 <fusionteam huburn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5Mg" projecturn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5MiNEMjAyMTAyMjYzODcwODA0ODE" folderUrn="urn:adsk.wipprod:fs.folder:co.dUA13uBtTS2Ov44EvO0svw" urn="urn:adsk.wipprod:dm.lineage:Zp6-x7SYSPeZgPEikwpQaw"  versionUrn="urn:adsk.wipprod:fs.file:vf.Zp6-x7SYSPeZgPEikwpQaw?version=1" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="f1674931-6e59-d979-c39e-c9ae2950564c"/>
 <plain>
-<wire x1="0" y1="48.26" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="0" y1="0" x2="34.29" y2="0" width="0" layer="20"/>
-<wire x1="34.29" y1="0" x2="34.29" y2="48.26" width="0" layer="20"/>
-<wire x1="34.29" y1="48.26" x2="0" y2="48.26" width="0" layer="20"/>
+<wire x1="32.121978125" y1="48.26" x2="2.168021875" y2="48.26" width="0" layer="20"/>
+<wire x1="2.168021875" y1="48.26" x2="0" y2="46.091978125" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="46.091978125" x2="0" y2="2.168021875" width="0" layer="20"/>
+<wire x1="0" y1="2.168021875" x2="2.168021875" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="2.168021875" y1="0" x2="32.121978125" y2="0" width="0" layer="20"/>
+<wire x1="32.121978125" y1="0" x2="34.29" y2="2.168021875" width="0" layer="20" curve="90"/>
+<wire x1="34.29" y1="2.168021875" x2="34.29" y2="46.091978125" width="0" layer="20"/>
+<wire x1="34.29" y1="46.091978125" x2="32.121978125" y2="48.26" width="0" layer="20" curve="90"/>
 <dimension x1="0" y1="60.63" x2="38.08" y2="60.63" x3="19.04" y3="63.5" textsize="1.778" layer="46" dtype="diameter"/>
 <dimension x1="38.08" y1="60.63" x2="38.08" y2="0" x3="40.64" y3="30.315" textsize="1.778" layer="46" dtype="diameter"/>
 <wire x1="1.27" y1="33.655" x2="6.35" y2="33.655" width="0.1524" layer="21"/>
