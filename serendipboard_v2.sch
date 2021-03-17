@@ -13754,9 +13754,6 @@ Allows current flow when high potential at base.</description>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="2.2k"/>
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" value="ADR"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="BATT" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device="">
-<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/SparkFun/PRT-08612?qs=%2Fha2pyFadugGfN%252BHCaZXGW86cNwiWwmm5YQ4I4yMVjEsUzHWc0S4iQ%3D%3D"/>
-</part>
 <part name="Q5" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBT2222AL" value="MMBT2222ALT1G">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/ON-Semiconductor/MMBT2222ALT1G?qs=HVbQlW5zcXWwnD7Jokybqg%3D%3D"/>
 </part>
@@ -13909,6 +13906,10 @@ Allows current flow when high potential at base.</description>
 <part name="LS1" library="CST-931AP" library_urn="urn:adsk.eagle:library:27396256" deviceset="CST-931AP" device="" package3d_urn="urn:adsk.eagle:package:27396259/1"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
+<part name="BATT1" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device="">
+<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/SparkFun/PRT-08612?qs=%2Fha2pyFadugGfN%252BHCaZXGW86cNwiWwmm5YQ4I4yMVjEsUzHWc0S4iQ%3D%3D"/>
+</part>
+<part name="BATT" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14171,10 +14172,6 @@ Allows current flow when high potential at base.</description>
 <instance part="GND28" gate="1" x="238.76" y="50.8" smashed="yes">
 <attribute name="VALUE" x="236.22" y="48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="BATT" gate="G$1" x="144.78" y="12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="138.938" y="10.16" size="1.778" layer="95" rot="R90"/>
-<attribute name="WEBLINK" x="144.78" y="12.7" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
 <instance part="Q5" gate="G$1" x="30.48" y="66.04" smashed="yes">
 <attribute name="NAME" x="33.02" y="66.04" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="33.02" y="63.754" size="1.778" layer="96" font="vector"/>
@@ -14328,6 +14325,14 @@ Allows current flow when high potential at base.</description>
 </instance>
 <instance part="P+3" gate="VCC" x="193.04" y="149.86" smashed="yes">
 <attribute name="VALUE" x="195.58" y="152.4" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="BATT1" gate="G$1" x="144.78" y="-7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="138.938" y="-10.16" size="1.778" layer="95" rot="R90"/>
+<attribute name="WEBLINK" x="144.78" y="-7.62" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="BATT" gate="G$1" x="139.7" y="12.7" smashed="yes">
+<attribute name="VALUE" x="137.16" y="7.874" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="137.16" y="18.288" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -14638,9 +14643,9 @@ Allows current flow when high potential at base.</description>
 <pinref part="Q1" gate="G$1" pin="S1"/>
 </segment>
 <segment>
-<pinref part="BATT" gate="G$1" pin="-"/>
-<wire x1="149.86" y1="12.7" x2="152.4" y2="12.7" width="0.1524" layer="91"/>
 <label x="152.4" y="12.7" size="1.27" layer="95" xref="yes"/>
+<pinref part="BATT" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="12.7" x2="152.4" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -14962,9 +14967,9 @@ Allows current flow when high potential at base.</description>
 </net>
 <net name="VBAT" class="0">
 <segment>
-<pinref part="BATT" gate="G$1" pin="+"/>
-<wire x1="149.86" y1="15.24" x2="152.4" y2="15.24" width="0.1524" layer="91"/>
 <label x="152.4" y="15.24" size="1.27" layer="95" xref="yes"/>
+<pinref part="BATT" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="15.24" x2="147.32" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q4" gate="G$1" pin="D"/>
