@@ -13603,6 +13603,102 @@ Allows current flow when high potential at base.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="LTST-C19HE1WT" urn="urn:adsk.eagle:library:27578306">
+<packages>
+<package name="LED_LTST-C19HE1WT" urn="urn:adsk.eagle:footprint:27578307/1" library_version="1">
+<wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-0.8" x2="-0.8" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1" y1="0.2" x2="1" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="1.4" x2="1.05" y2="1.4" width="0.05" layer="39"/>
+<wire x1="1.05" y1="1.4" x2="1.05" y2="-1.4" width="0.05" layer="39"/>
+<wire x1="1.05" y1="-1.4" x2="-1.05" y2="-1.4" width="0.05" layer="39"/>
+<wire x1="-1.05" y1="-1.4" x2="-1.05" y2="1.4" width="0.05" layer="39"/>
+<wire x1="-0.8" y1="0.8" x2="-0.8" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="0.8" y1="0.8" x2="0.8" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.2" x2="-1" y2="-0.2" width="0.127" layer="21"/>
+<circle x="-1.4" y="1" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.4" y="1" radius="0.1" width="0.2" layer="51"/>
+<text x="-1.65091875" y="2.10041875" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.719440625" y="-3.257659375" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="1" x="-0.425" y="0.725" dx="0.65" dy="0.85" layer="1"/>
+<smd name="2" x="0.425" y="0.725" dx="0.65" dy="0.85" layer="1"/>
+<smd name="4" x="-0.425" y="-0.725" dx="0.65" dy="0.85" layer="1"/>
+<smd name="3" x="0.425" y="-0.725" dx="0.65" dy="0.85" layer="1"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="LED_LTST-C19HE1WT" urn="urn:adsk.eagle:package:27578309/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="LED_LTST-C19HE1WT"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="LTST-C19HE1WT" urn="urn:adsk.eagle:symbol:27578308/1" library_version="1">
+<wire x1="2.54" y1="3.556" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="6.604" width="0.254" layer="94"/>
+<wire x1="2.54" y1="6.604" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="2.54" y2="3.556" width="0.254" layer="94"/>
+<wire x1="0" y1="3.556" x2="0" y2="6.604" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.524" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.524" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.524" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.524" x2="0" y2="1.524" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-6.604" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.556" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="2.54" y2="-6.604" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.604" x2="0" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="0.25414375" y="7.11606875" size="0.813265625" layer="97">RED</text>
+<text x="0.254434375" y="2.03546875" size="0.8141875" layer="97">GREEN</text>
+<text x="0.254259375" y="-3.051090625" size="0.813625" layer="97">BLUE</text>
+<text x="-1.77831875" y="9.14563125" size="1.27023125" layer="95">&gt;NAME</text>
+<text x="-2.544309375" y="-10.1772" size="1.27215" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="-5.08" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="4" x="10.16" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LTST-C19HE1WT" urn="urn:adsk.eagle:component:27578310/1" prefix="D" library_version="1">
+<description>Red, Green, Blue (RGB) 624nm Red, 525nm Green, 470nm Blue LED Indication - Discrete 2.1V Red, 3.35V Green, 3.35V Blue 0606 (1616 Metric) &lt;a href="https://pricing.snapeda.com/parts/LTST-C19HE1WT/Lite-On%20Electronics/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LTST-C19HE1WT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED_LTST-C19HE1WT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27578309/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Good"/>
+<attribute name="DESCRIPTION" value=" LED Tri-Color Blue/Green/Red 468nm/520nm/632nm 4-Pin SMD T/R "/>
+<attribute name="MF" value="Lite-On Electronics"/>
+<attribute name="MP" value="LTST-C19HE1WT"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LTST-C19HE1WT/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13788,15 +13884,6 @@ Allows current flow when high potential at base.</description>
 <part name="RST" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
 </part>
-<part name="BTN1" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
-<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
-</part>
-<part name="BTN2" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
-<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
-</part>
-<part name="PWR" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
-<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
-</part>
 <part name="U7" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_MIC5219" device="3.3V" package3d_urn="urn:adsk.eagle:package:39060/1" value="MIC5219 3.3V">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Microchip-Technology-Micrel/MIC5219-33YM5-TR?qs=U6T8BxXiZAWojkIJMtSJlw%3D%3D"/>
 </part>
@@ -13841,6 +13928,16 @@ Allows current flow when high potential at base.</description>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="BATT" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="BTN1" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="BTN2" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="PWR" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="D2" library="LTST-C19HE1WT" library_urn="urn:adsk.eagle:library:27578306" deviceset="LTST-C19HE1WT" device="" package3d_urn="urn:adsk.eagle:package:27578309/1">
+<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Lite-On/LTST-C19HE1WT?qs=WAWaI72GHKxJLPArJA9%252BUw%3D%3D&amp;utm_campaign=mouser&amp;utm_content=model&amp;utm_source=snapedaonline&amp;utm_medium=online"/>
+</part>
+<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
+<part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
+<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
+<part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15131,21 +15228,6 @@ Allows current flow when high potential at base.</description>
 <attribute name="VALUE" x="99.06" y="48.26" size="1.27" layer="96" rot="R180" align="top-left"/>
 <attribute name="WEBLINK" x="91.44" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="BTN1" gate="G$1" x="25.4" y="12.7" smashed="yes">
-<attribute name="NAME" x="22.86" y="15.24" size="1.27" layer="95"/>
-<attribute name="VALUE" x="20.32" y="10.16" size="1.27" layer="96" align="top-left"/>
-<attribute name="WEBLINK" x="25.4" y="12.7" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="BTN2" gate="G$1" x="60.96" y="12.7" smashed="yes">
-<attribute name="NAME" x="58.42" y="15.24" size="1.27" layer="95"/>
-<attribute name="VALUE" x="55.88" y="10.16" size="1.27" layer="96" align="top-left"/>
-<attribute name="WEBLINK" x="60.96" y="12.7" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="PWR" gate="G$1" x="96.52" y="12.7" smashed="yes">
-<attribute name="NAME" x="93.98" y="15.24" size="1.27" layer="95"/>
-<attribute name="VALUE" x="91.44" y="10.16" size="1.27" layer="96" align="top-left"/>
-<attribute name="WEBLINK" x="96.52" y="12.7" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="C8" gate="G$1" x="83.82" y="160.02" smashed="yes">
 <attribute name="NAME" x="85.344" y="160.401" size="1.778" layer="95"/>
 <attribute name="VALUE" x="85.344" y="155.321" size="1.778" layer="96"/>
@@ -15179,6 +15261,38 @@ Allows current flow when high potential at base.</description>
 <instance part="R5" gate="G$1" x="45.72" y="162.56" smashed="yes">
 <attribute name="NAME" x="41.91" y="164.0586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="41.91" y="159.258" size="1.778" layer="96"/>
+</instance>
+<instance part="BTN1" gate="G$1" x="33.02" y="2.54" smashed="yes" rot="R90">
+<attribute name="VALUE" x="37.846" y="0" size="1.778" layer="96" font="vector" rot="R90"/>
+<attribute name="NAME" x="27.432" y="0" size="1.778" layer="95" font="vector" rot="R90"/>
+</instance>
+<instance part="BTN2" gate="G$1" x="68.58" y="2.54" smashed="yes" rot="R90">
+<attribute name="VALUE" x="73.406" y="0" size="1.778" layer="96" font="vector" rot="R90"/>
+<attribute name="NAME" x="62.992" y="0" size="1.778" layer="95" font="vector" rot="R90"/>
+</instance>
+<instance part="PWR" gate="G$1" x="104.14" y="2.54" smashed="yes" rot="R90">
+<attribute name="VALUE" x="108.966" y="0" size="1.778" layer="96" font="vector" rot="R90"/>
+<attribute name="NAME" x="98.552" y="0" size="1.778" layer="95" font="vector" rot="R90"/>
+</instance>
+<instance part="D2" gate="G$1" x="22.86" y="40.64" smashed="yes">
+<attribute name="NAME" x="21.08168125" y="49.78563125" size="1.27023125" layer="95"/>
+<attribute name="VALUE" x="20.315690625" y="30.4628" size="1.27215" layer="96"/>
+<attribute name="WEBLINK" x="22.86" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R25" gate="G$1" x="10.16" y="45.72" smashed="yes">
+<attribute name="NAME" x="3.81" y="47.2186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="11.43" y="47.498" size="1.778" layer="96"/>
+</instance>
+<instance part="R29" gate="G$1" x="10.16" y="40.64" smashed="yes">
+<attribute name="NAME" x="3.81" y="42.1386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="11.43" y="42.418" size="1.778" layer="96"/>
+</instance>
+<instance part="R30" gate="G$1" x="10.16" y="35.56" smashed="yes">
+<attribute name="NAME" x="3.81" y="37.0586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="11.43" y="37.338" size="1.778" layer="96"/>
+</instance>
+<instance part="GND50" gate="1" x="33.02" y="35.56" smashed="yes">
+<attribute name="VALUE" x="30.48" y="33.02" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -15221,8 +15335,8 @@ Allows current flow when high potential at base.</description>
 <segment>
 <pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="40.64" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="GND41" gate="1" pin="GND"/>
+<wire x1="43.18" y1="40.64" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="38.1" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
 <junction x="43.18" y="40.64"/>
 <pinref part="BOOT" gate="G$1" pin="COM"/>
@@ -15238,18 +15352,18 @@ Allows current flow when high potential at base.</description>
 </segment>
 <segment>
 <pinref part="GND44" gate="1" pin="GND"/>
-<wire x1="17.78" y1="12.7" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="BTN1" gate="G$1" pin="COM"/>
+<pinref part="BTN1" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="10.16" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND45" gate="1" pin="GND"/>
-<wire x1="53.34" y1="10.16" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="BTN2" gate="G$1" pin="COM"/>
+<pinref part="BTN2" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND47" gate="1" pin="GND"/>
-<wire x1="88.9" y1="12.7" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="PWR" gate="G$1" pin="COM"/>
+<pinref part="PWR" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="10.16" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND42" gate="1" pin="GND"/>
@@ -15276,6 +15390,11 @@ Allows current flow when high potential at base.</description>
 <segment>
 <pinref part="GND49" gate="1" pin="GND"/>
 <pinref part="C27" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="GND50" gate="1" pin="GND"/>
+<pinref part="D2" gate="G$1" pin="4"/>
+<wire x1="33.02" y1="38.1" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -15509,8 +15628,9 @@ Allows current flow when high potential at base.</description>
 <wire x1="33.02" y1="12.7" x2="35.56" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="15.24" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
 <label x="35.56" y="12.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="BTN1" gate="G$1" pin="NO"/>
 <junction x="33.02" y="12.7"/>
+<pinref part="BTN1" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="10.16" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="IO27"/>
@@ -15524,8 +15644,9 @@ Allows current flow when high potential at base.</description>
 <wire x1="68.58" y1="12.7" x2="71.12" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="15.24" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
 <label x="71.12" y="12.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="BTN2" gate="G$1" pin="NO"/>
 <junction x="68.58" y="12.7"/>
+<pinref part="BTN2" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="10.16" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="IO15"/>
@@ -15539,8 +15660,9 @@ Allows current flow when high potential at base.</description>
 <wire x1="104.14" y1="12.7" x2="106.68" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="15.24" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
 <label x="106.68" y="12.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="PWR" gate="G$1" pin="NO"/>
 <junction x="104.14" y="12.7"/>
+<pinref part="PWR" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="10.16" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="IO4"/>
@@ -15653,6 +15775,27 @@ Allows current flow when high potential at base.</description>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="U2" gate="G$1" pin="EN"/>
 <wire x1="50.8" y1="162.56" x2="53.34" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="1"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="45.72" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="R29" gate="G$1" pin="2"/>
+<pinref part="D2" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="3"/>
+<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="35.56" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
