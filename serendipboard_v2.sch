@@ -13682,11 +13682,11 @@ Allows current flow when high potential at base.</description>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1" value="I2C_PU"/>
+<part name="VCC" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1" value="I2C_PU"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="2.2k"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="2.2k"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="2.2k"/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" value="ADR"/>
+<part name="AD0" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" value="ADR"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q5" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBT2222AL" value="MMBT2222ALT1G">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/ON-Semiconductor/MMBT2222ALT1G?qs=HVbQlW5zcXWwnD7Jokybqg%3D%3D"/>
@@ -13782,19 +13782,19 @@ Allows current flow when high potential at base.</description>
 <part name="J4" library="USB3076-30-A" library_urn="urn:adsk.eagle:library:27406595" deviceset="USB3076-XX-X_REVC" device="" package3d_urn="urn:adsk.eagle:package:27406598/1">
 <attribute name="WEBLINK" value="https://www.digikey.com/en/products/detail/gct/USB3076-30-A/9859635?s=N4IgTCBcDaIKoGUBCBmADAdgGwFp04EEQBdAXyA"/>
 </part>
-<part name="S1" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
+<part name="BOOT" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
 </part>
-<part name="S2" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
+<part name="RST" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
 </part>
-<part name="S3" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
+<part name="BTN1" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
 </part>
-<part name="S4" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
+<part name="BTN2" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
 </part>
-<part name="S5" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
+<part name="PWR" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
 </part>
 <part name="U7" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_MIC5219" device="3.3V" package3d_urn="urn:adsk.eagle:package:39060/1" value="MIC5219 3.3V">
@@ -13837,7 +13837,7 @@ Allows current flow when high potential at base.</description>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="LS1" library="CST-931AP" library_urn="urn:adsk.eagle:library:27396256" deviceset="CST-931AP" device="" package3d_urn="urn:adsk.eagle:package:27396259/1"/>
+<part name="BUZZER" library="CST-931AP" library_urn="urn:adsk.eagle:library:27396256" deviceset="CST-931AP" device="" package3d_urn="urn:adsk.eagle:package:27396259/1"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="BATT" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
@@ -14080,7 +14080,7 @@ Allows current flow when high potential at base.</description>
 <instance part="GND27" gate="1" x="157.48" y="43.18" smashed="yes">
 <attribute name="VALUE" x="154.94" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="G$1" x="220.98" y="109.22" smashed="yes" rot="R270">
+<instance part="VCC" gate="G$1" x="220.98" y="109.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="218.821" y="106.68" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="223.139" y="106.68" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
 </instance>
@@ -14096,7 +14096,7 @@ Allows current flow when high potential at base.</description>
 <attribute name="NAME" x="252.5014" y="95.25" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="257.302" y="95.25" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP2" gate="G$1" x="238.76" y="58.42" smashed="yes" rot="R90">
+<instance part="AD0" gate="G$1" x="238.76" y="58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="236.22" y="55.88" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="241.3" y="55.88" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
@@ -14250,7 +14250,7 @@ Allows current flow when high potential at base.</description>
 <instance part="P+16" gate="VCC" x="215.9" y="170.18" smashed="yes">
 <attribute name="VALUE" x="218.44" y="172.72" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LS1" gate="G$1" x="33.02" y="27.94" smashed="yes">
+<instance part="BUZZER" gate="G$1" x="33.02" y="27.94" smashed="yes">
 <attribute name="NAME" x="36.820890625" y="29.23125" size="1.782240625" layer="95"/>
 <attribute name="VALUE" x="36.81846875" y="26.6354" size="1.78338125" layer="96"/>
 </instance>
@@ -14413,7 +14413,7 @@ Allows current flow when high potential at base.</description>
 <pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="AD0" gate="G$1" pin="1"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -14513,7 +14513,7 @@ Allows current flow when high potential at base.</description>
 <pinref part="P+12" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="VCC" gate="G$1" pin="2"/>
 <pinref part="P+15" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
@@ -14521,7 +14521,7 @@ Allows current flow when high potential at base.</description>
 <pinref part="P+16" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="LS1" gate="G$1" pin="P"/>
+<pinref part="BUZZER" gate="G$1" pin="P"/>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
@@ -14745,7 +14745,7 @@ Allows current flow when high potential at base.</description>
 <label x="213.36" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="AD0" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="63.5" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="66.04" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
 <label x="241.3" y="66.04" size="1.27" layer="95" xref="yes"/>
@@ -14753,7 +14753,7 @@ Allows current flow when high potential at base.</description>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="3"/>
+<pinref part="VCC" gate="G$1" pin="3"/>
 <wire x1="208.28" y1="104.14" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="109.22" x2="215.9" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -14761,7 +14761,7 @@ Allows current flow when high potential at base.</description>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="VCC" gate="G$1" pin="1"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="109.22" x2="254" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="254" y1="109.22" x2="254" y2="104.14" width="0.1524" layer="91"/>
@@ -14888,7 +14888,7 @@ Allows current flow when high potential at base.</description>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="LS1" gate="G$1" pin="M"/>
+<pinref part="BUZZER" gate="G$1" pin="M"/>
 <pinref part="Q2" gate="G$1" pin="C"/>
 </segment>
 </net>
@@ -15121,27 +15121,27 @@ Allows current flow when high potential at base.</description>
 <attribute name="VALUE" x="157.48225" y="121.9144" size="1.778790625" layer="96" rot="MR0"/>
 <attribute name="WEBLINK" x="152.4" y="134.62" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="S1" gate="G$1" x="50.8" y="45.72" smashed="yes">
+<instance part="BOOT" gate="G$1" x="50.8" y="45.72" smashed="yes">
 <attribute name="NAME" x="48.26" y="50.8" size="1.27" layer="95"/>
 <attribute name="VALUE" x="58.42" y="48.26" size="1.27" layer="96" rot="R180" align="top-left"/>
 <attribute name="WEBLINK" x="50.8" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="S2" gate="G$1" x="91.44" y="45.72" smashed="yes">
+<instance part="RST" gate="G$1" x="91.44" y="45.72" smashed="yes">
 <attribute name="NAME" x="88.9" y="50.8" size="1.27" layer="95"/>
 <attribute name="VALUE" x="99.06" y="48.26" size="1.27" layer="96" rot="R180" align="top-left"/>
 <attribute name="WEBLINK" x="91.44" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="S3" gate="G$1" x="25.4" y="12.7" smashed="yes">
+<instance part="BTN1" gate="G$1" x="25.4" y="12.7" smashed="yes">
 <attribute name="NAME" x="22.86" y="15.24" size="1.27" layer="95"/>
 <attribute name="VALUE" x="20.32" y="10.16" size="1.27" layer="96" align="top-left"/>
 <attribute name="WEBLINK" x="25.4" y="12.7" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="S4" gate="G$1" x="60.96" y="12.7" smashed="yes">
+<instance part="BTN2" gate="G$1" x="60.96" y="12.7" smashed="yes">
 <attribute name="NAME" x="58.42" y="15.24" size="1.27" layer="95"/>
 <attribute name="VALUE" x="55.88" y="10.16" size="1.27" layer="96" align="top-left"/>
 <attribute name="WEBLINK" x="60.96" y="12.7" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="S5" gate="G$1" x="96.52" y="12.7" smashed="yes">
+<instance part="PWR" gate="G$1" x="96.52" y="12.7" smashed="yes">
 <attribute name="NAME" x="93.98" y="15.24" size="1.27" layer="95"/>
 <attribute name="VALUE" x="91.44" y="10.16" size="1.27" layer="96" align="top-left"/>
 <attribute name="WEBLINK" x="96.52" y="12.7" size="1.778" layer="96" display="off"/>
@@ -15225,7 +15225,7 @@ Allows current flow when high potential at base.</description>
 <pinref part="GND41" gate="1" pin="GND"/>
 <wire x1="43.18" y1="38.1" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
 <junction x="43.18" y="40.64"/>
-<pinref part="S1" gate="G$1" pin="COM"/>
+<pinref part="BOOT" gate="G$1" pin="COM"/>
 </segment>
 <segment>
 <pinref part="GND46" gate="1" pin="GND"/>
@@ -15234,22 +15234,22 @@ Allows current flow when high potential at base.</description>
 <pinref part="C25" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="40.64" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
 <junction x="83.82" y="40.64"/>
-<pinref part="S2" gate="G$1" pin="COM"/>
+<pinref part="RST" gate="G$1" pin="COM"/>
 </segment>
 <segment>
 <pinref part="GND44" gate="1" pin="GND"/>
 <wire x1="17.78" y1="12.7" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="COM"/>
+<pinref part="BTN1" gate="G$1" pin="COM"/>
 </segment>
 <segment>
 <pinref part="GND45" gate="1" pin="GND"/>
 <wire x1="53.34" y1="10.16" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="S4" gate="G$1" pin="COM"/>
+<pinref part="BTN2" gate="G$1" pin="COM"/>
 </segment>
 <segment>
 <pinref part="GND47" gate="1" pin="GND"/>
 <wire x1="88.9" y1="12.7" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="S5" gate="G$1" pin="COM"/>
+<pinref part="PWR" gate="G$1" pin="COM"/>
 </segment>
 <segment>
 <pinref part="GND42" gate="1" pin="GND"/>
@@ -15303,7 +15303,7 @@ Allows current flow when high potential at base.</description>
 <wire x1="96.52" y1="40.64" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="40.64" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
 <label x="101.6" y="45.72" size="1.27" layer="95" xref="yes"/>
-<pinref part="S2" gate="G$1" pin="NO"/>
+<pinref part="RST" gate="G$1" pin="NO"/>
 <junction x="99.06" y="45.72"/>
 </segment>
 </net>
@@ -15322,7 +15322,7 @@ Allows current flow when high potential at base.</description>
 <segment>
 <wire x1="58.42" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
 <label x="60.96" y="45.72" size="1.27" layer="95" xref="yes"/>
-<pinref part="S1" gate="G$1" pin="NO"/>
+<pinref part="BOOT" gate="G$1" pin="NO"/>
 <pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="40.64" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="40.64" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
@@ -15509,7 +15509,7 @@ Allows current flow when high potential at base.</description>
 <wire x1="33.02" y1="12.7" x2="35.56" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="15.24" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
 <label x="35.56" y="12.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="S3" gate="G$1" pin="NO"/>
+<pinref part="BTN1" gate="G$1" pin="NO"/>
 <junction x="33.02" y="12.7"/>
 </segment>
 <segment>
@@ -15524,7 +15524,7 @@ Allows current flow when high potential at base.</description>
 <wire x1="68.58" y1="12.7" x2="71.12" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="15.24" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
 <label x="71.12" y="12.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="S4" gate="G$1" pin="NO"/>
+<pinref part="BTN2" gate="G$1" pin="NO"/>
 <junction x="68.58" y="12.7"/>
 </segment>
 <segment>
@@ -15539,7 +15539,7 @@ Allows current flow when high potential at base.</description>
 <wire x1="104.14" y1="12.7" x2="106.68" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="15.24" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
 <label x="106.68" y="12.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="S5" gate="G$1" pin="NO"/>
+<pinref part="PWR" gate="G$1" pin="NO"/>
 <junction x="104.14" y="12.7"/>
 </segment>
 <segment>

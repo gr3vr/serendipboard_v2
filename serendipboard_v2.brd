@@ -8,7 +8,7 @@
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -28,11 +28,11 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -216,6 +216,9 @@
 <text x="2.413" y="21.209" size="0.4064" layer="25" rot="R180">SCL</text>
 <text x="4.572" y="33.147" size="0.4064" layer="25">VCC</text>
 <text x="24.892" y="8.89" size="0.4064" layer="25" rot="R270">VCC</text>
+<text x="0.381" y="9.906" size="0.4064" layer="25" rot="R270">B+</text>
+<text x="0.381" y="9.652" size="0.4064" layer="26" rot="MR180">B+</text>
+<text x="0.381" y="7.239" size="0.4064" layer="26" rot="MR180">B-</text>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -3253,7 +3256,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" Real Time Clock (RTC) IC Clock/Calendar I²C, 2-Wire Serial 16-SOIC (0.295, 7.50mm Width) " x="-39.37" y="-22.86" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="Maxim Integrated" x="-39.37" y="-22.86" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="DS3231" x="-39.37" y="-22.86" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="23.241" y="13.589" size="0.6096" layer="26" rot="MR180"/>
+<attribute name="NAME" x="32.258" y="12.192" size="0.6096" layer="26" rot="MR90"/>
 <attribute name="PACKAGE" value="SOIC-16 Maxim Integrated" x="-39.37" y="-22.86" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="-39.37" y="-22.86" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="32.385" y="12.7" size="1.27" layer="28" rot="MR0"/>
@@ -3270,21 +3273,21 @@ design rules under a new name.</description>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/USB3076-30-A/?ref=eda" x="57.785" y="-36.5506" size="1.778" layer="27" display="off"/>
 <attribute name="WEBLINK" value="https://www.digikey.com/en/products/detail/gct/USB3076-30-A/9859635?s=N4IgTCBcDaIKoGUBCBmADAdgGwFp04EEQBdAXyA" x="57.785" y="-36.5506" size="1.778" layer="27" display="off"/>
 </element>
-<element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_3_2-NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39289/1" value="I2C_PU" x="18.415" y="13.6398" smashed="yes" rot="MR270">
-<attribute name="NAME" x="17.272" y="12.6238" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
+<element name="VCC" library="SparkFun-Jumpers" package="SMT-JUMPER_3_2-NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39289/1" value="I2C_PU" x="18.415" y="13.6398" smashed="yes" rot="MR270">
+<attribute name="NAME" x="17.272" y="13.2588" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="19.558" y="13.6398" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
 </element>
-<element name="JP2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" value="ADR" x="18.415" y="10.16" smashed="yes" rot="MR180">
+<element name="AD0" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" value="ADR" x="18.415" y="10.16" smashed="yes" rot="MR180">
 <attribute name="NAME" x="19.304" y="10.16" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="18.415" y="11.303" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="LS1" library="CST-931AP" library_urn="urn:adsk.eagle:library:27396256" package="CUI_CST-931AP" package3d_urn="urn:adsk.eagle:package:27396259/1" value="CST-931AP" x="26.035" y="6.35" smashed="yes" rot="R270">
+<element name="BUZZER" library="CST-931AP" library_urn="urn:adsk.eagle:library:27396256" package="CUI_CST-931AP" package3d_urn="urn:adsk.eagle:package:27396259/1" value="CST-931AP" x="26.035" y="6.35" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Good" x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/audio/buzzers/audio-transducers/cst-931ap?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value="9 mm, 3 V, 85 dB, Through Hole, Magnetic Audio Transducer Buzzer" x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="CUI Devices" x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="CST-931AP" x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="25.5283" y="6.02851875" size="0.635" layer="25"/>
+<attribute name="NAME" x="24.2583" y="6.02851875" size="0.635" layer="25"/>
 <attribute name="PACKAGE" value=" CUI Inc." x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/CST-931AP/?ref=eda" x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3509,60 +3512,60 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-61.595" y="116.205" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="14.605" y="35.56" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="S1" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" package="SW_KMR731NGLFS" package3d_urn="urn:adsk.eagle:package:27409118/1" value="KMR731NGLFS" x="30.48" y="25.4" smashed="yes" rot="R90">
+<element name="BOOT" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" package="SW_KMR731NGLFS" package3d_urn="urn:adsk.eagle:package:27409118/1" value="KMR731NGLFS" x="30.48" y="25.4" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="82.55" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Top Actuated Surface Mount " x="82.55" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="C&amp;K" x="82.55" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="KMR731NGLFS" x="82.55" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="33.345" y="27.146" size="0.6096" layer="25" rot="R270"/>
+<attribute name="NAME" x="33.345" y="26.511" size="0.6096" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="82.55" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="82.55" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/KMR731NGLFS/?ref=eda" x="82.55" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="33.98" y="23.4" size="1.27" layer="27" rot="R90" align="top-left"/>
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D" x="82.55" y="50.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="S2" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" package="SW_KMR731NGLFS" package3d_urn="urn:adsk.eagle:package:27409118/1" value="KMR731NGLFS" x="30.48" y="31.115" smashed="yes" rot="R90">
+<element name="RST" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" package="SW_KMR731NGLFS" package3d_urn="urn:adsk.eagle:package:27409118/1" value="KMR731NGLFS" x="30.48" y="31.115" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="82.55" y="71.755" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Top Actuated Surface Mount " x="82.55" y="71.755" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="C&amp;K" x="82.55" y="71.755" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="KMR731NGLFS" x="82.55" y="71.755" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="33.345" y="32.861" size="0.6096" layer="25" rot="R270"/>
+<attribute name="NAME" x="33.345" y="32.734" size="0.6096" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="82.55" y="71.755" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="82.55" y="71.755" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/KMR731NGLFS/?ref=eda" x="82.55" y="71.755" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="33.98" y="29.115" size="1.27" layer="27" rot="R90" align="top-left"/>
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D" x="82.55" y="71.755" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="S3" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" package="SW_KMR731NGLFS" package3d_urn="urn:adsk.eagle:package:27409118/1" value="KMR731NGLFS" x="30.48" y="36.83" smashed="yes" rot="R90">
+<element name="BTN1" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" package="SW_KMR731NGLFS" package3d_urn="urn:adsk.eagle:package:27409118/1" value="KMR731NGLFS" x="30.48" y="36.83" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="82.55" y="92.71" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Top Actuated Surface Mount " x="82.55" y="92.71" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="C&amp;K" x="82.55" y="92.71" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="KMR731NGLFS" x="82.55" y="92.71" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="33.345" y="38.576" size="0.6096" layer="25" rot="R270"/>
+<attribute name="NAME" x="33.345" y="37.814" size="0.6096" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="82.55" y="92.71" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="82.55" y="92.71" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/KMR731NGLFS/?ref=eda" x="82.55" y="92.71" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="33.98" y="34.83" size="1.27" layer="27" rot="R90" align="top-left"/>
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D" x="82.55" y="92.71" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="S4" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" package="SW_KMR731NGLFS" package3d_urn="urn:adsk.eagle:package:27409118/1" value="KMR731NGLFS" x="30.48" y="42.545" smashed="yes" rot="R90">
+<element name="BTN2" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" package="SW_KMR731NGLFS" package3d_urn="urn:adsk.eagle:package:27409118/1" value="KMR731NGLFS" x="30.48" y="42.545" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="82.55" y="113.665" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Top Actuated Surface Mount " x="82.55" y="113.665" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="C&amp;K" x="82.55" y="113.665" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="KMR731NGLFS" x="82.55" y="113.665" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="33.218" y="44.164" size="0.6096" layer="25" rot="R270"/>
+<attribute name="NAME" x="33.345" y="43.402" size="0.6096" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="82.55" y="113.665" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="82.55" y="113.665" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/KMR731NGLFS/?ref=eda" x="82.55" y="113.665" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="33.98" y="40.545" size="1.27" layer="27" rot="R90" align="top-left"/>
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D" x="82.55" y="113.665" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="S5" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" package="SW_KMR731NGLFS" package3d_urn="urn:adsk.eagle:package:27409118/1" value="KMR731NGLFS" x="30.48" y="19.685" smashed="yes" rot="R90">
+<element name="PWR" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" package="SW_KMR731NGLFS" package3d_urn="urn:adsk.eagle:package:27409118/1" value="KMR731NGLFS" x="30.48" y="19.685" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="93.98" y="45.085" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Top Actuated Surface Mount " x="93.98" y="45.085" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="C&amp;K" x="93.98" y="45.085" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="KMR731NGLFS" x="93.98" y="45.085" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="33.345" y="21.431" size="0.6096" layer="25" rot="R270"/>
+<attribute name="NAME" x="33.345" y="20.542" size="0.6096" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="93.98" y="45.085" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="93.98" y="45.085" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/KMR731NGLFS/?ref=eda" x="93.98" y="45.085" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3576,7 +3579,7 @@ design rules under a new name.</description>
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/STMicroelectronics/LD39015M18R?qs=%2Fha2pyFaduiNd%2F2UEBkaLCKjQ2zo%2FZOF5RG39Zh4PEGsBkDRy2IG8Q%3D%3D" x="104.14" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" package="TDFN-8" package3d_urn="urn:adsk.eagle:package:39055/1" value="MAX17043" x="6.35" y="6.477" smashed="yes" rot="MR270">
-<attribute name="NAME" x="5.858" y="5.81" size="0.4064" layer="26" rot="MR270"/>
+<attribute name="NAME" x="5.096" y="5.683" size="0.4064" layer="26" rot="MR270"/>
 <attribute name="PROD-ID" value="IC-10399" x="109.22" y="-40.513" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="7.75" y="8.477" size="0.4064" layer="28" rot="MR270"/>
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX17043G%2bT?qs=fnYUjNMxfVCghHGFBrnbRA%3D%3D" x="109.22" y="-40.513" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3687,7 +3690,7 @@ design rules under a new name.</description>
 <contactref element="C13" pad="2"/>
 <contactref element="C14" pad="2"/>
 <contactref element="C15" pad="2"/>
-<contactref element="JP2" pad="1"/>
+<contactref element="AD0" pad="1"/>
 <contactref element="Q5" pad="2"/>
 <contactref element="Q2" pad="2"/>
 <contactref element="R16" pad="1"/>
@@ -3729,17 +3732,17 @@ design rules under a new name.</description>
 <contactref element="U5" pad="39_20"/>
 <contactref element="U5" pad="39_21"/>
 <contactref element="C26" pad="2"/>
-<contactref element="S1" pad="3"/>
-<contactref element="S1" pad="4"/>
+<contactref element="BOOT" pad="3"/>
+<contactref element="BOOT" pad="4"/>
 <contactref element="C25" pad="2"/>
-<contactref element="S2" pad="3"/>
-<contactref element="S2" pad="4"/>
-<contactref element="S3" pad="3"/>
-<contactref element="S3" pad="4"/>
-<contactref element="S4" pad="3"/>
-<contactref element="S4" pad="4"/>
-<contactref element="S5" pad="3"/>
-<contactref element="S5" pad="4"/>
+<contactref element="RST" pad="3"/>
+<contactref element="RST" pad="4"/>
+<contactref element="BTN1" pad="3"/>
+<contactref element="BTN1" pad="4"/>
+<contactref element="BTN2" pad="3"/>
+<contactref element="BTN2" pad="4"/>
+<contactref element="PWR" pad="3"/>
+<contactref element="PWR" pad="4"/>
 <contactref element="C18" pad="2"/>
 <contactref element="C20" pad="2"/>
 <contactref element="C8" pad="2"/>
@@ -4029,9 +4032,9 @@ design rules under a new name.</description>
 <contactref element="OLED" pad="4"/>
 <contactref element="R19" pad="2"/>
 <contactref element="R20" pad="2"/>
-<contactref element="JP1" pad="2"/>
+<contactref element="VCC" pad="2"/>
 <contactref element="R7" pad="2"/>
-<contactref element="LS1" pad="P"/>
+<contactref element="BUZZER" pad="P"/>
 <contactref element="C7" pad="1"/>
 <wire x1="32.1053125" y1="11.0014" x2="31.9714" y2="11.1353125" width="0.2032" layer="1"/>
 <wire x1="31.9714" y1="11.1353125" x2="31.9714" y2="11.7246875" width="0.2032" layer="1"/>
@@ -4394,7 +4397,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="AD0">
 <contactref element="U4" pad="9"/>
-<contactref element="JP2" pad="2"/>
+<contactref element="AD0" pad="2"/>
 <via x="27.305" y="13.335" extent="1-16" drill="0.2"/>
 <wire x1="27.74" y1="11.835" x2="27.74" y2="12.9" width="0.254" layer="1"/>
 <wire x1="27.74" y1="12.9" x2="27.305" y2="13.335" width="0.254" layer="1"/>
@@ -4402,7 +4405,7 @@ design rules under a new name.</description>
 <wire x1="21.9964" y1="13.335" x2="18.8214" y2="10.16" width="0.254" layer="16"/>
 </signal>
 <signal name="N$10">
-<contactref element="JP1" pad="3"/>
+<contactref element="VCC" pad="3"/>
 <contactref element="R6" pad="2"/>
 <via x="18.415" y="11.684" extent="1-16" drill="0.2"/>
 <wire x1="19.685" y1="12.565" x2="19.558" y2="12.565" width="0.254" layer="1"/>
@@ -4411,7 +4414,7 @@ design rules under a new name.</description>
 <wire x1="18.415" y1="12.5984" x2="18.415" y2="11.684" width="0.254" layer="16"/>
 </signal>
 <signal name="N$12">
-<contactref element="JP1" pad="1"/>
+<contactref element="VCC" pad="1"/>
 <contactref element="R12" pad="2"/>
 <via x="18.415" y="15.494" extent="1-16" drill="0.2"/>
 <wire x1="18.415" y1="15.494" x2="18.804" y2="15.494" width="0.254" layer="1"/>
@@ -4653,7 +4656,7 @@ design rules under a new name.</description>
 <wire x1="15.1836125" y1="5.08" x2="13.843" y2="5.08" width="0.254" layer="1"/>
 </signal>
 <signal name="N$19">
-<contactref element="LS1" pad="M"/>
+<contactref element="BUZZER" pad="M"/>
 <contactref element="Q2" pad="3"/>
 <wire x1="26.035" y1="4.35" x2="28.035" y2="4.35" width="0.254" layer="16"/>
 <wire x1="28.035" y1="4.35" x2="28.321" y2="4.064" width="0.254" layer="16"/>
@@ -4756,8 +4759,8 @@ design rules under a new name.</description>
 <contactref element="Q8" pad="3"/>
 <contactref element="U5" pad="3"/>
 <contactref element="C25" pad="1"/>
-<contactref element="S2" pad="1"/>
-<contactref element="S2" pad="2"/>
+<contactref element="RST" pad="1"/>
+<contactref element="RST" pad="2"/>
 <wire x1="17.145" y1="17.795" x2="15.525" y2="17.795" width="0.254" layer="1"/>
 <wire x1="17.78" y1="20.16125" x2="15.875" y2="20.16125" width="0.254" layer="1"/>
 <wire x1="8.645" y1="37.518" x2="9.73675" y2="37.518" width="0.254" layer="1"/>
@@ -4795,8 +4798,8 @@ design rules under a new name.</description>
 <signal name="IO0">
 <contactref element="Q8" pad="6"/>
 <contactref element="U5" pad="25"/>
-<contactref element="S1" pad="1"/>
-<contactref element="S1" pad="2"/>
+<contactref element="BOOT" pad="1"/>
+<contactref element="BOOT" pad="2"/>
 <contactref element="C26" pad="1"/>
 <wire x1="28.43" y1="24.6" x2="32.53" y2="24.6" width="0.254" layer="1"/>
 <wire x1="12.065" y1="16.495" x2="13.685" y2="16.495" width="0.254" layer="1"/>
@@ -4937,8 +4940,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="GPIO27">
 <contactref element="R28" pad="1"/>
-<contactref element="S3" pad="1"/>
-<contactref element="S3" pad="2"/>
+<contactref element="BTN1" pad="1"/>
+<contactref element="BTN1" pad="2"/>
 <contactref element="U5" pad="12"/>
 <wire x1="32.53" y1="36.03" x2="29.5275" y2="36.03" width="0.254" layer="1"/>
 <wire x1="29.5275" y1="36.03" x2="28.43" y2="36.03" width="0.254" layer="1"/>
@@ -4972,8 +4975,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="GPIO15">
 <contactref element="R27" pad="1"/>
-<contactref element="S4" pad="1"/>
-<contactref element="S4" pad="2"/>
+<contactref element="BTN2" pad="1"/>
+<contactref element="BTN2" pad="2"/>
 <contactref element="U5" pad="23"/>
 <wire x1="32.53" y1="41.745" x2="29.68625" y2="41.745" width="0.254" layer="1"/>
 <wire x1="29.68625" y1="41.745" x2="28.43" y2="41.745" width="0.254" layer="1"/>
@@ -5010,8 +5013,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWR">
 <contactref element="R26" pad="1"/>
-<contactref element="S5" pad="1"/>
-<contactref element="S5" pad="2"/>
+<contactref element="PWR" pad="1"/>
+<contactref element="PWR" pad="2"/>
 <contactref element="U5" pad="26"/>
 <wire x1="32.53" y1="18.885" x2="28.43" y2="18.885" width="0.254" layer="1"/>
 <wire x1="23.495" y1="24.98725" x2="23.495" y2="28.41625" width="0.254" layer="16"/>
