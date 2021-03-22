@@ -8695,119 +8695,6 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 &lt;p&gt;THIS SOFTWARE IS PROVIDED ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 &lt;/p&gt;</description>
 <packages>
-<package name="JSTPH2">
-<description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
-<wire x1="-4" y1="3" x2="4" y2="3" width="0.2032" layer="51"/>
-<wire x1="4" y1="3" x2="4" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="-4" y1="-4.5" x2="-4" y2="3" width="0.2032" layer="51"/>
-<wire x1="3.2" y1="-2" x2="-3.2" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-3.2" y1="-2" x2="-3.2" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="-3.2" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="4" y1="-4.5" x2="3.2" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="3.2" y1="-4.5" x2="3.2" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-2.25" y1="3" x2="2.25" y2="3" width="0.2032" layer="21"/>
-<wire x1="4" y1="-0.5" x2="4" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="4" y1="-4.5" x2="3.15" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="3.15" y1="-4.5" x2="3.15" y2="-2" width="0.2032" layer="21"/>
-<wire x1="3.15" y1="-2" x2="1.75" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-2" x2="-3.15" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-3.15" y1="-2" x2="-3.15" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="-3.15" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="-4" y1="-4.5" x2="-4" y2="-0.5" width="0.2032" layer="21"/>
-<smd name="1" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="2" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<text x="-2.2225" y="1.9685" size="0.8128" layer="25" ratio="18">&gt;Name</text>
-<text x="-2.2225" y="1.27" size="0.4064" layer="27" ratio="10">&gt;Value</text>
-</package>
-<package name="CR2032">
-<description>CR2032 Battery Holder</description>
-<wire x1="7.6" y1="3" x2="11" y2="3" width="0.2032" layer="51"/>
-<wire x1="11" y1="-3" x2="7.6" y2="-3" width="0.2032" layer="51"/>
-<wire x1="11.5" y1="2.5" x2="11.5" y2="-2.5" width="0.2032" layer="51"/>
-<wire x1="11.5" y1="-2.5" x2="11" y2="-3" width="0.2032" layer="51" curve="-90"/>
-<wire x1="11" y1="3" x2="11.5" y2="2.5" width="0.2032" layer="51" curve="-90"/>
-<circle x="-3.5" y="0" radius="11.5" width="0.2032" layer="51"/>
-<circle x="-3.5" y="0" radius="10.25" width="0.2032" layer="51"/>
-<circle x="-3.5" y="0" radius="11.75" width="0.2032" layer="21"/>
-<pad name="-" x="-10" y="0" drill="0.9"/>
-<pad name="+" x="10" y="0" drill="0.9"/>
-<text x="11.938" y="0.127" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="11.938" y="-0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="JSTSH2">
-<wire x1="2" y1="2.125" x2="-2" y2="2.125" width="0.127" layer="20"/>
-<wire x1="-2" y1="2.125" x2="-2" y2="-2.125" width="0.127" layer="20"/>
-<wire x1="-2" y1="-2.125" x2="2" y2="-2.125" width="0.127" layer="20"/>
-<wire x1="2" y1="-2.125" x2="2" y2="2.125" width="0.127" layer="20"/>
-<wire x1="-0.889" y1="2.159" x2="0.889" y2="2.159" width="0.2032" layer="21"/>
-<wire x1="-2.032" y1="-0.127" x2="-2.032" y2="-2.159" width="0.2032" layer="21"/>
-<wire x1="-2.032" y1="-2.159" x2="-1.143" y2="-2.159" width="0.2032" layer="21"/>
-<wire x1="2.032" y1="-0.127" x2="2.032" y2="-2.159" width="0.2032" layer="21"/>
-<wire x1="2.032" y1="-2.159" x2="1.143" y2="-2.159" width="0.2032" layer="21"/>
-<smd name="NC2" x="1.8" y="1.125" dx="1.2" dy="2" layer="1" rot="R180"/>
-<smd name="NC1" x="-1.8" y="1.125" dx="1.2" dy="2" layer="1" rot="R180"/>
-<smd name="2" x="0.5" y="-2.55" dx="1.35" dy="0.5" layer="1" rot="R270"/>
-<smd name="1" x="-0.5" y="-2.55" dx="1.35" dy="0.5" layer="1" rot="R270"/>
-<text x="-1.063" y="-2.404" size="1.4224" layer="21" ratio="12" rot="R180">-</text>
-<text x="2.683" y="-2.404" size="1.4224" layer="21" ratio="12" rot="R180">+</text>
-<text x="2.794" y="1.397" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="2.794" y="0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="CR1220">
-<wire x1="-10.0654" y1="-1.84" x2="-6.66" y2="-1.84" width="0.2032" layer="21"/>
-<wire x1="-6.66" y1="-1.84" x2="-6.66" y2="-3.672" width="0.2032" layer="21"/>
-<wire x1="-6.66" y1="-3.672" x2="-3.826" y2="-6.66" width="0.2032" layer="21"/>
-<wire x1="-3.826" y1="-6.66" x2="3.98" y2="-6.66" width="0.2032" layer="21"/>
-<wire x1="3.98" y1="-6.66" x2="6.66" y2="-3.826" width="0.2032" layer="21"/>
-<wire x1="6.66" y1="-3.826" x2="6.66" y2="-1.84" width="0.2032" layer="21"/>
-<wire x1="6.66" y1="-1.84" x2="10.0654" y2="-1.84" width="0.2032" layer="21"/>
-<wire x1="10.0654" y1="-1.84" x2="10.0654" y2="1.84" width="0.2032" layer="21"/>
-<wire x1="10.0654" y1="1.84" x2="6.66" y2="1.84" width="0.2032" layer="21"/>
-<wire x1="6.66" y1="1.84" x2="6.66" y2="6.652" width="0.2032" layer="21"/>
-<wire x1="6.66" y1="6.652" x2="5.842" y2="6.652" width="0.2032" layer="51"/>
-<wire x1="5.842" y1="6.652" x2="3.702" y2="4.404" width="0.2032" layer="51"/>
-<wire x1="3.702" y1="4.404" x2="-3.048" y2="4.404" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="4.404" x2="-5.334" y2="6.652" width="0.2032" layer="51"/>
-<wire x1="-5.334" y1="6.652" x2="-6.66" y2="6.652" width="0.2032" layer="51"/>
-<wire x1="-6.66" y1="6.652" x2="-6.66" y2="1.84" width="0.2032" layer="21"/>
-<wire x1="-6.66" y1="1.84" x2="-10.0654" y2="1.84" width="0.2032" layer="21"/>
-<wire x1="-10.0654" y1="1.84" x2="-10.0654" y2="-1.84" width="0.2032" layer="21"/>
-<circle x="-8.2794" y="0" radius="0.9158" width="0.2032" layer="51"/>
-<circle x="8.4254" y="0.154" radius="0.9158" width="0.2032" layer="51"/>
-<smd name="-" x="0" y="0" dx="6.35" dy="6.35" layer="1" roundness="100" stop="no"/>
-<smd name="+$1" x="-8.2254" y="0" dx="3.2" dy="3.2" layer="1"/>
-<smd name="+$2" x="8.2254" y="0" dx="3.2" dy="3.2" layer="1"/>
-<text x="-3.302" y="-7.86" size="0.8128" layer="25" font="vector" ratio="18">&gt;NAME</text>
-<text x="-3.302" y="-8.868" size="0.4064" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<circle x="0" y="0" radius="6.282115625" width="0" layer="29"/>
-</package>
-<package name="JSTPH2_NOTHERMALS">
-<wire x1="-4" y1="3" x2="4" y2="3" width="0.2032" layer="51"/>
-<wire x1="4" y1="3" x2="4" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="-4" y1="-4.5" x2="-4" y2="3" width="0.2032" layer="51"/>
-<wire x1="3.2" y1="-2" x2="-3.2" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-3.2" y1="-2" x2="-3.2" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="-3.2" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="4" y1="-4.5" x2="3.2" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="3.2" y1="-4.5" x2="3.2" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-2.25" y1="3" x2="2.25" y2="3" width="0.2032" layer="21"/>
-<wire x1="4" y1="-0.5" x2="4" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="4" y1="-4.5" x2="3.15" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="3.15" y1="-4.5" x2="3.15" y2="-2" width="0.2032" layer="21"/>
-<wire x1="3.15" y1="-2" x2="1.75" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-2" x2="-3.15" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-3.15" y1="-2" x2="-3.15" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="-3.15" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="-4" y1="-4.5" x2="-4" y2="-0.5" width="0.2032" layer="21"/>
-<smd name="1" x="-1" y="-3.7" dx="1" dy="4.6" layer="1" thermals="no"/>
-<smd name="2" x="1" y="-3.7" dx="1" dy="4.6" layer="1" thermals="no"/>
-<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
-<text x="-2.2225" y="1.9685" size="0.8128" layer="25" ratio="18">&gt;Name</text>
-<text x="-2.2225" y="1.27" size="0.4064" layer="27" ratio="10">&gt;Value</text>
-</package>
 <package name="SOT23-R">
 <description>&lt;b&gt;SOT23&lt;/b&gt; - Reflow soldering</description>
 <wire x1="1.5724" y1="0.6604" x2="1.5724" y2="-0.6604" width="0.1524" layer="51"/>
@@ -8879,24 +8766,6 @@ TS-003</description>
 </package>
 </packages>
 <symbols>
-<symbol name="BATTERY">
-<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.889" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="3.175" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
-<text x="1.27" y="-1.143" size="1.27" layer="94" rot="R270">+</text>
-<pin name="-" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
-<pin name="+" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-<wire x1="0.762" y1="2.286" x2="0.762" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="-0.254" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-0.254" y1="-1.27" x2="-0.508" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="-1.27" x2="-0.508" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="1.27" x2="-0.254" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-0.254" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-0.254" y1="1.27" x2="-0.254" y2="-1.27" width="0.254" layer="94"/>
-<text x="-1.778" y="-1.143" size="1.27" layer="94" rot="R270">-</text>
-</symbol>
 <symbol name="MOSFET-P">
 <wire x1="-1.778" y1="-0.762" x2="-1.778" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.778" y1="0" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
@@ -8939,64 +8808,6 @@ TS-003</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BATTERY" prefix="B" uservalue="yes">
-<description>&lt;p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;CR1220 SMT&lt;/b&gt; - Digikey: 3001K-ND&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="BATTERY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="JSTPH2">
-<connects>
-<connect gate="G$1" pin="+" pad="2"/>
-<connect gate="G$1" pin="-" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CR2032" package="CR2032">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SH2" package="JSTSH2">
-<connects>
-<connect gate="G$1" pin="+" pad="2"/>
-<connect gate="G$1" pin="-" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CR1220_SMT" package="CR1220">
-<connects>
-<connect gate="G$1" pin="+" pad="+$1"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PH2_NOTHERMALS" package="JSTPH2_NOTHERMALS">
-<connects>
-<connect gate="G$1" pin="+" pad="2"/>
-<connect gate="G$1" pin="-" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MOSFET-P" prefix="Q" uservalue="yes">
 <description>&lt;b&gt;P-Channel Mosfet&lt;/b&gt;
 &lt;p&gt;&lt;b&gt;LEGEND&lt;/b&gt;&lt;/p&gt;
@@ -13699,6 +13510,91 @@ Allows current flow when high potential at base.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="3000TR" urn="urn:adsk.eagle:library:27618368">
+<packages>
+<package name="BAT_3000TR" urn="urn:adsk.eagle:footprint:27618404/1" library_version="1">
+<wire x1="-6.605" y1="-1.96" x2="-6.605" y2="-3.57" width="0.2" layer="21"/>
+<wire x1="-6.605" y1="-3.57" x2="-3.57" y2="-6.725" width="0.2" layer="21"/>
+<wire x1="-3.57" y1="-6.725" x2="3.57" y2="-6.725" width="0.2" layer="21"/>
+<wire x1="3.57" y1="-6.725" x2="6.605" y2="-3.57" width="0.2" layer="21"/>
+<wire x1="6.605" y1="-3.57" x2="6.605" y2="-1.96" width="0.2" layer="21"/>
+<wire x1="-4.49" y1="5.02" x2="4.49" y2="5.02" width="0.2" layer="21" curve="60"/>
+<wire x1="4.49" y1="5.02" x2="6.605" y2="3.62" width="0.2" layer="21" curve="-100"/>
+<wire x1="-6.605" y1="3.62" x2="-4.48" y2="5.02" width="0.2" layer="21" curve="-114.179"/>
+<wire x1="6.605" y1="-1.96" x2="6.61" y2="-2.26" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="1.85" x2="-9.7" y2="1.85" width="0.05" layer="39"/>
+<wire x1="-9.7" y1="1.85" x2="-9.7" y2="-1.85" width="0.05" layer="39"/>
+<wire x1="-9.7" y1="-1.85" x2="-6.85" y2="-1.85" width="0.05" layer="39"/>
+<wire x1="-6.85" y1="-1.85" x2="-6.85" y2="-3.7" width="0.05" layer="39"/>
+<wire x1="-6.85" y1="-3.7" x2="-3.55" y2="-7.1" width="0.05" layer="39"/>
+<wire x1="-3.55" y1="-7.1" x2="3.55" y2="-7.1" width="0.05" layer="39"/>
+<wire x1="3.55" y1="-7.1" x2="6.85" y2="-3.7" width="0.05" layer="39"/>
+<wire x1="6.85" y1="-3.7" x2="6.85" y2="-1.85" width="0.05" layer="39"/>
+<wire x1="6.85" y1="-1.85" x2="9.7" y2="-1.85" width="0.05" layer="39"/>
+<wire x1="9.7" y1="-1.85" x2="9.7" y2="1.85" width="0.05" layer="39"/>
+<wire x1="9.7" y1="1.85" x2="6.85" y2="1.85" width="0.05" layer="39"/>
+<wire x1="6.85" y1="1.85" x2="6.85" y2="6.6" width="0.05" layer="39"/>
+<wire x1="6.85" y1="6.6" x2="-6.85" y2="6.6" width="0.05" layer="39"/>
+<wire x1="-6.85" y1="6.6" x2="-6.85" y2="1.85" width="0.05" layer="39"/>
+<text x="-6.90518125" y="7.055290625" size="1.27095" layer="25">&gt;NAME</text>
+<text x="-5.10691875" y="-8.862" size="1.27171875" layer="27">&gt;VALUE</text>
+<smd name="1" x="-7.87" y="0" dx="3.18" dy="3.18" layer="1"/>
+<smd name="3" x="7.87" y="0" dx="3.18" dy="3.18" layer="1"/>
+<smd name="2" x="0" y="0" dx="3.96" dy="3.96" layer="1"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="BAT_3000TR" urn="urn:adsk.eagle:package:27618410/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="BAT_3000TR"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="3000TR" urn="urn:adsk.eagle:symbol:27618406/1" library_version="1">
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.4064" layer="94"/>
+<wire x1="0.635" y1="2.54" x2="0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-1.270559375" y="3.176390625" size="1.77878125" layer="95">&gt;NAME</text>
+<text x="-1.27178125" y="-5.08713125" size="1.7805" layer="96">&gt;VALUE</text>
+<pin name="-" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="+" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="3000TR" urn="urn:adsk.eagle:component:27618413/1" prefix="BT" library_version="1">
+<description>Ultra Low Profile SMT Coin Cell Battery Contact Retainer for 12 mm Cell &lt;a href="https://pricing.snapeda.com/parts/3000TR/Keystone/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="3000TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BAT_3000TR">
+<connects>
+<connect gate="G$1" pin="+" pad="1 3"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27618410/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Warning"/>
+<attribute name="DESCRIPTION" value=" SMT Holder for 12mm Cell-Tin Nickel Plate on T&amp;R "/>
+<attribute name="MF" value="Keystone"/>
+<attribute name="MP" value="3000TR"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/3000TR/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13757,8 +13653,8 @@ Allows current flow when high potential at base.</description>
 <part name="IC3" library="DS3231" deviceset="DS3231" device="/SO">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Maxim-Integrated/DS3231SN?qs=1eQvB6Dk1vhUlr8%2FOrV0Fw%3D%3D"/>
 </part>
-<part name="B1" library="microbuilder" deviceset="BATTERY" device="CR1220_SMT" value="CR1220">
-<attribute name="WEBLINK" value="https://www.digikey.com/en/products/detail/keystone-electronics/3001/227442?s=N4IgTCBcDaIMwAYEEYDWBaAdgExAXQF8g"/>
+<part name="B1" library="3000TR" library_urn="urn:adsk.eagle:library:27618368" deviceset="3000TR" device="" package3d_urn="urn:adsk.eagle:package:27618410/1" value="CR1220">
+<attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Keystone-Electronics/3000TR?utm_medium=online&amp;utm_content=model&amp;utm_source=snapedaonline&amp;utm_campaign=mouser&amp;qs=811De8TLL%252BeRUCmGL5ZsKg%3D%3D"/>
 </part>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -14124,7 +14020,7 @@ Allows current flow when high potential at base.</description>
 <instance part="B1" gate="G$1" x="121.92" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="127" y="108.585" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="129.54" y="106.68" size="1.27" layer="96" rot="R180"/>
-<attribute name="WEBLINK" x="121.92" y="109.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="WEBLINK" x="121.92" y="109.22" size="1.27" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND20" gate="1" x="116.84" y="99.06" smashed="yes">
 <attribute name="VALUE" x="114.3" y="96.52" size="1.778" layer="96"/>
@@ -14477,7 +14373,7 @@ Allows current flow when high potential at base.</description>
 <segment>
 <pinref part="B1" gate="G$1" pin="-"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="121.92" y1="106.68" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="104.14" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
@@ -14791,7 +14687,6 @@ Allows current flow when high potential at base.</description>
 <pinref part="IC3" gate="G$1" pin="VBAT"/>
 <pinref part="B1" gate="G$1" pin="+"/>
 <wire x1="114.3" y1="114.3" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="114.3" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
