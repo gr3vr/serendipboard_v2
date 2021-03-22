@@ -13937,7 +13937,6 @@ Allows current flow when high potential at base.</description>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
-<part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15294,9 +15293,6 @@ Allows current flow when high potential at base.</description>
 <attribute name="NAME" x="191.77" y="47.2186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="199.39" y="47.498" size="1.778" layer="96"/>
 </instance>
-<instance part="GND50" gate="1" x="220.98" y="45.72" smashed="yes">
-<attribute name="VALUE" x="218.44" y="43.18" size="1.778" layer="96"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -15393,11 +15389,6 @@ Allows current flow when high potential at base.</description>
 <segment>
 <pinref part="GND49" gate="1" pin="GND"/>
 <pinref part="C27" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND50" gate="1" pin="GND"/>
-<pinref part="D2" gate="G$1" pin="4"/>
-<wire x1="220.98" y1="48.26" x2="220.98" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
