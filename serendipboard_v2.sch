@@ -15706,6 +15706,11 @@ Allows current flow when high potential at base.</description>
 <wire x1="17.78" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
 <label x="15.24" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="4"/>
+<wire x1="220.98" y1="50.8" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
+<label x="223.52" y="50.8" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="VBUS" class="0">
 <segment>
