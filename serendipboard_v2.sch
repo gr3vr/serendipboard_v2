@@ -13521,22 +13521,29 @@ Allows current flow when high potential at base.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="CST-931AP">
+<library name="CST-931AP" urn="urn:adsk.eagle:library:27629229">
 <packages>
-<package name="CUI_CST-931AP">
+<package name="CUI_CST-931AP" urn="urn:adsk.eagle:footprint:27629232/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
 <circle x="0" y="0" radius="4.5" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="4.5" width="0.127" layer="51"/>
 <circle x="0" y="0" radius="4.75" width="0.05" layer="39"/>
-<text x="-6.38073125" y="-0.6010125" size="1.27213125" layer="21">+</text>
+<text x="-2.57073125" y="-1.8710125" size="1.27213125" layer="21">+</text>
 <text x="-3.6817" y="4.88551875" size="1.27405" layer="25">&gt;NAME</text>
 <text x="-3.40855" y="-6.18551875" size="1.2732" layer="27">&gt;VALUE</text>
-<text x="5.0535" y="-0.601178125" size="1.272490625" layer="21">-</text>
+<text x="1.7515" y="-1.871178125" size="1.272490625" layer="21">-</text>
 <pad name="P" x="-2" y="0" drill="0.8" shape="square"/>
 <pad name="M" x="2" y="0" drill="0.8"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="CUI_CST-931AP" urn="urn:adsk.eagle:package:27629234/1" type="box" library_version="1" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="CUI_CST-931AP"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="CST-931AP">
+<symbol name="CST-931AP" urn="urn:adsk.eagle:symbol:27629233/1" library_version="1">
 <wire x1="-0.635" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="1.27" x2="0.635" y2="1.27" width="0.254" layer="94"/>
 <wire x1="0.635" y1="1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
@@ -13557,7 +13564,7 @@ Allows current flow when high potential at base.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CST-931AP" prefix="LS">
+<deviceset name="CST-931AP" urn="urn:adsk.eagle:component:27629235/1" prefix="LS" library_version="1" library_locally_modified="yes">
 <description>9 mm, 3 V, 85 dB, Through Hole, Magnetic Audio Transducer Buzzer &lt;a href="https://pricing.snapeda.com/parts/CST-931AP/CUI%20Devices/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CST-931AP" x="0" y="0"/>
@@ -13568,6 +13575,9 @@ Allows current flow when high potential at base.</description>
 <connect gate="G$1" pin="M" pad="M"/>
 <connect gate="G$1" pin="P" pad="P"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27629234/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="Good"/>
@@ -13822,7 +13832,7 @@ Allows current flow when high potential at base.</description>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
-<part name="BUZZER" library="CST-931AP" deviceset="CST-931AP" device=""/>
+<part name="BUZZER" library="CST-931AP" library_urn="urn:adsk.eagle:library:27629229" deviceset="CST-931AP" device="" package3d_urn="urn:adsk.eagle:package:27629234/1"/>
 </parts>
 <sheets>
 <sheet>
