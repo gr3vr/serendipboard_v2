@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -13340,80 +13340,6 @@ Allows current flow when high potential at base.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="CST-931AP" urn="urn:adsk.eagle:library:27396256">
-<packages>
-<package name="CUI_CST-931AP" urn="urn:adsk.eagle:footprint:27396257/1" library_version="1">
-<circle x="0" y="0" radius="4.5" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="4.5" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="4.75" width="0.05" layer="39"/>
-<text x="-6.38073125" y="-0.6010125" size="1.27213125" layer="21">+</text>
-<text x="-3.6817" y="4.88551875" size="1.27405" layer="25">&gt;NAME</text>
-<text x="-3.40855" y="-6.18551875" size="1.2732" layer="27">&gt;VALUE</text>
-<text x="5.0535" y="-0.601178125" size="1.272490625" layer="21">-</text>
-<pad name="P" x="-2" y="0" drill="0.8" shape="square"/>
-<pad name="M" x="2" y="0" drill="0.8"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="CUI_CST-931AP" urn="urn:adsk.eagle:package:27396259/1" type="box" library_version="1">
-<packageinstances>
-<packageinstance name="CUI_CST-931AP"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="CST-931AP" urn="urn:adsk.eagle:symbol:27396258/1" library_version="1">
-<wire x1="-0.635" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="0.635" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0.635" y1="1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.635" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="-1.27" x2="-0.635" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0.635" y1="1.27" x2="1.905" y2="3.175" width="0.254" layer="94"/>
-<wire x1="1.905" y1="3.175" x2="1.905" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="1.905" y1="-3.175" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<text x="-1.911290625" y="1.2742" size="1.78388125" layer="94">+</text>
-<text x="-3.819109375" y="8.91125" size="1.782240625" layer="95">&gt;NAME</text>
-<text x="-3.82153125" y="-11.4646" size="1.78338125" layer="96">&gt;VALUE</text>
-<text x="-1.911259375" y="-3.81431875" size="1.78385" layer="94">-</text>
-<pin name="P" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="M" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CST-931AP" urn="urn:adsk.eagle:component:27396260/1" prefix="LS" library_version="1">
-<description>9 mm, 3 V, 85 dB, Through Hole, Magnetic Audio Transducer Buzzer &lt;a href="https://pricing.snapeda.com/parts/CST-931AP/CUI%20Devices/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CST-931AP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CUI_CST-931AP">
-<connects>
-<connect gate="G$1" pin="M" pad="M"/>
-<connect gate="G$1" pin="P" pad="P"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27396259/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Good"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/audio/buzzers/audio-transducers/cst-931ap?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM"/>
-<attribute name="DESCRIPTION" value="9 mm, 3 V, 85 dB, Through Hole, Magnetic Audio Transducer Buzzer"/>
-<attribute name="MF" value="CUI Devices"/>
-<attribute name="MP" value="CST-931AP"/>
-<attribute name="PACKAGE" value=" CUI Inc."/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/CST-931AP/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="LTST-C19HE1WT" urn="urn:adsk.eagle:library:27578306">
 <packages>
 <package name="LED_LTST-C19HE1WT" urn="urn:adsk.eagle:footprint:27578307/1" library_version="1">
@@ -13588,6 +13514,70 @@ Allows current flow when high potential at base.</description>
 <attribute name="PACKAGE" value="None"/>
 <attribute name="PRICE" value="None"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/3000TR/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="CST-931AP">
+<packages>
+<package name="CUI_CST-931AP">
+<circle x="0" y="0" radius="4.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4.5" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="4.75" width="0.05" layer="39"/>
+<text x="-6.38073125" y="-0.6010125" size="1.27213125" layer="21">+</text>
+<text x="-3.6817" y="4.88551875" size="1.27405" layer="25">&gt;NAME</text>
+<text x="-3.40855" y="-6.18551875" size="1.2732" layer="27">&gt;VALUE</text>
+<text x="5.0535" y="-0.601178125" size="1.272490625" layer="21">-</text>
+<pad name="P" x="-2" y="0" drill="0.8" shape="square"/>
+<pad name="M" x="2" y="0" drill="0.8"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CST-931AP">
+<wire x1="-0.635" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0.635" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-1.27" x2="-0.635" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="3.175" width="0.254" layer="94"/>
+<wire x1="1.905" y1="3.175" x2="1.905" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-3.175" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<text x="-1.911290625" y="1.2742" size="1.78388125" layer="94">+</text>
+<text x="-3.819109375" y="8.91125" size="1.782240625" layer="95">&gt;NAME</text>
+<text x="-3.82153125" y="-11.4646" size="1.78338125" layer="96">&gt;VALUE</text>
+<text x="-1.911259375" y="-3.81431875" size="1.78385" layer="94">-</text>
+<pin name="P" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="M" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CST-931AP" prefix="LS">
+<description>9 mm, 3 V, 85 dB, Through Hole, Magnetic Audio Transducer Buzzer &lt;a href="https://pricing.snapeda.com/parts/CST-931AP/CUI%20Devices/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CST-931AP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CUI_CST-931AP">
+<connects>
+<connect gate="G$1" pin="M" pad="M"/>
+<connect gate="G$1" pin="P" pad="P"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Good"/>
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/audio/buzzers/audio-transducers/cst-931ap?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM"/>
+<attribute name="DESCRIPTION" value="9 mm, 3 V, 85 dB, Through Hole, Magnetic Audio Transducer Buzzer"/>
+<attribute name="MF" value="CUI Devices"/>
+<attribute name="MP" value="CST-931AP"/>
+<attribute name="PACKAGE" value=" CUI Inc."/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/CST-931AP/?ref=eda"/>
 </technology>
 </technologies>
 </device>
@@ -13820,7 +13810,6 @@ Allows current flow when high potential at base.</description>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="BUZZER" library="CST-931AP" library_urn="urn:adsk.eagle:library:27396256" deviceset="CST-931AP" device="" package3d_urn="urn:adsk.eagle:package:27396259/1"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="BATT" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
@@ -13833,6 +13822,7 @@ Allows current flow when high potential at base.</description>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
+<part name="BUZZER" library="CST-931AP" deviceset="CST-931AP" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14242,16 +14232,16 @@ Allows current flow when high potential at base.</description>
 <instance part="P+16" gate="VCC" x="215.9" y="170.18" smashed="yes">
 <attribute name="VALUE" x="218.44" y="172.72" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="BUZZER" gate="G$1" x="33.02" y="27.94" smashed="yes">
-<attribute name="NAME" x="36.820890625" y="29.23125" size="1.782240625" layer="95"/>
-<attribute name="VALUE" x="36.81846875" y="26.6354" size="1.78338125" layer="96"/>
-</instance>
 <instance part="P+3" gate="VCC" x="193.04" y="149.86" smashed="yes">
 <attribute name="VALUE" x="195.58" y="152.4" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="BATT" gate="G$1" x="139.7" y="12.7" smashed="yes">
 <attribute name="VALUE" x="137.16" y="7.874" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="137.16" y="18.288" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="BUZZER" gate="G$1" x="33.02" y="27.94" smashed="yes">
+<attribute name="NAME" x="36.820890625" y="29.23125" size="1.782240625" layer="95"/>
+<attribute name="VALUE" x="36.81846875" y="26.6354" size="1.78338125" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -14513,8 +14503,8 @@ Allows current flow when high potential at base.</description>
 <pinref part="P+16" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="BUZZER" gate="G$1" pin="P"/>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
+<pinref part="BUZZER" gate="G$1" pin="P"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -14879,8 +14869,8 @@ Allows current flow when high potential at base.</description>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="BUZZER" gate="G$1" pin="M"/>
 <pinref part="Q2" gate="G$1" pin="C"/>
+<pinref part="BUZZER" gate="G$1" pin="M"/>
 </segment>
 </net>
 <net name="VBAT" class="0">

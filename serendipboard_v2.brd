@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -47,9 +47,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -2002,28 +2002,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 </packages3d>
 </library>
-<library name="CST-931AP" urn="urn:adsk.eagle:library:27396256">
-<packages>
-<package name="CUI_CST-931AP" urn="urn:adsk.eagle:footprint:27396257/1" library_version="1">
-<circle x="0" y="0" radius="4.5" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="4.5" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="4.75" width="0.05" layer="39"/>
-<text x="-6.38073125" y="-0.6010125" size="1.27213125" layer="21">+</text>
-<text x="-3.6817" y="4.88551875" size="1.27405" layer="25">&gt;NAME</text>
-<text x="-3.40855" y="-6.18551875" size="1.2732" layer="27">&gt;VALUE</text>
-<text x="5.0535" y="-0.601178125" size="1.272490625" layer="21">-</text>
-<pad name="P" x="-2" y="0" drill="0.8" shape="square"/>
-<pad name="M" x="2" y="0" drill="0.8"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="CUI_CST-931AP" urn="urn:adsk.eagle:package:27396259/1" type="box" library_version="1">
-<packageinstances>
-<packageinstance name="CUI_CST-931AP"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="FS8205A">
 <packages>
 <package name="SOP65P640X120-8N">
@@ -2900,6 +2878,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 </packages3d>
 </library>
+<library name="CST-931AP">
+<packages>
+<package name="CUI_CST-931AP">
+<circle x="0" y="0" radius="4.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4.5" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="4.75" width="0.05" layer="39"/>
+<text x="-6.38073125" y="-0.6010125" size="1.27213125" layer="21">+</text>
+<text x="-3.6817" y="4.88551875" size="1.27405" layer="25">&gt;NAME</text>
+<text x="-3.40855" y="-6.18551875" size="1.2732" layer="27">&gt;VALUE</text>
+<text x="5.0535" y="-0.601178125" size="1.272490625" layer="21">-</text>
+<pad name="P" x="-2" y="0" drill="0.8" shape="square"/>
+<pad name="M" x="2" y="0" drill="0.8"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3098,7 +3091,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" SMT Holder for 12mm Cell-Tin Nickel Plate on T&amp;R " x="12.192" y="41.275" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="Keystone" x="12.192" y="41.275" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MP" value="3000TR" x="12.192" y="41.275" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="9.525" y="34.812" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
+<attribute name="NAME" x="9.906" y="34.812" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
 <attribute name="PACKAGE" value="None" x="12.192" y="41.275" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PRICE" value="None" x="12.192" y="41.275" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/3000TR/?ref=eda" x="12.192" y="41.275" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3325,24 +3318,12 @@ design rules under a new name.</description>
 <attribute name="WEBLINK" value="https://www.digikey.com/en/products/detail/gct/USB3076-30-A/9859635?s=N4IgTCBcDaIKoGUBCBmADAdgGwFp04EEQBdAXyA" x="57.785" y="-36.5506" size="1.778" layer="27" display="off"/>
 </element>
 <element name="VCC" library="SparkFun-Jumpers" package="SMT-JUMPER_3_2-NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39289/1" value="I2C_PU" x="18.415" y="13.6398" smashed="yes" rot="MR270">
-<attribute name="NAME" x="17.272" y="13.2588" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
+<attribute name="NAME" x="17.145" y="13.5128" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="19.558" y="13.6398" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
 </element>
 <element name="AD0" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" value="ADR" x="18.415" y="10.16" smashed="yes" rot="MR180">
 <attribute name="NAME" x="19.304" y="10.16" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="18.415" y="11.303" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
-</element>
-<element name="BUZZER" library="CST-931AP" library_urn="urn:adsk.eagle:library:27396256" package="CUI_CST-931AP" package3d_urn="urn:adsk.eagle:package:27396259/1" value="CST-931AP" x="26.035" y="6.35" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="Good" x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/audio/buzzers/audio-transducers/cst-931ap?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="9 mm, 3 V, 85 dB, Through Hole, Magnetic Audio Transducer Buzzer" x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="CUI Devices" x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="CST-931AP" x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="24.2583" y="6.02851875" size="0.635" layer="25"/>
-<attribute name="PACKAGE" value=" CUI Inc." x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/CST-931AP/?ref=eda" x="-13.335" y="-48.26" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="19.84948125" y="9.75855" size="1.2732" layer="27" rot="R270"/>
 </element>
 <element name="M1" library="SparkFun-Connectors" package="1X02" value="" x="2.54" y="31.75" smashed="yes">
 <attribute name="NAME" x="1.651" y="34.036" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -3371,7 +3352,7 @@ design rules under a new name.</description>
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/ON-Semiconductor/MMBT2222ALT1G?qs=HVbQlW5zcXWwnD7Jokybqg%3D%3D" x="86.741" y="66.6115" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="Q3" library="SparkFun-DiscreteSemi" package="SOT23-3" value="RUC002N05HZGT116" x="22.225" y="15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="22.225" y="14.859" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="22.225" y="14.732" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="TRANS-12988" x="84.455" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="22.225" y="16.891" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/ROHM-Semiconductor/RUC002N05HZGT116?qs=4v%252BiZTmLVHE0lwSK%2FDyNsA%3D%3D" x="84.455" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3686,6 +3667,18 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="30.607" y="40.513" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="29.972" y="38.608" size="1.27" layer="27"/>
 </element>
+<element name="BUZZER" library="CST-931AP" package="CUI_CST-931AP" value="CST-931AP" x="26.035" y="6.35" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="Good" x="26.035" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/audio/buzzers/audio-transducers/cst-931ap?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM" x="26.035" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="9 mm, 3 V, 85 dB, Through Hole, Magnetic Audio Transducer Buzzer" x="26.035" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="CUI Devices" x="26.035" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="CST-931AP" x="26.035" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="24.5123" y="6.02851875" size="0.6096" layer="25"/>
+<attribute name="PACKAGE" value=" CUI Inc." x="26.035" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="26.035" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/CST-931AP/?ref=eda" x="26.035" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="19.84948125" y="9.75855" size="1.2732" layer="27" rot="R270"/>
+</element>
 </elements>
 <signals>
 <signal name="SHIELD">
@@ -3982,7 +3975,7 @@ design rules under a new name.</description>
 <wire x1="5.334" y1="9.51" x2="5.334" y2="8.8392" width="0.254" layer="16"/>
 <wire x1="5.334" y1="8.8392" x2="5.1308" y2="8.636" width="0.254" layer="16"/>
 <wire x1="30.876" y1="14.351" x2="31.13" y2="14.605" width="0.254" layer="1"/>
-<wire x1="30.607" y1="14.351" x2="30.876" y2="14.351" width="0.2032" layer="1"/>
+<wire x1="30.876" y1="14.351" x2="30.607" y2="14.351" width="0.2032" layer="1"/>
 <wire x1="28.7097875" y1="15.389" x2="29.569" y2="15.389" width="0.254" layer="1"/>
 <wire x1="29.569" y1="15.389" x2="30.607" y2="14.351" width="0.254" layer="1"/>
 <wire x1="33.49625" y1="12.23875" x2="33.49625" y2="12.065" width="0.254" layer="1"/>
@@ -4065,8 +4058,9 @@ design rules under a new name.</description>
 <wire x1="11.7745" y1="37.4677125" x2="11.7745" y2="35.62565625" width="0.254" layer="1"/>
 <wire x1="12.192" y1="41.275" x2="7.366" y2="41.275" width="0.254" layer="16"/>
 <wire x1="27.379" y1="40.058" x2="25.645" y2="40.058" width="0.254" layer="1"/>
-<wire x1="29.4925" y1="14.335" x2="29.5085" y2="14.351" width="0.254" layer="1"/>
-<wire x1="29.5085" y1="14.351" x2="30.607" y2="14.351" width="0.254" layer="1"/>
+<wire x1="29.861" y1="14.335" x2="29.4925" y2="14.335" width="0.254" layer="1"/>
+<wire x1="30.607" y1="14.351" x2="29.877" y2="14.351" width="0.254" layer="1"/>
+<wire x1="29.877" y1="14.351" x2="29.861" y2="14.335" width="0.254" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="C10" pad="1"/>
@@ -4082,7 +4076,6 @@ design rules under a new name.</description>
 <contactref element="R20" pad="2"/>
 <contactref element="VCC" pad="2"/>
 <contactref element="R7" pad="2"/>
-<contactref element="BUZZER" pad="P"/>
 <contactref element="C7" pad="1"/>
 <wire x1="32.1053125" y1="11.0014" x2="31.9714" y2="11.1353125" width="0.2032" layer="1"/>
 <wire x1="31.9714" y1="11.1353125" x2="31.9714" y2="11.7246875" width="0.2032" layer="1"/>
@@ -4125,7 +4118,6 @@ design rules under a new name.</description>
 <wire x1="31.1" y1="10.625" x2="31.115" y2="10.64" width="0.254" layer="16"/>
 <wire x1="31.1" y1="8.255" x2="29.591" y2="8.255" width="0.254" layer="16"/>
 <via x="29.591" y="8.255" extent="1-16" drill="0.2"/>
-<wire x1="26.035" y1="8.35" x2="29.496" y2="8.35" width="0.254" layer="1"/>
 <wire x1="29.496" y1="8.35" x2="29.591" y2="8.255" width="0.254" layer="1"/>
 <polygon width="0.254" layer="1">
 <vertex x="-0.508" y="49.022"/>
@@ -4162,11 +4154,13 @@ design rules under a new name.</description>
 <wire x1="14.86034375" y1="31.95" x2="14.56184375" y2="32.2485" width="0.254" layer="16"/>
 <wire x1="19.82" y1="32.7914" x2="19.2771" y2="32.2485" width="0.254" layer="16"/>
 <wire x1="19.2771" y1="32.2485" x2="17.72815625" y2="32.2485" width="0.254" layer="16"/>
-<wire x1="26.035" y1="8.35" x2="26.035" y2="9.144" width="0.254" layer="1"/>
 <wire x1="26.035" y1="9.144" x2="27.217" y2="10.326" width="0.254" layer="1"/>
 <wire x1="27.217" y1="10.326" x2="31.4052125" y2="10.326" width="0.254" layer="1"/>
 <wire x1="26.035" y1="9.144" x2="24.853" y2="10.326" width="0.254" layer="1"/>
 <wire x1="24.853" y1="10.326" x2="22.8047875" y2="10.326" width="0.254" layer="1"/>
+<contactref element="BUZZER" pad="P"/>
+<wire x1="26.035" y1="8.35" x2="26.035" y2="9.144" width="0.254" layer="1"/>
+<wire x1="26.035" y1="8.35" x2="29.496" y2="8.35" width="0.254" layer="1"/>
 </signal>
 <signal name="CHARGER_EN">
 <contactref element="IC1" pad="8"/>
@@ -4762,10 +4756,10 @@ design rules under a new name.</description>
 <wire x1="15.1836125" y1="5.08" x2="13.843" y2="5.08" width="0.254" layer="1"/>
 </signal>
 <signal name="N$19">
-<contactref element="BUZZER" pad="M"/>
 <contactref element="Q2" pad="3"/>
-<wire x1="26.035" y1="4.35" x2="27.2525" y2="4.35" width="0.254" layer="16"/>
-<wire x1="27.2525" y1="4.35" x2="28.321" y2="3.2815" width="0.254" layer="16"/>
+<wire x1="28.321" y1="3.2815" x2="27.2525" y2="4.35" width="0.254" layer="16"/>
+<contactref element="BUZZER" pad="M"/>
+<wire x1="27.2525" y1="4.35" x2="26.035" y2="4.35" width="0.254" layer="16"/>
 </signal>
 <signal name="VBAT">
 <contactref element="Q4" pad="3"/>
@@ -5340,12 +5334,10 @@ design rules under a new name.</description>
 <approved hash="3,1,2aa3eb282e2828e4"/>
 <approved hash="3,1,ba58beb85cfc421b"/>
 <approved hash="3,1,f9859e459fd2f812"/>
-<approved hash="3,1,48f253f0f2b73272"/>
 <approved hash="3,16,3eb53f14fca4fb71"/>
 <approved hash="3,16,72115751579d72dd"/>
 <approved hash="3,16,b316b7f714b89950"/>
 <approved hash="3,16,a5ac0e6c0f8aa44a"/>
-<approved hash="3,1,995b67db64219aa1"/>
 <approved hash="3,1,0a558a4a72f3f2ec"/>
 <approved hash="3,1,8d290d3674fff4e0"/>
 <approved hash="3,1,450b0f990f98450a"/>
@@ -5379,7 +5371,6 @@ design rules under a new name.</description>
 <approved hash="5,1,63324854d56d1ef3"/>
 <approved hash="5,1,a525118ea328a6a5"/>
 <approved hash="5,1,8a77ab78d7f757dc"/>
-<approved hash="5,1,bbb1de2bb4eb173d"/>
 <approved hash="3,16,3bc33be7742b34c6"/>
 <approved hash="5,1,2e5f78fb6b01e3d2"/>
 <approved hash="5,1,a6095b7ac81b98ce"/>
@@ -5390,6 +5381,9 @@ design rules under a new name.</description>
 <approved hash="4,1,c8305013db040d32"/>
 <approved hash="5,1,9de8c8ac01a8f529"/>
 <approved hash="5,1,e8ce7600cb040fa9"/>
+<approved hash="5,1,a47173bef7d4d132"/>
+<approved hash="5,1,7eb8c262fa39f727"/>
+<approved hash="5,1,52a6eb7813350ec4"/>
 </errors>
 </board>
 </drawing>
