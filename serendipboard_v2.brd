@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -3982,8 +3982,6 @@ design rules under a new name.</description>
 <wire x1="5.334" y1="9.51" x2="5.334" y2="8.8392" width="0.254" layer="16"/>
 <wire x1="5.334" y1="8.8392" x2="5.1308" y2="8.636" width="0.254" layer="16"/>
 <wire x1="30.876" y1="14.351" x2="31.13" y2="14.605" width="0.254" layer="1"/>
-<wire x1="29.4925" y1="14.335" x2="29.5085" y2="14.351" width="0.2032" layer="1"/>
-<wire x1="29.5085" y1="14.351" x2="30.607" y2="14.351" width="0.2032" layer="1"/>
 <wire x1="30.607" y1="14.351" x2="30.876" y2="14.351" width="0.2032" layer="1"/>
 <wire x1="28.7097875" y1="15.389" x2="29.569" y2="15.389" width="0.254" layer="1"/>
 <wire x1="29.569" y1="15.389" x2="30.607" y2="14.351" width="0.254" layer="1"/>
@@ -4067,6 +4065,8 @@ design rules under a new name.</description>
 <wire x1="11.7745" y1="37.4677125" x2="11.7745" y2="35.62565625" width="0.254" layer="1"/>
 <wire x1="12.192" y1="41.275" x2="7.366" y2="41.275" width="0.254" layer="16"/>
 <wire x1="27.379" y1="40.058" x2="25.645" y2="40.058" width="0.254" layer="1"/>
+<wire x1="29.4925" y1="14.335" x2="29.5085" y2="14.351" width="0.254" layer="1"/>
+<wire x1="29.5085" y1="14.351" x2="30.607" y2="14.351" width="0.254" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="C10" pad="1"/>
@@ -4099,12 +4099,9 @@ design rules under a new name.</description>
 <wire x1="19.6723" y1="13.6398" x2="18.415" y2="13.6398" width="0.254" layer="16"/>
 <wire x1="31.8592125" y1="10.78" x2="32.575" y2="10.78" width="0.254" layer="1"/>
 <wire x1="31.4052125" y1="10.326" x2="31.8592125" y2="10.78" width="0.254" layer="1"/>
-<wire x1="26.035" y1="8.35" x2="28.011" y2="10.326" width="0.254" layer="1"/>
-<wire x1="31.4052125" y1="10.326" x2="28.011" y2="10.326" width="0.254" layer="1"/>
 <wire x1="21.829" y1="12.5702125" x2="21.6802125" y2="12.719" width="0.254" layer="1"/>
 <wire x1="21.6802125" y1="12.719" x2="20.6185" y2="12.719" width="0.254" layer="1"/>
 <wire x1="20.6185" y1="12.719" x2="19.685" y2="13.6525" width="0.254" layer="1"/>
-<wire x1="28.011" y1="10.326" x2="22.8047875" y2="10.326" width="0.254" layer="1"/>
 <wire x1="22.8047875" y1="10.326" x2="21.829" y2="11.3017875" width="0.254" layer="1"/>
 <wire x1="21.829" y1="11.3017875" x2="21.829" y2="12.5702125" width="0.254" layer="1"/>
 <wire x1="6.665" y1="14.5749" x2="7.493" y2="13.7469" width="0.254" layer="1"/>
@@ -4165,6 +4162,11 @@ design rules under a new name.</description>
 <wire x1="14.86034375" y1="31.95" x2="14.56184375" y2="32.2485" width="0.254" layer="16"/>
 <wire x1="19.82" y1="32.7914" x2="19.2771" y2="32.2485" width="0.254" layer="16"/>
 <wire x1="19.2771" y1="32.2485" x2="17.72815625" y2="32.2485" width="0.254" layer="16"/>
+<wire x1="26.035" y1="8.35" x2="26.035" y2="9.144" width="0.254" layer="1"/>
+<wire x1="26.035" y1="9.144" x2="27.217" y2="10.326" width="0.254" layer="1"/>
+<wire x1="27.217" y1="10.326" x2="31.4052125" y2="10.326" width="0.254" layer="1"/>
+<wire x1="26.035" y1="9.144" x2="24.853" y2="10.326" width="0.254" layer="1"/>
+<wire x1="24.853" y1="10.326" x2="22.8047875" y2="10.326" width="0.254" layer="1"/>
 </signal>
 <signal name="CHARGER_EN">
 <contactref element="IC1" pad="8"/>
@@ -4496,10 +4498,10 @@ design rules under a new name.</description>
 <wire x1="24.765" y1="13.6397125" x2="24.765" y2="12.565" width="0.254" layer="1"/>
 <wire x1="23.225" y1="13.015" x2="23.675" y2="12.565" width="0.254" layer="1"/>
 <wire x1="23.675" y1="12.565" x2="24.765" y2="12.565" width="0.254" layer="1"/>
-<wire x1="26.94" y1="14.8875" x2="26.94" y2="15.351" width="0.254" layer="1"/>
 <wire x1="26.94" y1="15.351" x2="26.797" y2="15.494" width="0.254" layer="1"/>
 <wire x1="26.797" y1="15.494" x2="26.6192875" y2="15.494" width="0.254" layer="1"/>
 <wire x1="26.6192875" y1="15.494" x2="24.765" y2="13.6397125" width="0.254" layer="1"/>
+<wire x1="26.94" y1="14.8875" x2="26.94" y2="15.351" width="0.254" layer="1"/>
 </signal>
 <signal name="AD0">
 <contactref element="U4" pad="9"/>
@@ -5371,7 +5373,6 @@ design rules under a new name.</description>
 <approved hash="3,1,4820c8dd65e4e519"/>
 <approved hash="3,1,4187c53ac53a4187"/>
 <approved hash="3,1,6b20ef9def9d6b20"/>
-<approved hash="5,1,94a7cd9a12c1b004"/>
 <approved hash="5,1,7642d0a8768b89d9"/>
 <approved hash="5,1,e50d321f9356a1c4"/>
 <approved hash="5,1,3e970d87fae0e5ac"/>
@@ -5388,8 +5389,7 @@ design rules under a new name.</description>
 <approved hash="4,1,d8909a91e8042e12"/>
 <approved hash="4,1,c8305013db040d32"/>
 <approved hash="5,1,9de8c8ac01a8f529"/>
-<approved hash="5,1,deeb1236ce1b58a5"/>
-<approved hash="5,1,62df3896579abc17"/>
+<approved hash="5,1,e8ce7600cb040fa9"/>
 </errors>
 </board>
 </drawing>
