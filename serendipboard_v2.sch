@@ -13715,7 +13715,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="OLED" library="SparkFun-Connectors" deviceset="CONN_04" device="PTH"/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U5" library="ESP32-WROOM-32D" library_urn="urn:adsk.eagle:library:27379448" deviceset="ESP32-WROOM-32D" device="" package3d_urn="urn:adsk.eagle:package:27379451/1">
+<part name="U5" library="ESP32-WROOM-32D" library_urn="urn:adsk.eagle:library:27379448" deviceset="ESP32-WROOM-32D" device="" package3d_urn="urn:adsk.eagle:package:27379451/1" override_package3d_urn="urn:adsk.eagle:package:27687937/2" override_package_urn="urn:adsk.eagle:footprint:27379449/1">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-WROOM-32DM113DH2800PH3Q0?qs=W%2FMpXkg%252BdQ75%2Fda1rSxxJw%3D%3D"/>
 </part>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13753,10 +13753,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" override_package3d_urn="urn:adsk.eagle:package:27680978/2" override_package_urn="urn:adsk.eagle:footprint:27680979/1" value="RUC002N05HZGT116">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/ROHM-Semiconductor/RUC002N05HZGT116?qs=4v%252BiZTmLVHE0lwSK%2FDyNsA%3D%3D"/>
 </part>
-<part name="Q4" library="microbuilder" deviceset="MOSFET-P" device="" value="DMG3415U">
+<part name="Q4" library="microbuilder" deviceset="MOSFET-P" device="" override_package3d_urn="urn:adsk.eagle:package:27687869/2" override_package_urn="urn:adsk.eagle:footprint:27687870/1" value="DMG3415U">
 <attribute name="WEBLINK" value="https://www.arrow.com/en/products/dmg3415uq-7/diodes-incorporated"/>
 </part>
-<part name="D1" library="SS24FL" library_urn="urn:adsk.eagle:library:27397844" deviceset="SS24FL" device="" package3d_urn="urn:adsk.eagle:package:27397851/1">
+<part name="D1" library="SS24FL" library_urn="urn:adsk.eagle:library:27397844" deviceset="SS24FL" device="" package3d_urn="urn:adsk.eagle:package:27397851/1" override_package3d_urn="urn:adsk.eagle:package:27687932/2" override_package_urn="urn:adsk.eagle:footprint:27397849/1">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/ON-Semiconductor-Fairchild/SS24FL?qs=%2Fha2pyFaduj7KkQLupkD5BNnzhQnWfnoQdoJ200unmI%3D"/>
 </part>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="2.2k"/>
