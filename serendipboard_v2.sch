@@ -13648,7 +13648,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7uF"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="MAX1704X" device="" package3d_urn="urn:adsk.eagle:package:39055/1" override_package3d_urn="urn:adsk.eagle:package:27680808/2" override_package_urn="urn:adsk.eagle:footprint:38999/1" value="MAX17043">
+<part name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="MAX1704X" device="" package3d_urn="urn:adsk.eagle:package:39055/1" value="MAX17043">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX17043G%2bT?qs=fnYUjNMxfVCghHGFBrnbRA%3D%3D"/>
 </part>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
