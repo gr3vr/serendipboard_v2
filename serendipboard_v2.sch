@@ -13676,7 +13676,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U4" library="SparkFun-Sensors" deviceset="ICM-20948" device="" override_package3d_urn="urn:adsk.eagle:package:27679391/2" override_package_urn="urn:adsk.eagle:footprint:27679392/1" value="9DoF IMU">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/TDK-InvenSense/ICM-20948?qs=%2Fha2pyFaduhVfJfZCXoikyvvC70YiWC%2FBNr%2FvcBEr1bv7usabPFmkg%3D%3D"/>
 </part>
-<part name="U$1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_SP6214" device="-1.8V" package3d_urn="urn:adsk.eagle:package:39079/1" override_package3d_urn="urn:adsk.eagle:package:27680943/2" override_package_urn="urn:adsk.eagle:footprint:39037/1" value="LD39015M18R">
+<part name="U$1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_SP6214" device="-1.8V" package3d_urn="urn:adsk.eagle:package:39079/1" value="LD39015M18R">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/STMicroelectronics/LD39015M18R?qs=%2Fha2pyFaduiNd%2F2UEBkaLCKjQ2zo%2FZOF5RG39Zh4PEGsBkDRy2IG8Q%3D%3D"/>
 </part>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
