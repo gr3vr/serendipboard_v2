@@ -185,8 +185,8 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5Mg" projecturn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5MiNEMjAyMTAyMjYzODcwODA0ODE" f3durn="urn:adsk.wipprod:dm.lineage:5p1CPkeoRTeQBctxtFipzA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="e85059de-1277-4e77-8285-d42bbae197cc" lastsyncedrevisionid="e85059de-1277-4e77-8285-d42bbae197cc" lastboardhashguid="2d77e4f2-82c9-8f4b-1f2a-b082ef1fca9a" lastpushedtime="2021-03-25T20:50:05Z" linktopcb3d="true"/>
-<fusionteam huburn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5Mg" projecturn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5MiNEMjAyMTAyMjYzODcwODA0ODE" folderUrn="urn:adsk.wipprod:fs.folder:co.dUA13uBtTS2Ov44EvO0svw" urn="urn:adsk.wipprod:dm.lineage:Zp6-x7SYSPeZgPEikwpQaw"  versionUrn="urn:adsk.wipprod:fs.file:vf.Zp6-x7SYSPeZgPEikwpQaw?version=2" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="03a5da7d-a8e5-1425-917f-b168d8cdbc88"/>
+<fusionsync huburn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5Mg" projecturn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5MiMyMDIxMDMyNjM5NzEwNTg1Ng" f3durn="urn:adsk.wipprod:dm.lineage:Fq1mPDbKR3mf58iyqxMbWA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="199375be-1f7f-4cf0-bd17-51ad7d1e15ba" lastsyncedrevisionid="199375be-1f7f-4cf0-bd17-51ad7d1e15ba" lastboardhashguid="eadfa4bb-59ef-37c6-e763-a4e5c954f26c" lastpushedtime="2021-03-26T16:20:48Z" linktopcb3d="true"/>
+<fusionteam huburn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5Mg" projecturn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5MiMyMDIxMDMyNjM5NzEwNTg1Ng" folderUrn="urn:adsk.wipprod:fs.folder:co.t9GO1mQuTXqqBxgvnsviPQ" urn="urn:adsk.wipprod:dm.lineage:hzZJ4ouMQy6A21G_GaNyKw"  versionUrn="urn:adsk.wipprod:fs.file:vf.hzZJ4ouMQy6A21G_GaNyKw?version=1" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="2088f185-6dce-88e2-cbfd-b3e1a7e8b085"/>
 <plain>
 <wire x1="32.121978125" y1="48.26" x2="2.168021875" y2="48.26" width="0" layer="20"/>
 <wire x1="2.168021875" y1="48.26" x2="0" y2="46.091978125" width="0" layer="20" curve="90"/>

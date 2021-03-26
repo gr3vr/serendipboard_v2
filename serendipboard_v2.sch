@@ -185,7 +185,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
-<fusionteam huburn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5Mg" projecturn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5MiNEMjAyMTAyMjYzODcwODA0ODE" folderUrn="urn:adsk.wipprod:fs.folder:co.dUA13uBtTS2Ov44EvO0svw" urn="urn:adsk.wipprod:dm.lineage:0jSo1DHdRE-Cz6lm1w20rg"  versionUrn="urn:adsk.wipprod:fs.file:vf.0jSo1DHdRE-Cz6lm1w20rg?version=2" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="f4898974-5519-af0d-bfb3-85bbf6eb4f84"/>
+<fusionteam huburn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5Mg" projecturn="a.YnVzaW5lc3M6aG90bWFpbDIyNTY5MiMyMDIxMDMyNjM5NzEwNTg1Ng" folderUrn="urn:adsk.wipprod:fs.folder:co.t9GO1mQuTXqqBxgvnsviPQ" urn="urn:adsk.wipprod:dm.lineage:mvtuKIXxSDe3-7nAA9qMzg"  versionUrn="urn:adsk.wipprod:fs.file:vf.mvtuKIXxSDe3-7nAA9qMzg?version=1" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="23565ed5-fae6-82e0-5043-9e524926dc04"/>
 <libraries>
 <library name="TP4056">
 <packages>
