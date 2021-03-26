@@ -12580,7 +12580,7 @@ Allows current flow when high potential at base.</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="QFN50P400X400X80-21N" urn="urn:adsk.eagle:package:27393038/1" type="box" library_version="1">
+<package3d name="QFN50P400X400X80-21N" urn="urn:adsk.eagle:package:27393038/2" type="model" library_version="2">
 <packageinstances>
 <packageinstance name="QFN50P400X400X80-21N"/>
 </packageinstances>
@@ -12616,7 +12616,7 @@ Allows current flow when high potential at base.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FT231XQ-R" urn="urn:adsk.eagle:component:27393039/1" prefix="U" library_version="1">
+<deviceset name="FT231XQ-R" urn="urn:adsk.eagle:component:27393039/2" prefix="U" library_version="2">
 <description>USB2.0 Full Speed IC offers a compact bridge to full handshake UART Interface &lt;a href="https://pricing.snapeda.com/parts/FT231XQ-R/FTDI%2C%20Future/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="FT231XQ-R" x="0" y="0"/>
@@ -12645,7 +12645,7 @@ Allows current flow when high potential at base.</description>
 <connect gate="G$1" pin="VCCIO" pad="20"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27393038/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27393038/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13083,7 +13083,7 @@ Allows current flow when high potential at base.</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="GCT_USB3076-XX-X_REVC" urn="urn:adsk.eagle:package:27406598/1" type="box" library_version="1">
+<package3d name="GCT_USB3076-XX-X_REVC" urn="urn:adsk.eagle:package:27406598/2" type="model" library_version="2">
 <packageinstances>
 <packageinstance name="GCT_USB3076-XX-X_REVC"/>
 </packageinstances>
@@ -13106,7 +13106,7 @@ Allows current flow when high potential at base.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="USB3076-XX-X_REVC" urn="urn:adsk.eagle:component:27406599/1" prefix="J" library_version="1">
+<deviceset name="USB3076-XX-X_REVC" urn="urn:adsk.eagle:component:27406599/2" prefix="J" library_version="2">
 <description>Micro USB Receptacle, Type B, SMT, Horizontal, Bottom Mount w/out Peg, w/out Shell Stakes, w/out Mating Face Lead-In &lt;a href="https://pricing.snapeda.com/parts/USB3076-30-A/Global%20Connector%20Technology/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="USB3076-XX-X_REVC" x="0" y="0"/>
@@ -13122,7 +13122,7 @@ Allows current flow when high potential at base.</description>
 <connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27406598/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27406598/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13164,7 +13164,7 @@ Allows current flow when high potential at base.</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="SW_KMR731NGLFS" urn="urn:adsk.eagle:package:27409118/1" type="box" library_version="1">
+<package3d name="SW_KMR731NGLFS" urn="urn:adsk.eagle:package:27409118/2" type="model" library_version="2">
 <packageinstances>
 <packageinstance name="SW_KMR731NGLFS"/>
 </packageinstances>
@@ -13183,7 +13183,7 @@ Allows current flow when high potential at base.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="KMR731NGLFS" urn="urn:adsk.eagle:component:27409119/1" prefix="S" library_version="1">
+<deviceset name="KMR731NGLFS" urn="urn:adsk.eagle:component:27409119/2" prefix="S" library_version="2">
 <description>Tactile Switch SPST-NO Top Actuated Surface Mount  &lt;a href="https://pricing.snapeda.com/parts/KMR731NGLFS/C%26K/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="KMR731NGLFS" x="0" y="0"/>
@@ -13195,7 +13195,7 @@ Allows current flow when high potential at base.</description>
 <connect gate="G$1" pin="NO" pad="1 2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27409118/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27409118/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13620,13 +13620,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="IC1" library="TP4056" deviceset="TP4056" device="" override_package3d_urn="urn:adsk.eagle:package:27680601/2" override_package_urn="urn:adsk.eagle:footprint:27680602/1">
+<part name="IC1" library="TP4056" deviceset="TP4056" device="" override_package3d_urn="urn:adsk.eagle:package:27680601/3" override_package_urn="urn:adsk.eagle:footprint:27680602/1">
 <attribute name="WEBLINK" value="https://lcsc.com/product-detail/PMIC-Battery-Management_UMW-Youtai-Semiconductor-Co-Ltd-TP4056_C725790.html"/>
 </part>
-<part name="Q1" library="FS8205A" deviceset="FS8205A" device="" override_package3d_urn="urn:adsk.eagle:package:27679848/2" override_package_urn="urn:adsk.eagle:footprint:27679849/1">
+<part name="Q1" library="FS8205A" deviceset="FS8205A" device="" override_package3d_urn="urn:adsk.eagle:package:27713535/2" override_package_urn="urn:adsk.eagle:footprint:27713536/1">
 <attribute name="WEBLINK" value="https://lcsc.com/product-detail/MOSFET_FUXINSEMI-FS8205A_C908265.html"/>
 </part>
-<part name="IC2" library="DW01A" deviceset="DW01A" device="" override_package3d_urn="urn:adsk.eagle:package:27679931/2" override_package_urn="urn:adsk.eagle:footprint:27679933/1">
+<part name="IC2" library="DW01A" deviceset="DW01A" device="" override_package3d_urn="urn:adsk.eagle:package:27714539/2" override_package_urn="urn:adsk.eagle:footprint:27714540/1">
 <attribute name="WEBLINK" value="https://lcsc.com/product-detail/Battery-Protection-ICs_PUOLOP-DW01A_C351410.html"/>
 </part>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
@@ -13665,15 +13665,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC3" library="DS3231" deviceset="DS3231" device="/SO" override_package3d_urn="urn:adsk.eagle:package:27680841/2" override_package_urn="urn:adsk.eagle:footprint:27680842/1">
+<part name="IC3" library="DS3231" deviceset="DS3231" device="/SO" override_package3d_urn="urn:adsk.eagle:package:27713594/2" override_package_urn="urn:adsk.eagle:footprint:27713596/1">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Maxim-Integrated/DS3231SN?qs=1eQvB6Dk1vhUlr8%2FOrV0Fw%3D%3D"/>
 </part>
-<part name="B1" library="3000TR" library_urn="urn:adsk.eagle:library:27618368" deviceset="3000TR" device="" package3d_urn="urn:adsk.eagle:package:27618410/1" override_package3d_urn="urn:adsk.eagle:package:27618410/2" override_package_urn="urn:adsk.eagle:footprint:27618404/1" value="CR1220">
+<part name="B1" library="3000TR" library_urn="urn:adsk.eagle:library:27618368" deviceset="3000TR" device="" package3d_urn="urn:adsk.eagle:package:27618410/1" override_package3d_urn="urn:adsk.eagle:package:27618410/4" override_package_urn="urn:adsk.eagle:footprint:27618404/1" value="CR1220">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Keystone-Electronics/3000TR?utm_medium=online&amp;utm_content=model&amp;utm_source=snapedaonline&amp;utm_campaign=mouser&amp;qs=811De8TLL%252BeRUCmGL5ZsKg%3D%3D"/>
 </part>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U4" library="SparkFun-Sensors" deviceset="ICM-20948" device="" override_package3d_urn="urn:adsk.eagle:package:27679391/2" override_package_urn="urn:adsk.eagle:footprint:27679392/1" value="9DoF IMU">
+<part name="U4" library="SparkFun-Sensors" deviceset="ICM-20948" device="" override_package3d_urn="urn:adsk.eagle:package:27713525/2" override_package_urn="urn:adsk.eagle:footprint:27713526/1" value="9DoF IMU">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/TDK-InvenSense/ICM-20948?qs=%2Fha2pyFaduhVfJfZCXoikyvvC70YiWC%2FBNr%2FvcBEr1bv7usabPFmkg%3D%3D"/>
 </part>
 <part name="U$1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_SP6214" device="-1.8V" package3d_urn="urn:adsk.eagle:package:39079/1" value="LD39015M18R">
@@ -13715,7 +13715,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="OLED" library="SparkFun-Connectors" deviceset="CONN_04" device="PTH"/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U5" library="ESP32-WROOM-32D" library_urn="urn:adsk.eagle:library:27379448" deviceset="ESP32-WROOM-32D" device="" package3d_urn="urn:adsk.eagle:package:27379451/1" override_package3d_urn="urn:adsk.eagle:package:27687937/2" override_package_urn="urn:adsk.eagle:footprint:27379449/1">
+<part name="U5" library="ESP32-WROOM-32D" library_urn="urn:adsk.eagle:library:27379448" deviceset="ESP32-WROOM-32D" device="" package3d_urn="urn:adsk.eagle:package:27379451/1" override_package3d_urn="urn:adsk.eagle:package:27379451/4" override_package_urn="urn:adsk.eagle:footprint:27379449/1">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-WROOM-32DM113DH2800PH3Q0?qs=W%2FMpXkg%252BdQ75%2Fda1rSxxJw%3D%3D"/>
 </part>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13725,7 +13725,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q8" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN_DUAL" device="-MBT3904DW1T1" package3d_urn="urn:adsk.eagle:package:38463/1" override_package3d_urn="urn:adsk.eagle:package:27679830/2" override_package_urn="urn:adsk.eagle:footprint:38440/1" value="MBT3904DW1T1G">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/ON-Semiconductor/MBT3904DW1T1G?qs=3JMERSakebosaBSFCYL6kw%3D%3D"/>
 </part>
-<part name="U6" library="FT231XQ-R" library_urn="urn:adsk.eagle:library:27393035" deviceset="FT231XQ-R" device="" package3d_urn="urn:adsk.eagle:package:27393038/1" override_package3d_urn="urn:adsk.eagle:package:27679538/2" override_package_urn="urn:adsk.eagle:footprint:27393036/1">
+<part name="U6" library="FT231XQ-R" library_urn="urn:adsk.eagle:library:27393035" deviceset="FT231XQ-R" device="" package3d_urn="urn:adsk.eagle:package:27393038/2" override_package3d_urn="urn:adsk.eagle:package:27393038/3" override_package_urn="urn:adsk.eagle:footprint:27393036/1">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/FTDI/FT231XQ-R?qs=Gp1Yz1mis3VkAf3iW%252BkumQ=="/>
 </part>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
@@ -13786,16 +13786,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </spice>
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Panasonic/ERJ-UP3F27R0V?qs=GedFDFLaBXEZtGKa4W2A1A%3D%3D"/>
 </part>
-<part name="J4" library="USB3076-30-A" library_urn="urn:adsk.eagle:library:27406595" deviceset="USB3076-XX-X_REVC" device="" package3d_urn="urn:adsk.eagle:package:27406598/1">
+<part name="J4" library="USB3076-30-A" library_urn="urn:adsk.eagle:library:27406595" deviceset="USB3076-XX-X_REVC" device="" package3d_urn="urn:adsk.eagle:package:27406598/2">
 <attribute name="WEBLINK" value="https://www.digikey.com/en/products/detail/gct/USB3076-30-A/9859635?s=N4IgTCBcDaIKoGUBCBmADAdgGwFp04EEQBdAXyA"/>
 </part>
-<part name="BOOT" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1" override_package3d_urn="urn:adsk.eagle:package:27679768/2" override_package_urn="urn:adsk.eagle:footprint:27409116/1">
+<part name="BOOT" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/2" override_package3d_urn="urn:adsk.eagle:package:27679768/5" override_package_urn="urn:adsk.eagle:footprint:27409116/1">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
 </part>
-<part name="RST" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/1" override_package3d_urn="urn:adsk.eagle:package:27679733/2" override_package_urn="urn:adsk.eagle:footprint:27409116/1">
+<part name="RST" library="KMR731NGLFS" library_urn="urn:adsk.eagle:library:27409115" deviceset="KMR731NGLFS" device="" package3d_urn="urn:adsk.eagle:package:27409118/2" override_package3d_urn="urn:adsk.eagle:package:27409118/3" override_package_urn="urn:adsk.eagle:footprint:27409116/1">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?utm_medium=online&amp;utm_source=snapedaonline&amp;utm_content=model&amp;utm_campaign=mouser&amp;qs=HXFqYaX1Q2zvDMPiZo53qg%3D%3D"/>
 </part>
-<part name="U7" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_MIC5219" device="3.3V" package3d_urn="urn:adsk.eagle:package:39060/1" override_package3d_urn="urn:adsk.eagle:package:27680117/2" override_package_urn="urn:adsk.eagle:footprint:39006/1" value="MIC5219 3.3V">
+<part name="U7" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_MIC5219" device="3.3V" package3d_urn="urn:adsk.eagle:package:39060/1" override_package3d_urn="urn:adsk.eagle:package:27714526/2" override_package_urn="urn:adsk.eagle:footprint:39006/1" value="MIC5219 3.3V">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Microchip-Technology-Micrel/MIC5219-33YM5-TR?qs=U6T8BxXiZAWojkIJMtSJlw%3D%3D"/>
 </part>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="470pF">
@@ -13813,7 +13813,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U2" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_MIC5219" device="3.3V" package3d_urn="urn:adsk.eagle:package:39060/1" override_package3d_urn="urn:adsk.eagle:package:27680130/2" override_package_urn="urn:adsk.eagle:footprint:39006/1" value="MIC5219 3.3V">
+<part name="U2" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_MIC5219" device="3.3V" package3d_urn="urn:adsk.eagle:package:39060/1" override_package3d_urn="urn:adsk.eagle:package:27714516/3" override_package_urn="urn:adsk.eagle:footprint:39006/1" value="MIC5219 3.3V">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Microchip-Technology-Micrel/MIC5219-33YM5-TR?qs=U6T8BxXiZAWojkIJMtSJlw%3D%3D"/>
 </part>
 <part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="470pF">
@@ -13847,7 +13847,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
-<part name="BUZZER" library="CST-931AP" library_urn="urn:adsk.eagle:library:27629229" deviceset="CST-931AP" device="" package3d_urn="urn:adsk.eagle:package:27629234/1" override_package3d_urn="urn:adsk.eagle:package:27629234/3" override_package_urn="urn:adsk.eagle:footprint:27629232/2"/>
+<part name="BUZZER" library="CST-931AP" library_urn="urn:adsk.eagle:library:27629229" deviceset="CST-931AP" device="" package3d_urn="urn:adsk.eagle:package:27629234/1" override_package3d_urn="urn:adsk.eagle:package:27629234/7" override_package_urn="urn:adsk.eagle:footprint:27629232/4"/>
 </parts>
 <sheets>
 <sheet>
