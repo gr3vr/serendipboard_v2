@@ -13626,7 +13626,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q1" library="FS8205A" deviceset="FS8205A" device="" override_package3d_urn="urn:adsk.eagle:package:27713535/2" override_package_urn="urn:adsk.eagle:footprint:27713536/1">
 <attribute name="WEBLINK" value="https://lcsc.com/product-detail/MOSFET_FUXINSEMI-FS8205A_C908265.html"/>
 </part>
-<part name="IC2" library="DW01A" deviceset="DW01A" device="" override_package3d_urn="urn:adsk.eagle:package:27714539/2" override_package_urn="urn:adsk.eagle:footprint:27714540/1">
+<part name="IC2" library="DW01A" deviceset="DW01A" device="" override_package3d_urn="urn:adsk.eagle:package:27714539/3" override_package_urn="urn:adsk.eagle:footprint:27714540/1">
 <attribute name="WEBLINK" value="https://lcsc.com/product-detail/Battery-Protection-ICs_PUOLOP-DW01A_C351410.html"/>
 </part>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
@@ -13648,7 +13648,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7uF"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="MAX1704X" device="" package3d_urn="urn:adsk.eagle:package:39055/1" value="MAX17043">
+<part name="U1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="MAX1704X" device="" package3d_urn="urn:adsk.eagle:package:39055/1" override_package3d_urn="urn:adsk.eagle:package:27714725/2" override_package_urn="urn:adsk.eagle:footprint:38999/1" value="MAX17043">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX17043G%2bT?qs=fnYUjNMxfVCghHGFBrnbRA%3D%3D"/>
 </part>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
@@ -13676,7 +13676,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U4" library="SparkFun-Sensors" deviceset="ICM-20948" device="" override_package3d_urn="urn:adsk.eagle:package:27713525/2" override_package_urn="urn:adsk.eagle:footprint:27713526/1" value="9DoF IMU">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/TDK-InvenSense/ICM-20948?qs=%2Fha2pyFaduhVfJfZCXoikyvvC70YiWC%2FBNr%2FvcBEr1bv7usabPFmkg%3D%3D"/>
 </part>
-<part name="U$1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_SP6214" device="-1.8V" package3d_urn="urn:adsk.eagle:package:39079/1" value="LD39015M18R">
+<part name="U$1" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_SP6214" device="-1.8V" package3d_urn="urn:adsk.eagle:package:39079/1" override_package3d_urn="urn:adsk.eagle:package:27715533/4" override_package_urn="urn:adsk.eagle:footprint:39037/1" value="MAX8891EXK33+T">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/STMicroelectronics/LD39015M18R?qs=%2Fha2pyFaduiNd%2F2UEBkaLCKjQ2zo%2FZOF5RG39Zh4PEGsBkDRy2IG8Q%3D%3D"/>
 </part>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13695,7 +13695,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="2.2k"/>
 <part name="AD0" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" override_package3d_urn="urn:adsk.eagle:package:27680907/2" override_package_urn="urn:adsk.eagle:footprint:39252/1" value="ADR"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q5" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBT2222AL" override_package3d_urn="urn:adsk.eagle:package:27680894/2" override_package_urn="urn:adsk.eagle:footprint:27680895/1" value="MMBT2222ALT1G">
+<part name="Q5" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBT2222AL" override_package3d_urn="urn:adsk.eagle:package:27714622/2" override_package_urn="urn:adsk.eagle:footprint:27714623/1" value="MMBT2222ALT1G">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/ON-Semiconductor/MMBT2222ALT1G?qs=HVbQlW5zcXWwnD7Jokybqg%3D%3D"/>
 </part>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1k"/>
@@ -13722,7 +13722,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q8" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN_DUAL" device="-MBT3904DW1T1" package3d_urn="urn:adsk.eagle:package:38463/1" override_package3d_urn="urn:adsk.eagle:package:27679830/2" override_package_urn="urn:adsk.eagle:footprint:38440/1" value="MBT3904DW1T1G">
+<part name="Q8" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN_DUAL" device="-MBT3904DW1T1" package3d_urn="urn:adsk.eagle:package:38463/1" override_package3d_urn="urn:adsk.eagle:package:27714567/2" override_package_urn="urn:adsk.eagle:footprint:38440/1" value="MBT3904DW1T1G">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/ON-Semiconductor/MBT3904DW1T1G?qs=3JMERSakebosaBSFCYL6kw%3D%3D"/>
 </part>
 <part name="U6" library="FT231XQ-R" library_urn="urn:adsk.eagle:library:27393035" deviceset="FT231XQ-R" device="" package3d_urn="urn:adsk.eagle:package:27393038/2" override_package3d_urn="urn:adsk.eagle:package:27393038/3" override_package_urn="urn:adsk.eagle:footprint:27393036/1">
@@ -13747,16 +13747,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
-<part name="Q7" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" override_package3d_urn="urn:adsk.eagle:package:27680971/2" override_package_urn="urn:adsk.eagle:footprint:27680972/1" value="RUC002N05HZGT116">
+<part name="Q7" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" override_package3d_urn="urn:adsk.eagle:package:27680971/6" override_package_urn="urn:adsk.eagle:footprint:27680972/1" value="RUC002N05HZGT116">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/ROHM-Semiconductor/RUC002N05HZGT116?qs=4v%252BiZTmLVHE0lwSK%2FDyNsA%3D%3D"/>
 </part>
-<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" override_package3d_urn="urn:adsk.eagle:package:27680978/2" override_package_urn="urn:adsk.eagle:footprint:27680979/1" value="RUC002N05HZGT116">
+<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" override_package3d_urn="urn:adsk.eagle:package:27714614/2" override_package_urn="urn:adsk.eagle:footprint:27714615/1" value="RUC002N05HZGT116">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/ROHM-Semiconductor/RUC002N05HZGT116?qs=4v%252BiZTmLVHE0lwSK%2FDyNsA%3D%3D"/>
 </part>
-<part name="Q4" library="microbuilder" deviceset="MOSFET-P" device="" override_package3d_urn="urn:adsk.eagle:package:27687869/2" override_package_urn="urn:adsk.eagle:footprint:27687870/1" value="DMG3415U">
+<part name="Q4" library="microbuilder" deviceset="MOSFET-P" device="" override_package3d_urn="urn:adsk.eagle:package:27687869/5" override_package_urn="urn:adsk.eagle:footprint:27687870/1" value="DMG3415U">
 <attribute name="WEBLINK" value="https://www.arrow.com/en/products/dmg3415uq-7/diodes-incorporated"/>
 </part>
-<part name="D1" library="SS24FL" library_urn="urn:adsk.eagle:library:27397844" deviceset="SS24FL" device="" package3d_urn="urn:adsk.eagle:package:27397851/1" override_package3d_urn="urn:adsk.eagle:package:27687932/2" override_package_urn="urn:adsk.eagle:footprint:27397849/1">
+<part name="D1" library="SS24FL" library_urn="urn:adsk.eagle:library:27397844" deviceset="SS24FL" device="" package3d_urn="urn:adsk.eagle:package:27397851/1" override_package3d_urn="urn:adsk.eagle:package:27397851/3" override_package_urn="urn:adsk.eagle:footprint:27397849/1">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/ON-Semiconductor-Fairchild/SS24FL?qs=%2Fha2pyFaduj7KkQLupkD5BNnzhQnWfnoQdoJ200unmI%3D"/>
 </part>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="2.2k"/>
@@ -13765,7 +13765,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="4.7k"/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="27pF"/>
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="47pF"/>
-<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBT2222AL" override_package3d_urn="urn:adsk.eagle:package:27680885/2" override_package_urn="urn:adsk.eagle:footprint:27680886/1" value="MMBT2222ALT1G">
+<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBT2222AL" override_package3d_urn="urn:adsk.eagle:package:27680885/4" override_package_urn="urn:adsk.eagle:footprint:27680886/1" value="MMBT2222ALT1G">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/ON-Semiconductor/MMBT2222ALT1G?qs=HVbQlW5zcXWwnD7Jokybqg%3D%3D"/>
 </part>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="27">
@@ -13841,7 +13841,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="BTN1" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="BTN2" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="PWR" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
-<part name="D2" library="LTST-C19HE1WT" library_urn="urn:adsk.eagle:library:27578306" deviceset="LTST-C19HE1WT" device="" package3d_urn="urn:adsk.eagle:package:27578309/1" override_package3d_urn="urn:adsk.eagle:package:27578309/2" override_package_urn="urn:adsk.eagle:footprint:27578307/1">
+<part name="D2" library="LTST-C19HE1WT" library_urn="urn:adsk.eagle:library:27578306" deviceset="LTST-C19HE1WT" device="" package3d_urn="urn:adsk.eagle:package:27578309/1" override_package3d_urn="urn:adsk.eagle:package:27578309/5" override_package_urn="urn:adsk.eagle:footprint:27578307/1">
 <attribute name="WEBLINK" value="https://www.mouser.com/ProductDetail/Lite-On/LTST-C19HE1WT?qs=WAWaI72GHKxJLPArJA9%252BUw%3D%3D&amp;utm_campaign=mouser&amp;utm_content=model&amp;utm_source=snapedaonline&amp;utm_medium=online"/>
 </part>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="220"/>
